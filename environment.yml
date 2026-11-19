@@ -1,0 +1,63 @@
+# Conda environment for traintranv2: every notebook (00 preparation, 01a-07), the tests, and the diagram build.
+# Versions are the ones the pipeline was last run with (environment "c2g", 2026-11-16).
+#
+#   conda env create -f environment.yml
+#   conda activate traintranv2
+#   python -m ipykernel install --user --name traintranv2 --display-name "Python (traintranv2)"
+#   python -m pytest traintranv2/tests
+#
+# The kernel registered by the last line runs THIS environment's Python: choose it when opening the notebooks.
+# The geospatial stack (GDAL / PROJ / GEOS behind geopandas, pyogrio, pyproj, shapely) comes from conda-forge;
+# installing it with pip on Windows is what breaks most often.
+# No database is needed: the 2025 population comes from the statistical offices' files (00_b1-00_b5 ->
+# data/eu/ref-national-statistical-offices/<cc>/lau_population_2025_<cc>.csv). sqlalchemy / psycopg2 serve only the
+# optional comparison in 00_b1-00_b5 with older 2021 tables in PostgreSQL (TRAINTRAN_PG_URL).
+name: traintranv2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # data
+  - numpy=2.2.6
+  # BLAS: OpenBLAS, not MKL. conda-forge's MKL build pairs with llvm-openmp on Windows, and MKL's threaded mode then
+  # crashes the process ("Windows fatal exception 0xc06d007f": a function missing from the OpenMP runtime) as soon as
+  # numpy runs a threaded matrix operation (seen in 00_a_prep_ua_data, cell 33).
+  - libblas=*=*openblas
+  - pandas=3.0.3
+  - pyarrow=24.0.0            # parquet files (timetables, legs, itineraries, journeys)
+  - openpyxl=3.1.5            # Eurostat LAU xlsx
+  - xlrd=2.0.2                # old-format .xls (Polish population, 00_b3)
+  - pyreadstat=1.3.6          # Eurobarometer .sav / .dta (eb_* loaders)
+  - requests=2.34.1           # feed download (01a)
+  # geospatial
+  - geopandas=1.1.3
+  - shapely=2.1.2
+  - pyproj=3.7.2
+  - pyogrio=0.12.1            # geopandas.read_file (GeoJSON / gpkg, with `where=` filters)
+  - fiona=1.10.1              # 00 preparation: vector reading (download_urban_rural_datasets)
+  - rasterio=1.4.4            # 00 preparation: GHSL rasters (Ukraine DEGURBA, 00_a)
+  - scikit-learn=1.8.0        # 00 preparation: download_urban_rural_datasets
+  # optional: 00_b1-00_b5 comparison with the 2021 PostgreSQL tables (feeds no output)
+  - sqlalchemy=2.0.49
+  - psycopg2=2.9.11
+  # diagram (docs/build_pipeline_docs.py: neato renders docs/pipeline.dot)
+  - graphviz=13.1.2
+  # statistics
+  - scipy=1.14.1
+  - statsmodels=0.14.6        # 04c models (HC3, Breusch-Pagan, RESET, GLM)
+  - libpysal=4.14.1           # 04c spatial weights (KNN)
+  - esda=2.9.0                # 04c Moran's I
+  - spreg=1.9.0               # 04c spatial lag / error check (1.9.2+ needs Python >= 3.12)
+  # figures
+  - matplotlib=3.10.9
+  # notebooks
+  - ipykernel=7.2.0
+  - ipython=9.13.0
+  - jupyterlab=4.5.7
+  - jupytext=1.19.6           # .py <-> .ipynb pairing
+  - nbformat=5.10.4
+  - nbclient=0.10.4           # notebooks/run_with_outputs.py
+  - nbconvert=7.17.1
+  # tests
+  - pytest=9.0.3
+  - pip
