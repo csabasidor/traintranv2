@@ -1,0 +1,19 @@
+country,ratio_city,ratio_town,ratio_rural,mass,value,base,source,sampling,interval_type,rate_is_upper_bound,generated_at
+AT,1.0,1.0,1.0,M2,1356595.8120970882,1356595.8120970882,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+CZ,1.0,1.0,1.0,M2,3074752.5765790194,3074752.5765790194,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+HU,1.0,1.0,1.0,M2,1490445.0170662012,1490445.0170662012,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+PL,1.0,1.0,1.0,M2,1831453.7123534877,1831453.7123534877,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+SK,1.0,1.0,1.0,M2,1167840.303929153,1167840.303929153,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+UA,1.0,1.0,1.0,M2,0.0,,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+AT,1.2,1.0,0.8,M2,1600202.6730766727,1356595.8120970882,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+CZ,1.2,1.0,0.8,M2,3377719.14238129,3074752.5765790194,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+HU,1.2,1.0,0.8,M2,1654639.2242183513,1490445.0170662012,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+PL,1.2,1.0,0.8,M2,2159961.007811892,1831453.7123534877,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+SK,1.2,1.0,0.8,M2,1250130.456755796,1167840.303929153,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+UA,1.2,1.0,0.8,M2,0.0,,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+AT,0.8,1.0,1.2,M2,1112954.1279586952,1356595.8120970882,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+CZ,0.8,1.0,1.2,M2,2778480.1953881695,3074752.5765790194,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+HU,0.8,1.0,1.2,M2,1323122.5616333908,1490445.0170662012,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+PL,0.8,1.0,1.2,M2,1504351.28609661,1831453.7123534877,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+SK,0.8,1.0,1.2,M2,1091851.7931775823,1167840.303929153,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38
+UA,0.8,1.0,1.2,M2,0.0,,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T11:40:38

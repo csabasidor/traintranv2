@@ -1,0 +1,88 @@
+network,run,route_types,journeys,run_days,seasonal_only
+domestic_direct,SK,106,218,62043,0.0
+domestic_direct,SK,103,70,10674,7.0
+domestic_direct,SK,102,8,2842,0.0
+domestic_direct,SK,105,5,655,0.0
+domestic_one_transfer,SK,106 > 106,1560,327438,146.0
+domestic_one_transfer,SK,106 > 103,1530,160513,213.0
+domestic_one_transfer,SK,103 > 106,1517,157567,187.0
+domestic_one_transfer,SK,103 > 103,358,36610,68.0
+domestic_one_transfer,SK,102 > 106,96,16244,38.0
+domestic_one_transfer,SK,102 > 102,60,14753,3.0
+domestic_one_transfer,SK,106 > 102,89,13573,37.0
+domestic_one_transfer,SK,102 > 103,104,11675,24.0
+domestic_one_transfer,SK,103 > 102,88,9397,19.0
+domestic_one_transfer,SK,105 > 106,34,3596,2.0
+domestic_one_transfer,SK,103 > 100,22,2361,6.0
+domestic_one_transfer,SK,102 > 105,18,1971,1.0
+domestic_one_transfer,SK,106 > 105,25,1970,2.0
+domestic_one_transfer,SK,100 > 103,24,1882,9.0
+domestic_one_transfer,SK,105 > 102,18,1772,0.0
+domestic_one_transfer,SK,105 > 103,18,1226,2.0
+domestic_one_transfer,SK,102 > 100,6,1023,0.0
+domestic_one_transfer,SK,100 > 106,5,805,1.0
+domestic_one_transfer,SK,106 > 100,3,565,0.0
+domestic_one_transfer,SK,103 > 105,2,315,0.0
+domestic_one_transfer,SK,105 > 105,6,298,1.0
+domestic_one_transfer,SK,105 > 100,3,196,0.0
+foreign_direct,CZ,102,8,2842,0.0
+foreign_direct,CZ,105,5,655,0.0
+foreign_direct,HU,102,14,4024,0.0
+foreign_direct,UA,106,6,1920,0.0
+foreign_direct,UA,102,2,707,0.0
+foreign_one_transfer,AT,103 > 2,61,6055,34.0
+foreign_one_transfer,AT,2 > 103,56,5762,31.0
+foreign_one_transfer,AT,102 > 2,143,2461,119.0
+foreign_one_transfer,AT,2 > 102,111,1838,96.0
+foreign_one_transfer,AT,106 > 2,16,634,9.0
+foreign_one_transfer,AT,2 > 106,33,465,20.0
+foreign_one_transfer,AT,103 > 106,2,276,1.0
+foreign_one_transfer,AT,105 > 2,6,275,3.0
+foreign_one_transfer,AT,2 > 105,4,18,4.0
+foreign_one_transfer,CZ,102 > 102,957,66042,660.0
+foreign_one_transfer,CZ,106 > 102,1042,49516,725.0
+foreign_one_transfer,CZ,102 > 106,1041,46738,764.0
+foreign_one_transfer,CZ,103 > 102,506,23186,344.0
+foreign_one_transfer,CZ,102 > 103,507,20424,366.0
+foreign_one_transfer,CZ,105 > 106,414,9919,240.0
+foreign_one_transfer,CZ,102 > 105,157,6819,92.0
+foreign_one_transfer,CZ,106 > 105,156,6501,61.0
+foreign_one_transfer,CZ,105 > 102,139,5868,61.0
+foreign_one_transfer,CZ,105 > 103,178,3627,117.0
+foreign_one_transfer,CZ,103 > 106,26,2970,4.0
+foreign_one_transfer,CZ,103 > 105,102,2782,67.0
+foreign_one_transfer,CZ,106 > 103,24,2671,4.0
+foreign_one_transfer,CZ,100 > 106,5,805,1.0
+foreign_one_transfer,CZ,102 > 100,3,603,1.0
+foreign_one_transfer,CZ,106 > 106,3,600,0.0
+foreign_one_transfer,CZ,100 > 103,6,424,3.0
+foreign_one_transfer,CZ,100 > 102,1,300,0.0
+foreign_one_transfer,CZ,105 > 105,6,146,4.0
+foreign_one_transfer,HU,2 > 102,1385,73244,967.0
+foreign_one_transfer,HU,102 > 2,870,61968,522.0
+foreign_one_transfer,HU,103 > 102,23,1878,7.0
+foreign_one_transfer,HU,102 > 102,11,1847,0.0
+foreign_one_transfer,HU,102 > 103,26,1844,10.0
+foreign_one_transfer,HU,102 > 105,4,594,0.0
+foreign_one_transfer,HU,105 > 106,2,288,0.0
+foreign_one_transfer,HU,106 > 105,1,287,0.0
+foreign_one_transfer,HU,105 > 102,3,272,0.0
+foreign_one_transfer,PL,102 > 102,110,351,
+foreign_one_transfer,PL,105 > 2,62,62,
+foreign_one_transfer,PL,102 > 103,3,32,
+foreign_one_transfer,PL,103 > 102,3,32,
+foreign_one_transfer,PL,106 > 102,2,32,
+foreign_one_transfer,PL,105 > 102,11,31,
+foreign_one_transfer,PL,106 > 103,2,16,
+foreign_one_transfer,PL,106 > 106,2,16,
+foreign_one_transfer,PL,102 > 105,3,6,
+foreign_one_transfer,PL:PL_IC,105 > 2,200,200,
+foreign_one_transfer,PL:PL_IC,102 > 102,3,101,
+foreign_one_transfer,PL:PL_IC,102 > 103,4,101,
+foreign_one_transfer,PL:PL_IC,103 > 102,4,101,
+foreign_one_transfer,PL:PL_IC,106 > 103,2,44,
+foreign_one_transfer,PL:PL_IC,106 > 106,2,44,
+foreign_one_transfer,UA,106 > 106,9,2128,0.0
+foreign_one_transfer,UA,106 > 103,7,1449,0.0
+foreign_one_transfer,UA,106 > 102,4,639,1.0
+foreign_one_transfer,UA,102 > 102,1,63,1.0
