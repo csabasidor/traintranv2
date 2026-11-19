@@ -1,0 +1,10 @@
+step,ways,km,nodes,components,added_edges,note
+gpkg line features,440511.0,,,,,all railway= values
+type filter,306582.0,,,,,"railway in ['rail', 'narrow_gauge'] + light_rail (TEŽ): 122 ways with ref in ['112D'], 65 more by gauge inside the country (SK: ['1000'] mm)"
+duplicate osm_id dropped,297250.0,,,,,"9,332 rows repeated a way already present (overlapping country dumps)"
+identical geometry dropped,297248.0,148650.8,,,,2 further rows with a geometry identical to another way
+clipped to study area,297248.0,148624.8,,,,"NUTS0 union of ['CZ', 'SK', 'AT', 'HU', 'PL', 'UA'] + 5 km buffer"
+graph built,,,2882605.0,5820.0,,vertices on a 0.5 m grid; geodesic edge lengths; undirected
+gap joins,,,2882605.0,1374.0,8147.0,dead end -> nearest node of another component within 25 m
+station snaps and links,,,2988353.0,1209.0,9628.0,nearest track <= 2 km (else snap_too_far); every other component within 300 m linked through the station
+construction bridges,,,2990134.0,1198.0,1792.0,10 cut-off pieces joined by the shortest path over track + ['construction'] (<= 15 km); that path only
