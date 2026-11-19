@@ -1,0 +1,502 @@
+﻿variable,label,dtype,n_missing,n_values,values
+studyno1,ARCHIVE STUDY NUMBER - DISTRIBUTOR,float64,0,1,7996=GESIS STUDY ID ZA7996
+studyno2,ARCHIVE STUDY NUMBER - PUBLISHER,float64,0,1,7996=GESIS STUDY ID ZA7996
+doi,DIGITAL OBJECT IDENTIFIER,str,0,0,
+version,GESIS ARCHIVE VERSION & DATE,str,0,0,
+edition,DATASET EDITION,float64,0,1,1=Archive pre-release
+survey,SURVEY IDENTIFICATION,float64,0,1,993=Eurobarometer 99.3 (May-June 2023)
+respondent_serial,SERIAL CASE ID (APPOINTED BY KANTAR - COUNTRY SPECIFIC),Int64,0,0,
+serialid,SERIAL CASE ID (APPOINTED BY KANTAR),Int64,0,0,
+uniqid,UNIQUE RESPONDENT ID (CASEID BY KANTAR COUNTRY CODE),Int64,0,0,
+tnscntry,ORIGINAL KANTAR COUNTRY/SAMPLE ID,float64,0,43,1=Albania (AL) | 2=Austria (AT) | 3=Belgium (BE) | 4=Bulgaria (BG) | 5=Bosnia and Herzegovina (BA) | 6=Switzerland (CH) | 7=Cyprus (CY) | 8=Cyprus - CY (TCC) | 9=Czech Republic (CZ) | 10=Germany (DE) | 11=Denmark (DK) | 12=Estonia (EE) | 13=Greece (GR) | 14=Spain (ES) | 15=Finland (FI) | 16=France (FR) | 17=Croatia (HR) | 18=Hungary (HU) | 19=Ireland (IE) | 20=Iceland (IS) | 21=Italy (IT) | 22=Kosovo (KV) | 23=Lithuania (LT) | 24=Luxemburg (LU) | 25=Latvia (LV) | 26=Montenegro (ME) | 27=Macedonia (MK) | 28=Malta (MT) | 29=Netherlands (NL) | 30=Norway (NO) | 31=Poland (PL) | 32=Portugal (PT) | 33=Romania (RO) | 34=Serbia (RS) | 35=Sweden (SE) | 36=Slovenia (SI) | 37=Slovakia (SK) | 38=Turkey (TR) | 39=United Kingdom (UK) | 40=Moldova (MD) | 41=US | 42=DW | 43=DE
+country,COUNTRY/SAMPLE ID (SERIES STANDARD),float64,0,41,1=FR - France | 2=BE - Belgium | 3=NL - The Netherlands | 4=DE-W - Germany - West | 5=IT - Italy | 6=LU - Luxembourg | 7=DK - Denmark | 8=IE - Ireland | 9=GB-UKM - United Kingdom (NOT INCLUDED) | 10=GB-NIR Northern Ireland (NO SEPARATE SAMPLE) | 11=GR - Greece | 12=ES -Spain | 13=PT - Portugal | 14=DE-E Germany East | 15=- | 16=FI - Finland | 17=SE - Sweden | 18=AT - Austria | 19=CY - Cyprus (Republic) | 20=CZ - Czech Republic | 21=EE - Estonia | 22=HU - Hungary | 23=LV - Latvia | 24=LT - Lithuania | 25=MT - Malta | 26=PL - Poland | 27=SK - Slovakia | 28=SI - Slovenia | 29=BG - Bulgaria | 30=RO - Romania | 31=TR - Turkey (NOT INCLUDED) | 32=HR - Croatia | 33=CY-TCC - Cyprus TCC (NOT INCLUDED) | 34=MK - North Macedonia (NOT INCLUDED) | 35=ME - Montenegro (NOT INCLUDED) | 36=RS - Serbia (NOT INCLUDED) | 37=AL - Albania (NOT INCLUDED) | 41=NO - Norway (NOT INCLUDED) | 42=CH - Switzerland (NOT INCLUDED) | 43=IS - Iceland (NOT INCLUDED) | 44=LI - Liechtenstein (NOT INCLUDED)
+isocntry,COUNTRY CODE - ISO 3166,str,0,0,
+d11,AGE EXACT,float64,0,3,0=Refusal | 15=15 years | 97=97 years
+d11r1,AGE RECODED - 4 CATEGORIES,float64,0,5,1=15 - 24 years | 2=25 - 39 years | 3=40 - 54 years | 4=55 years and older | 5=Refusal
+d11r2,AGE RECODED - 6 CATEGORIES,float64,0,7,1=15-24 | 2=25-34 | 3=35-44 | 4=45-54 | 5=55-64 | 6=65-98 | 7=Refusal
+q1.1,NATIONALITY: BELGIUM,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.2,NATIONALITY: DENMARK,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.3,NATIONALITY: GERMANY,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.4,NATIONALITY: GREECE,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.5,NATIONALITY: SPAIN,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.6,NATIONALITY: FRANCE,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.7,NATIONALITY: IRELAND,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.8,NATIONALITY: ITALY,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.9,NATIONALITY: LUXEMBOURG,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.10,NATIONALITY: NETHERLANDS,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.11,NATIONALITY: PORTUGAL,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.12,NATIONALITY: UNITED KINGDOM,float64,0,2,0=Not mentioned | 1=Mentioned (not coded)
+q1.13,NATIONALITY: AUSTRIA,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.14,NATIONALITY: SWEDEN,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.15,NATIONALITY: FINLAND,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.16,NATIONALITY: CYPRUS,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.17,NATIONALITY: CZECH REPUBLIC,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.18,NATIONALITY: ESTONIA,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.19,NATIONALITY: HUNGARY,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.20,NATIONALITY: LATVIA,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.21,NATIONALITY: LITHUANIA,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.22,NATIONALITY: MALTA,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.23,NATIONALITY: POLAND,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.24,NATIONALITY: SLOVAKIA,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.25,NATIONALITY: SLOVENIA,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.26,NATIONALITY: BULGARIA,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.27,NATIONALITY: ROMANIA,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.28,NATIONALITY: CROATIA,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.41,NATIONALITY: OTHER COUNTRIES,float64,0,2,0=Not mentioned | 1=Mentioned
+q1.42,NATIONALITY: DK,float64,0,2,0=Not mentioned | 1=Mentioned (not coded)
+qa1,TRAVELLED TO/OUTSIDE SCHENGEN AREA IN PAST 5YRS,float64,0,3,1=Yes | 2=No | 3=Don't know (SPONTANEOUS)
+qa2,TRAVELLED TO/OUTSIDE SCHENGEN AREA IN PAST 5YRS - MAIN REASON,float64,13882,8,"1=Tourism | 2=Visit to family or friends | 3=Medical treatment | 4=Business, professional training or conferences | 5=Cultural or sports event | 6=Other (SPONTANEOUS) | 7=Don't know (SPONTANEOUS) | 9=Inap. (not 1 in qa1)"
+qa3_1,BEFORE PANDEMIC/AFTER RESTRICTIONS - TRAVELLED TO/OUTSIDE SCHENGEN AREA,float64,0,5,1=Never | 2=Less than once a year | 3=At least once a year | 4=More than twice a year | 5=Don't know (SPONTANEOUS)
+qa3_2,BEFORE PANDEMIC/AFTER RESTRICTIONS - TRAVELLED WITHIN SCHENGEN AREA,float64,0,5,1=Never | 2=Less than once a year | 3=At least once a year | 4=More than twice a year | 5=Don't know (SPONTANEOUS)
+qa4,TRAVELLING TO/OUTSIDE SCHENGEN AREA - FUTURE EXPECTATION,float64,0,5,1=Never | 2=Less than once a year | 3=At least once a year | 4=More than twice a year | 5=Don't know (SPONTANEOUS)
+qa5,COMPARING TRAVELLING OUTSIDE SCHENGEN TO TRAVELLING WITHIN SCHENGEN,float64,12820,6,"1=No different at all, the same | 2=A bit more difficult | 3=Much more difficult | 4=Easier (SPONTANEOUS) | 5=Don't know (SPONTANEOUS) | 9=Inap. (not 2-4 in qa3_1 or qa3_2)"
+qa6,LIVING IN EU STATE WITHOUT ITS NATIONALITY,float64,0,3,1=Yes | 2=No | 3=Don't know (SPONTANEOUS)
+qa6.1,LIVING IN EU STATE WITHOUT ITS NATIONALITY - HOW LONG,float64,24297,5,1=Less than 3 months | 2=From 3 months to 5 years | 3=More than 5 years | 4=Don't know (SPONTANEOUS) | 9=Inap. (not 1 in qa6)
+qa7,POSSESS MOBILE DEVICE USABLE FOR PREPARING TRAVELS,float64,0,3,1=Yes | 2=No | 3=Don't know (SPONTANEOUS)
+qa8_1,EASE OF TASKS - DOWNLOAD FREE APP,float64,0,6,1=1 Very easy | 2=2 | 3=3 | 4=4 | 5=5 Very difficult | 6=Don't know (SPONTANEOUS)
+qa8_2,EASE OF TASKS - FOLLOW INSTRUCTIONS WITHIN APP,float64,0,6,1=1 Very easy | 2=2 | 3=3 | 4=4 | 5=5 Very difficult | 6=Don't know (SPONTANEOUS)
+qa8_3,EASE OF TASKS - USE ONLINE SUPPORT TOOLS,float64,0,6,1=1 Very easy | 2=2 | 3=3 | 4=4 | 5=5 Very difficult | 6=Don't know (SPONTANEOUS)
+qa8_4,EASE OF TASKS - USE AUTOMATED GATE WITH EPASSPORT,float64,0,6,1=1 Very easy | 2=2 | 3=3 | 4=4 | 5=5 Very difficult | 6=Don't know (SPONTANEOUS)
+qa9_1,PROBLEM TRAVEL TO/OUTSIDE SCHENGEN AREA WITH ID/PP - INCONVENIENT PROCEDURES,float64,0,6,1=1 Not serious at all | 2=2 | 3=3 | 4=4 | 5=5 Very serious | 6=Don't know (SPONTANEOUS)
+qa9_2,PROBLEM TRAVEL TO/OUTSIDE SCHENGEN AREA WITH ID/PP - DELAYS IN CONNECTIONS,float64,0,6,1=1 Not serious at all | 2=2 | 3=3 | 4=4 | 5=5 Very serious | 6=Don't know (SPONTANEOUS)
+qa9_3,PROBLEM TRAVEL TO/OUTSIDE SCHENGEN AREA WITH ID/PP - LONG WAITING BORDER CHECKS,float64,0,6,1=1 Not serious at all | 2=2 | 3=3 | 4=4 | 5=5 Very serious | 6=Don't know (SPONTANEOUS)
+qa9_4,PROBLEM TRAVEL TO/OUTSIDE SCHENGEN AREA WITH ID/PP - WRONGFULLY REFUSED AT BORDERS,float64,0,6,1=1 Not serious at all | 2=2 | 3=3 | 4=4 | 5=5 Very serious | 6=Don't know (SPONTANEOUS)
+qa9_5,PROBLEM TRAVEL TO/OUTSIDE SCHENGEN AREA WITH ID/PP - VIOLATION OF PERS DATA PROT,float64,0,6,1=1 Not serious at all | 2=2 | 3=3 | 4=4 | 5=5 Very serious | 6=Don't know (SPONTANEOUS)
+qa9_6,PROBLEM TRAVEL TO/OUTSIDE SCHENGEN AREA WITH ID/PP - SECURITY THREATS,float64,0,6,1=1 Not serious at all | 2=2 | 3=3 | 4=4 | 5=5 Very serious | 6=Don't know (SPONTANEOUS)
+qa9_7,PROBLEM TRAVEL TO/OUTSIDE SCHENGEN AREA WITH ID/PP - RISK OF PP/ID STOLEN/LOST,float64,0,6,1=1 Not serious at all | 2=2 | 3=3 | 4=4 | 5=5 Very serious | 6=Don't know (SPONTANEOUS)
+qa10.1,PROBLEMS TRAVEL TO/OUTSIDE SCHENGEN AREA LAST 3YRS: INCONVENIENT PROCEDURES,float64,0,2,"0=Not mentioned | 1=Inconvenient travel procedures at the point of departure (for example airports, ports) due to the need of being ..."
+qa10.2,PROBLEMS TRAVEL TO/OUTSIDE SCHENGEN AREA LAST 3YRS: DELAYS IN CONNECTIONS,float64,0,2,0=Not mentioned | 1=Delays in connection flights
+qa10.3,PROBLEMS TRAVEL TO/OUTSIDE SCHENGEN AREA LAST 3YRS: LONG WAITING BORDER CHECKS,float64,0,2,0=Not mentioned | 1=Long waiting time at the border checks
+qa10.4,PROBLEMS TRAVEL TO/OUTSIDE SCHENGEN AREA LAST 3YRS: WRONGFULLY REFUSED AT BORDERS,float64,0,2,"0=Not mentioned | 1=Having been wrongfully refused at borders due to inaccurate exchanges of information, such as wrong entry of ..."
+qa10.5,PROBLEMS TRAVEL TO/OUTSIDE SCHENGEN AREA LAST 3YRS: VIOLATION OF PERS DATA PROT,float64,0,2,"0=Not mentioned | 1=Violation of personal data protection (unauthorised access, identity fraud and document forgery, etc.)"
+qa10.6,PROBLEMS TRAVEL TO/OUTSIDE SCHENGEN AREA LAST 3YRS: SECURITY RISKS,float64,0,2,"0=Not mentioned | 1=Security risks due to insufficient human resources (border agents, police, etc.)"
+qa10.7,PROBLEMS TRAVEL TO/OUTSIDE SCHENGEN AREA LAST 3YRS: RISK OF PP/ID STOLEN/LOST,float64,0,2,0=Not mentioned | 1=Passport or identity card has been stolen or lost
+qa10.8,PROBLEMS TRAVEL TO/OUTSIDE SCHENGEN AREA LAST 3YRS: OTHER (SPONT),float64,0,2,0=Not mentioned | 1=Other (SPONTANEOUS)
+qa10.9,PROBLEMS TRAVEL TO/OUTSIDE SCHENGEN AREA LAST 3YRS: NONE OF THESE (SPONT),float64,0,2,0=Not mentioned | 1=None of these (SPONTANEOUS)
+qa10.10,PROBLEMS TRAVEL TO/OUTSIDE SCHENGEN AREA LAST 3YRS: DK (SPONT),float64,0,2,0=Not mentioned | 1=Don't know (SPONTANEOUS)
+qa11,TRAVEL PROBLEMS - HOW NEGATIVELY AFFECTED,float64,12765,7,"1=Very negatively | 2=Somewhat negatively | 3=Not very negatively | 4=Not negatively at all | 5=It didn't affect your travel or the one of your acquaintance, friend, or relative (SPONTANEOUS) | 6=Don't know (SPONTANEOUS) | 9=Inap. (1 in qa10.9 or qa10.10)"
+qa12_1,IMPORTANT ACTIONS TRAVEL TO/OUTSIDE SCHENGEN AREA - ACCELERATING BORDER PROCEDURES,float64,0,5,1=Very important | 2=Somewhat important | 3=Not very important | 4=Not at all important | 5=Don't know (SPONTANEOUS)
+qa12_2,IMPORTANT ACTIONS TRAVEL TO/OUTSIDE SCHENGEN AREA - INCREASING BORDER SECURITY,float64,0,5,1=Very important | 2=Somewhat important | 3=Not very important | 4=Not at all important | 5=Don't know (SPONTANEOUS)
+qa13,EU MEMBERS SHOULD INCREASE COOP SCHENGEN BORDERS,float64,0,5,"1=Yes, definitely | 2=Yes, to some extent | 3=No, not really | 4=No, definitely not | 5=Don't know (SPONTANEOUS)"
+qa14,IMPORTANCE EU MITIGATES OBSTACLES TRAVELLING TO/OUTSIDE SCHENGEN AREA,float64,0,5,1=Very important | 2=Somewhat important | 3=Not very important | 4=Not at all important | 5=Don't know (SPONTANEOUS)
+qa15,GENERAL OPINION ABOUT DIGITAL TRAVEL CREDENTIALS,float64,0,5,1=Very positive opinion | 2=Somewhat positive opinion | 3=Somewhat negative opinion | 4=Very negative opinion | 5=Don't know (SPONTANEOUS)
+qa16,OPINION ON DTC USE TRAVELLING TO/OUTSIDE SCHENGEN AREA - IN FAVOUR/OPPOSED,float64,0,5,1=Strongly in favour | 2=Somewhat in favour | 3=Somewhat opposed | 4=Strongly opposed | 5=Don't know (SPONTANEOUS)
+qa17,VOLUNTARY USE DTCS ACCELERATE PROCEDURES,float64,0,5,"1=Yes, certainly | 2=Yes, probably | 3=No, probably not | 4=No, certainly not | 5=Don't know (SPONTANEOUS)"
+qa18.1,DTC CONCERNS: UNINTEDED ACCESS/DISCLOSURE OF PERS DATA,float64,0,2,0=Not mentioned | 1=Unintended access or disclosure of personal data
+qa18.2,DTC CONCERNS: POTENTIAL MISUSE OF PERS DATA,float64,0,2,"0=Not mentioned | 1=Potential misuse of your personal data (for example, by the carriers)"
+qa18.3,DTC CONCERNS: SOFTWARE FAILURE,float64,0,2,0=Not mentioned | 1=Software failure (the app is not working when I need it)
+qa18.4,DTC CONCERNS: DEVICE PROBLEMS,float64,0,2,"0=Not mentioned | 1=Device problems, for example, your phone being out of battery when you are at the border"
+qa18.5,DTC CONCERNS: CYBERATTACKS,float64,0,2,0=Not mentioned | 1=Cyberattacks
+qa18.6,DTC CONCERNS: OTHER (SPONT),float64,0,2,0=Not mentioned | 1=Other (SPONTANEOUS)
+qa18.7,DTC CONCERNS: NONE (SPONT),float64,0,2,0=Not mentioned | 1=None (SPONTANEOUS)
+qa18.8,DTC CONCERNS: DK (SPONT),float64,0,2,0=Not mentioned | 1=Don't know (SPONTANEOUS)
+qa19,SEPARATE APPS OR ONE EU APP FOR DTCS,float64,0,3,1=One application for each EU Member State | 2=A single application at the EU level | 3=Don't know (SPONTANEOUS)
+qa20,PROVIDING DTC TO CARRIER TO TRAVEL TO/OUTSIDE SCHENGEN AREA,float64,0,5,"1=Yes, definitely | 2=Yes, probably | 3=No, probably not | 4=No, certainly not | 5=Don't know (SPONTANEOUS)"
+qa21.1,DTC ADVANTAGES: SHORTER WAITING AT BORDERS,float64,0,2,0=Not mentioned | 1=Shorter waiting time at the border checks
+qa21.2,DTC ADVANTAGES: SMOOTHER INT TRAVEL,float64,0,2,0=Not mentioned | 1=Smoother international travel (for example through easier flight connections)
+qa21.3,DTC ADVANTAGES: MORE CONVENIENT AT DEPARTURE,float64,0,2,"0=Not mentioned | 1=More convenient travel procedures at the point of departure (for example, airports, ports) thanks to the ..."
+qa21.4,DTC ADVANTAGES: INCREASED BORDER SECURITY,float64,0,2,0=Not mentioned | 1=Increased border security
+qa21.5,DTC ADVANTAGES: IMPROVED INFORMATION EXCHANGES,float64,0,2,0=Not mentioned | 1=Improved information exchanges (less information is lost or inaccurate)
+qa21.6,DTC ADVANTAGES: OTHER (SPONT),float64,0,2,0=Not mentioned | 1=Other (SPONTANEOUS)
+qa21.7,DTC ADVANTAGES: DK (SPONT),float64,0,2,0=Not mentioned | 1=Don't know (SPONTANEOUS)
+qa22,EU MEMBERS SHLD BE OBLIGED TO PROVIDE ACCESS TO DTCS,float64,0,5,"1=Yes, definitely | 2=Yes, probably | 3=No, probably not | 4=No, definitely not | 5=Don't know (SPONTANEOUS)"
+qb1,ORG WITH MOST POS INFLUENCE ON PARTNER CNTRS,float64,0,12,1=The European Union (EU) | 2=The United Nations (UN) | 3=The World Bank | 4=The International Monetary Fund (IMF) | 5=The World Trade Organisation (WTO) | 6=The Organisation for Economic Co-operation and Development (OECD) | 7=The African Union (AU) | 8=The Organisation of American States (OAS) | 9=The Association of Southeast Asian Nations (ASEAN) | 10=Other | 11=None of these (SPONTANEOUS) | 12=Don't know (SPONTANEOUS)
+qb2,IMPORTANCE EU INVESTING IN PARTNER CNTRS,float64,0,5,1=Very important | 2=Fairly important | 3=Not very important | 4=Not at all important | 5=Don't know (SPONTANEOUS)
+qb3_1,EU INVESTM MAIN PRIORITY - AFRICA,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qb3_2,EU INVESTM MAIN PRIORITY - LATIN AMERICA & CARIBBEAN,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qb3_3,EU INVESTM MAIN PRIORITY - ASIA & PACIFIC,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qb4.1,EU & PARTNERS INVESTM AREA PRIO: INFRASTRUCTURE,float64,0,2,"0=Not mentioned | 1=Infrastructure (such as ports, roads, railways, data centers, digital cables, wind turbines)"
+qb4.2,EU & PARTNERS INVESTM AREA PRIO: ECONOMIC GROWTH AND EMPLOYMENT,float64,0,2,0=Not mentioned | 1=Economic growth and employment
+qb4.3,EU & PARTNERS INVESTM AREA PRIO: TRADE,float64,0,2,0=Not mentioned | 1=Trade
+qb4.4,EU & PARTNERS INVESTM AREA PRIO: ENERGY,float64,0,2,0=Not mentioned | 1=Energy
+qb4.5,EU & PARTNERS INVESTM AREA PRIO: CLIMATE CHANGE,float64,0,2,0=Not mentioned | 1=Climate change
+qb4.6,EU & PARTNERS INVESTM AREA PRIO: DIGITALISATION,float64,0,2,0=Not mentioned | 1=Digitalisation
+qb4.7,EU & PARTNERS INVESTM AREA PRIO: PEACE AND SECURITY,float64,0,2,0=Not mentioned | 1=Peace and security
+qb4.8,EU & PARTNERS INVESTM AREA PRIO: DEMOCRACY AND HUMAN RIGHTS,float64,0,2,0=Not mentioned | 1=Democracy and human rights
+qb4.9,EU & PARTNERS INVESTM AREA PRIO: MIGRATION,float64,0,2,0=Not mentioned | 1=Migration
+qb4.10,EU & PARTNERS INVESTM AREA PRIO: HEALTH,float64,0,2,0=Not mentioned | 1=Health
+qb4.11,EU & PARTNERS INVESTM AREA PRIO: EDUCATION,float64,0,2,0=Not mentioned | 1=Education
+qb4.12,EU & PARTNERS INVESTM AREA PRIO: ENVIRONMENT PROTECTION,float64,0,2,0=Not mentioned | 1=Environment protection
+qb4.13,EU & PARTNERS INVESTM AREA PRIO: GENDER EQUALITY,float64,0,2,0=Not mentioned | 1=Gender equality
+qb4.14,EU & PARTNERS INVESTM AREA PRIO: FIGHT AGAINST CORRUPTION,float64,0,2,0=Not mentioned | 1=Fight against corruption
+qb4.15,EU & PARTNERS INVESTM AREA PRIO: SHLD NOT COOPERATE (SPONT),float64,0,2,0=Not mentioned | 1=I don't think the European Union should collaborate with partner countries in any area (SPONTANEOUS)
+qb4.16,EU & PARTNERS INVESTM AREA PRIO: DK (SPONT),float64,0,2,0=Not mentioned | 1=Don't know (SPONTANEOUS)
+qb5_1,TACKLING POVERTY - ONE OF MAIN EU PRIORITIES,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qb5_2,TACKLING POVERTY - ONE OF MAIN GVRNMNT PRIORITIES,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qb6_1,EU DRIVING POSITIVE SUSTAINABLE CHANGE IN WORLD - TACKLING POVERTY,float64,0,5,"1=Yes, very successful | 2=Yes, fairly successful | 3=No, not very successful | 4=No, not at all successful | 5=Don't know (SPONTANEOUS)"
+qb6_2,EU DRIVING POSITIVE SUSTAINABLE CHANGE IN WORLD - ADDRESSING CLIMATE CHANGE,float64,0,5,"1=Yes, very successful | 2=Yes, fairly successful | 3=No, not very successful | 4=No, not at all successful | 5=Don't know (SPONTANEOUS)"
+qb6_3,EU DRIVING POSITIVE SUSTAINABLE CHANGE IN WORLD - SUPPORT TRANSITION TO CLEAN ENERGY,float64,0,5,"1=Yes, very successful | 2=Yes, fairly successful | 3=No, not very successful | 4=No, not at all successful | 5=Don't know (SPONTANEOUS)"
+qb6_4,EU DRIVING POSITIVE SUSTAINABLE CHANGE IN WORLD - IMPROVING DIGITAL CONNECTIVITY,float64,0,5,"1=Yes, very successful | 2=Yes, fairly successful | 3=No, not very successful | 4=No, not at all successful | 5=Don't know (SPONTANEOUS)"
+qb6_5,EU DRIVING POSITIVE SUSTAINABLE CHANGE IN WORLD - IMPROVING TRANSPORT INFRASTRUCTURE,float64,0,5,"1=Yes, very successful | 2=Yes, fairly successful | 3=No, not very successful | 4=No, not at all successful | 5=Don't know (SPONTANEOUS)"
+qb6_6,EU DRIVING POSITIVE SUSTAINABLE CHANGE IN WORLD - IMPROVING HEALTH SYSTEMS IN THE WORLD,float64,0,5,"1=Yes, very successful | 2=Yes, fairly successful | 3=No, not very successful | 4=No, not at all successful | 5=Don't know (SPONTANEOUS)"
+qb6_7,EU DRIVING POSITIVE SUSTAINABLE CHANGE IN WORLD - IMPROVING EDUCATION FOR ALL IN THE WORLD,float64,0,5,"1=Yes, very successful | 2=Yes, fairly successful | 3=No, not very successful | 4=No, not at all successful | 5=Don't know (SPONTANEOUS)"
+qc1a,SERIOUS WORLD PROBLEMS - FIRST,float64,0,14,"1=Climate change | 2=International terrorism | 3=Poverty, hunger and lack of drinking water | 4=Spread of infectious diseases | 5=The economic situation | 6=Health problems due to pollution | 7=Proliferation of nuclear weapons | 8=Armed conflicts | 9=The increasing global population | 10=Deterioration of nature | 11=Deterioration of democracy and rule of law | 12=Other (SPONTANEOUS) | 13=None (SPONTANEOUS) | 14=Don't know (SPONTANEOUS)"
+qc1b.1,SERIOUS WORLD PROBLEMS 2ND: CLIMATE CHANGE,float64,124,3,0=Not mentioned | 1=Climate change | 9=Inap. (13-14 in qc1a)
+qc1b.2,SERIOUS WORLD PROBLEMS 2ND: INTERNAT TERRORISM,float64,124,3,0=Not mentioned | 1=International terrorism | 9=Inap. (13-14 in qc1a)
+qc1b.3,SERIOUS WORLD PROBLEMS 2ND: POVERTY HUNGER ...,float64,124,3,"0=Not mentioned | 1=Poverty, hunger and lack of drinking water | 9=Inap. (13-14 in qc1a)"
+qc1b.4,SERIOUS WORLD PROBLEMS 2ND: INFECTIOUS DISEASES,float64,124,3,0=Not mentioned | 1=Spread of infectious diseases | 9=Inap. (13-14 in qc1a)
+qc1b.5,SERIOUS WORLD PROBLEMS 2ND: ECONOMIC SITUATION,float64,124,3,0=Not mentioned | 1=The economic situation | 9=Inap. (13-14 in qc1a)
+qc1b.6,SERIOUS WORLD PROBLEMS 2ND: HEALTH PROBS DUE TO POLLUTION,float64,124,3,0=Not mentioned | 1=Health problems due to pollution | 9=Inap. (13-14 in qc1a)
+qc1b.7,SERIOUS WORLD PROBLEMS 2ND: NUCLEAR WEAPONS,float64,124,3,0=Not mentioned | 1=Proliferation of nuclear weapons | 9=Inap. (13-14 in qc1a)
+qc1b.8,SERIOUS WORLD PROBLEMS 2ND: ARMED CONFLICTS,float64,124,3,0=Not mentioned | 1=Armed conflicts | 9=Inap. (13-14 in qc1a)
+qc1b.9,SERIOUS WORLD PROBLEMS 2ND: GLOBAL POPULATION,float64,124,3,0=Not mentioned | 1=The increasing global population | 9=Inap. (13-14 in qc1a)
+qc1b.10,SERIOUS WORLD PROBLEMS 2ND: DETERIORATION OF NATURE,float64,124,3,0=Not mentioned | 1=Deterioration of nature | 9=Inap. (13-14 in qc1a)
+qc1b.11,SERIOUS WORLD PROBLEMS 2ND: DETERIORATION OF DEMOCRACY/RULE OF LAW,float64,124,3,0=Not mentioned | 1=Deterioration of democracy and rule of law | 9=Inap. (13-14 in qc1a)
+qc1b.12,SERIOUS WORLD PROBLEMS 2ND: OTHER (SPONT),float64,124,3,0=Not mentioned | 1=Other (SPONTANEOUS) | 9=Inap. (13-14 in qc1a)
+qc1b.13,SERIOUS WORLD PROBLEMS 2ND: NONE (SPONT),float64,124,3,0=Not mentioned | 1=None (SPONTANEOUS) | 9=Inap. (13-14 in qc1a)
+qc1b.14,SERIOUS WORLD PROBLEMS 2ND: DK (SPONT),float64,124,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. (13-14 in qc1a)
+qc1t.1,SERIOUS WORLD PROBLEMS: CLIMATE CHANGE (SUM),float64,0,2,0=Not mentioned | 1=Climate change
+qc1t.2,SERIOUS WORLD PROBLEMS: INTERNAT TERRORISM (SUM),float64,0,2,0=Not mentioned | 1=International terrorism
+qc1t.3,SERIOUS WORLD PROBLEMS: POVERTY HUNGER ... (SUM),float64,0,2,"0=Not mentioned | 1=Poverty, hunger and lack of drinking water"
+qc1t.4,SERIOUS WORLD PROBLEMS: INFECTIOUS DISEASES (SUM),float64,0,2,0=Not mentioned | 1=Spread of infectious diseases
+qc1t.5,SERIOUS WORLD PROBLEMS: ECONOMIC SITUATION (SUM),float64,0,2,0=Not mentioned | 1=The economic situation
+qc1t.6,SERIOUS WORLD PROBLEMS: HEALTH PROBS DUE TO POLLUTION (SUM),float64,0,2,0=Not mentioned | 1=Health problems due to pollution
+qc1t.7,SERIOUS WORLD PROBLEMS: NUCLEAR WEAPONS (SUM),float64,0,2,0=Not mentioned | 1=Proliferation of nuclear weapons
+qc1t.8,SERIOUS WORLD PROBLEMS: ARMED CONFLICTS (SUM),float64,0,2,0=Not mentioned | 1=Armed conflicts
+qc1t.9,SERIOUS WORLD PROBLEMS: GLOBAL POPULATION (SUM),float64,0,2,0=Not mentioned | 1=The increasing global population
+qc1t.10,SERIOUS WORLD PROBLEMS: DETERIORATION OF NATURE (SUM),float64,0,2,0=Not mentioned | 1=Deterioration of nature
+qc1t.11,SERIOUS WORLD PROBLEMS: DETERIORATION OF DEMOCRACY/RULE OF LAW (SUM),float64,0,2,0=Not mentioned | 1=Deterioration of democracy and rule of law
+qc1t.12,SERIOUS WORLD PROBLEMS: OTHER (SPONT) (SUM),float64,0,2,0=Not mentioned | 1=Other (SPONTANEOUS)
+qc1t.13,SERIOUS WORLD PROBLEMS: NONE (SPONT) (SUM),float64,0,2,0=Not mentioned | 1=None (SPONTANEOUS)
+qc1t.14,SERIOUS WORLD PROBLEMS: DK (SPONT) (QC1A ONLY),float64,0,2,0=Not mentioned | 1=Don't know (SPONTANEOUS)
+qc2,CLIMATE CHANGE - PERCEPTION (10-POINT SCALE),float64,0,11,1=1 Not at all a serious problem | 2=2 | 3=3 | 4=4 | 5=5 | 6=6 | 7=7 | 8=8 | 9=9 | 10=10 An extremely serious problem | 11=Don't know (SPONTANEOUS)
+qc3.1,CLIMATE CHANGE RESPONSIBILITY: NAT GOVERNMENTS,float64,0,2,0=Not mentioned | 1=National governments
+qc3.2,CLIMATE CHANGE RESPONSIBILITY: EUROPEAN UNION,float64,0,2,0=Not mentioned | 1=The European Union
+qc3.3,CLIMATE CHANGE RESPONSIBILITY: REG/LOC AUTHORITIES,float64,0,2,0=Not mentioned | 1=Regional and local authorities
+qc3.4,CLIMATE CHANGE RESPONSIBILITY: BUSINESS/INDUSTRY,float64,0,2,0=Not mentioned | 1=Business and industry
+qc3.5,CLIMATE CHANGE RESPONSIBILITY: YOU PERSONALLY,float64,0,2,0=Not mentioned | 1=You personally
+qc3.6,CLIMATE CHANGE RESPONSIBILITY: ENVIRONMENTAL GROUPS,float64,0,2,0=Not mentioned | 1=Environmental groups
+qc3.7,CLIMATE CHANGE RESPONSIBILITY: OTHER (SPONT),float64,0,2,0=Not mentioned | 1=Other (SPONTANEOUS)
+qc3.8,CLIMATE CHANGE RESPONSIBILITY: ALL OF THEM (SPONT),float64,0,2,0=Not mentioned | 1=All of them(SPONTANEOUS)
+qc3.9,CLIMATE CHANGE RESPONSIBILITY: NONE (SPONT),float64,0,2,0=Not mentioned | 1=None (SPONTANEOUS)
+qc3.10,CLIMATE CHANGE RESPONSIBILITY: DK (SPONT),float64,0,2,0=Not mentioned | 1=Don't know (SPONTANEOUS)
+qc4_1,TACKLING CLIMATE CHANGE/ENV ISSUES: PRIORITY TO IMPROVE PUBLIC HEALTH,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qc4_2,COST OF CLIMATE CHANGE DAMAGE MUCH HIGHER THAN GREEN TRANSITION COSTS,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qc4_3,REDUCE FOSSIL FUEL IMPORTS: CAN INCREASE ENERGY SECURITY & ECONOMIC BENEFIT,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qc4_4,ACTION ON CLIMATE CHANGE LEADS TO INNOVATION MAKING COMPANIES MORE COMPETITIVE,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qc4_5,MORE PUB FIN SUPPORT FOR TRANSITION EVEN IF CUT SUBSIDIES FOSSIL FUELS,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qc4_6,ADAPTING TO ADVERSE CLIMATE CHANGE IMPACTS CAN HAVE BENEFIT FOR CITIZENS IN EU,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qc5,FIGHT CLIMATE CHANGE - PERSONAL ACTION,float64,0,3,1=Yes | 2=No | 3=Don't know (SPONTANEOUS)
+qc6.1,CLIMATE CHANGE ACTION: LOW FUEL CONSUMPTION CAR,float64,0,2,0=Not mentioned | 1=You have bought a new car and its low fuel consumption was an important factor in your choice
+qc6.2,CLIMATE CHANGE ACTION: ELECTRIC CAR,float64,0,2,0=Not mentioned | 1=You have bought an electric car
+qc6.3,CLIMATE CHANGE ACTION: ALTERNATIVES TO CAR USE,float64,0,2,"0=Not mentioned | 1=You regularly use environmentally-friendly alternatives to your private car such as walking,..."
+qc6.4,CLIMATE CHANGE ACTION: INSULATED HOME BETTER,float64,0,2,0=Not mentioned | 1=You have insulated your home better to reduce your energy consumption
+qc6.5,CLIMATE CHANGE ACTION: BOUGHT LOW-ENERGY HOME,float64,0,2,0=Not mentioned | 1=You have bought a low-energy home
+qc6.6,CLIMATE CHANGE ACTION: ENERGY EFF HH APPLIANCES,float64,0,2,"0=Not mentioned | 1=When buying a new household appliance e.g. washing machine, fridge or TV, lower energy consumption is an ..."
+qc6.7,CLIMATE CHANGE ACTION: SWITCHED ENERGY SUPPLIER,float64,0,2,0=Not mentioned | 1=You have switched to an energy supplier which offers a greater share of energy from renewable sources than ...
+qc6.8,CLIMATE CHANGE ACTION: ENERGY SAVING EQUIPMENT HOME,float64,0,2,0=Not mentioned | 1=You have installed equipment in your home to control and reduce your energy consumption (e.g. smart meter)
+qc6.9,CLIMATE CHANGE ACTION: INSTALLED SOLAR PANELS HOME,float64,0,2,0=Not mentioned | 1=You have installed solar panels in your home
+qc6.10,CLIMATE CHANGE ACTION: FOOD CARBON FOOTPRINT CONSIDERED,float64,0,2,0=Not mentioned | 1=You consider the carbon footprint of your food purchases and sometimes adapt your shopping accordingly
+qc6.11,CLIMATE CHANGE ACTION: TRAVEL CARBON FOOTPRINT CONSIDERED,float64,0,2,0=Not mentioned | 1=You consider the carbon footprint of your transport when planning your holiday and other longer ...
+qc6.12,CLIMATE CHANGE ACTION: BUY & EAT LESS MEAT,float64,0,2,0=Not mentioned | 1=You buy and eat less meat
+qc6.13,CLIMATE CHANGE ACTION: BUY & EAT MORE ORGANIC FOOD,float64,0,2,0=Not mentioned | 1=You buy and eat more organic food
+qc6.14,CLIMATE CHANGE ACTION: REDUCE AND SEPARATE WASTE,float64,0,2,0=Not mentioned | 1=You try to reduce your waste and you regularly separate it for recycling
+qc6.15,CLIMATE CHANGE ACTION: USE LESS DISPOSABLE ITEMS,float64,0,2,"0=Not mentioned | 1=You try to cut down on your consumption of disposable items whenever possible, e.g. plastic bags from the ..."
+qc6.16,CLIMATE CHANGE ACTION: OTHER (SPONT),float64,0,2,0=Not mentioned | 1=Other (SPONTANEOUS)
+qc6.17,CLIMATE CHANGE ACTION: NONE (SPONT),float64,0,2,0=Not mentioned | 1=None (SPONTANEOUS)
+qc6.18,CLIMATE CHANGE ACTION: DK (SPONT),float64,0,2,0=Not mentioned | 1=Don't know (SPONTANEOUS)
+qc7,GVRNMNT DOING ENOUGH TO TACKLE CLIMATE CHANGE,float64,0,4,1=Enough | 2=Not enough | 3=Too much | 4=Don't know (SPONTANEOUS)
+qc8_1,GVRNMNT TAKES ACTION FOR RENEWABLE ENERGY - IMPORTANCE,float64,0,5,1=Very important | 2=Fairly important | 3=Not very important | 4=Not at all important | 5=Don't know (SPONTANEOUS)
+qc8_2,EU TARGETS TAKES ACTION FOR RENEWABLE ENERGY - IMPORTANCE,float64,0,5,1=Very important | 2=Fairly important | 3=Not very important | 4=Not at all important | 5=Don't know (SPONTANEOUS)
+qc9_1,GVRNMNT TAKES ACTION FOR ENERGY EFF VIA INSUL HOME OR ELEC CARS ETC - IMPORTANCE,float64,0,5,1=Very important | 2=Fairly important | 3=Not very important | 4=Not at all important | 5=Don't know (SPONTANEOUS)
+qc9_2,EU TAKES ACTION FOR ENERGY EFF VIA INSUL HOME OR ELEC CARS ETC - IMPORTANCE,float64,0,5,1=Very important | 2=Fairly important | 3=Not very important | 4=Not at all important | 5=Don't know (SPONTANEOUS)
+qc10,REDUCE GREENHOUSE GAS EMISSIONS TO MAKE EU ECONOMY CLIMATE NEUTRAL BY 2050,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=Don't know (SPONTANEOUS)
+qc11,GREEN ENERGY POLICY RESPONSE TO SPIKES & RESTRICTIONS DUE TO RUSSIA,float64,0,4,"1=We should accelerate the use of renewable energy sources, increase energy efficiency, and speed up the transition to ... | 2=We should maintain the same pace of transition to a green economy | 3=We should return to using more fossil fuels during the energy crisis and slow down the transition to the green economy | 4=Don't know (SPONTANEOUS)"
+qc12a,RESPONSE ECONOMIC PRESSURED DUE TO ENERGY - FIRSTLY,float64,0,7,1=Accelerate the roll-out of renewable energy sources in EU to bring the cost of energy down and become more energy ... | 2=Diversify the supply of fossil fuels imports into EU | 3=Invest more in energy efficiency measures (e.g. improved insulation) | 4=Take economic measures to limit the price of energy bills for households such as tax energy companies' profits ... | 5=Give direct financial support to the most economically vulnerable members of society | 6=Other (SPONTANEOUS) | 7=Don't know (SPONTANEOUS)
+qc12b,RESPONSE ECONOMIC PRESSURED DUE TO ENERGY - SECONDLY,float64,950,8,1=Accelerate the roll-out of renewable energy sources in EU to bring the cost of energy down and become more energy ... | 2=Diversify the supply of fossil fuels imports into EU | 3=Invest more in energy efficiency measures (e.g. improved insulation) | 4=Take economic measures to limit the price of energy bills for households such as tax energy companies' profits ... | 5=Give direct financial support to the most economically vulnerable members of society | 6=Other (SPONTANEOUS) | 7=Don't know (SPONTANEOUS) | 9=Inap. (7 in qc12b)
+qc12t.1,RESPONSE ECONOMIC PRESSURED DUE TO ENERGY: ACCELERATE ROLL-OUT RENEWABLE ENERGY (SUM),float64,0,2,0=Not mentioned | 1=Accelerate the roll-out of renewable energy sources in EU to bring the cost of energy down and become more energy ...
+qc12t.2,RESPONSE ECONOMIC PRESSURED DUE TO ENERGY: DIVERSIFY FOSSIL FUEL IMPORTS (SUM),float64,0,2,0=Not mentioned | 1=Diversify the supply of fossil fuels imports into EU
+qc12t.3,RESPONSE ECONOMIC PRESSURED DUE TO ENERGY: INVEST MORE IN ENERGY EFFICIENCY (SUM),float64,0,2,0=Not mentioned | 1=Invest more in energy efficiency measures (e.g. improved insulation)
+qc12t.4,RESPONSE ECONOMIC PRESSURED DUE TO ENERGY: ECONOMIC MEASURES ENERGY BILLS (SUM),float64,0,2,0=Not mentioned | 1=Take economic measures to limit the price of energy bills for households such as tax energy companies' profits ...
+qc12t.5,RESPONSE ECONOMIC PRESSURED DUE TO ENERGY: DIRECT FIN SUPPORT TO ECON VULNERABLE SOC MEMBERS (SUM),float64,0,2,0=Not mentioned | 1=Give direct financial support to the most economically vulnerable members of society
+qc12t.6,RESPONSE ECONOMIC PRESSURED DUE TO ENERGY: OTHER (SPONT) (SUM),float64,0,2,0=Not mentioned | 1=Other (SPONTANEOUS)
+qc12t.7,RESPONSE ECONOMIC PRESSURED DUE TO ENERGY: DK (SPONT) (QC12A ONLY),float64,0,2,0=Not mentioned | 1=Don't know (SPONTANEOUS)
+qc13,EASE OF ACCESS TO NATURE/GREEN SPACES,float64,0,5,1=Very easy | 2=Somewhat easy | 3=Somewhat difficult | 4=Very difficult | 5=Don't know (SPONTANEOUS)
+qc14,PERS EXPOSURE TO ENV & CLIMATE RELATED RISKS,float64,0,5,1=Very exposed | 2=Somewhat exposed | 3=Not very exposed | 4=Not exposed at all | 5=Don't know (SPONTANEOUS)
+qd1,SMOKING TOBACCO - RESPONDENT SITUATION,float64,0,4,1=You currently smoke | 2=You used to smoke but you have stopped | 3=You have never smoked | 4=Don't know (SPONTANEOUS)
+qd2a_1,SMOKING HABITS CURRENTLY: BOXED CIGARETTES,float64,20036,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS) | 9=Inap. (not 1 in qd1)
+qd2a_2,SMOKING HABITS CURRENTLY: HAND-ROLLED CIGARETTES,float64,20036,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS) | 9=Inap. (not 1 in qd1)
+qd2a_3,SMOKING HABITS CURRENTLY: CIGARILLOS,float64,20036,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS) | 9=Inap. (not 1 in qd1)
+qd2a_4,SMOKING HABITS CURRENTLY: CIGARS,float64,20036,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS) | 9=Inap. (not 1 in qd1)
+qd2a_5,SMOKING HABITS CURRENTLY: PIPE,float64,20036,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS) | 9=Inap. (not 1 in qd1)
+qd2a_t,SMOKING HABITS CURRENTLY (SUM),float64,20036,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS) | 9=Inap. (not 1 in qd1)
+qd2b_1,SMOKING HABITS FORMERLY: BOXED CIGARETTES,float64,20673,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You have tried it only once or twice | 6=Never | 7=Refusal (SPONTANEOUS) | 9=Inap. (not 2 in qd1)
+qd2b_2,SMOKING HABITS FORMERLY: HAND-ROLLED CIGARETTES,float64,20673,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You have tried it only once or twice | 6=Never | 7=Refusal (SPONTANEOUS) | 9=Inap. (not 2 in qd1)
+qd2b_3,SMOKING HABITS FORMERLY: CIGARILLOS,float64,20673,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You have tried it only once or twice | 6=Never | 7=Refusal (SPONTANEOUS) | 9=Inap. (not 2 in qd1)
+qd2b_4,SMOKING HABITS FORMERLY: CIGARS,float64,20673,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You have tried it only once or twice | 6=Never | 7=Refusal (SPONTANEOUS) | 9=Inap. (not 2 in qd1)
+qd2b_5,SMOKING HABITS FORMERLY: PIPE,float64,20673,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You have tried it only once or twice | 6=Never | 7=Refusal (SPONTANEOUS) | 9=Inap. (not 2 in qd1)
+qd2b_t,SMOKING HABITS FORMERLY (SUM),float64,20673,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You have tried it only once or twice | 6=Never | 7=Refusal (SPONTANEOUS) | 9=Inap. (not 2 in qd1)
+qd2c,NON-SMOKERS: SMOKING EXPERIENCE,float64,12032,7,1=You have never tried any of these products | 2=You have tried at least one of these products once or twice | 3=You used to smoke at least one of them but no longer do so | 4=You smoke at least one of these products from time to time | 5=Other (SPONTANEOUS) | 6=Don't know (SPONTANEOUS) | 9=Inap. (not 3 in qd1)
+qd3_1,PRODUCT USAGE - E-CIGARETTES,float64,0,5,1=You currently use it | 2=You used to use it but you have stopped | 3=You have tried it only once or twice | 4=You have never used it | 5=Don't know (SPONTANEOUS)
+qd3_2,PRODUCT USAGE - HEATED TOBACCO PRODUCTS,float64,0,5,1=You currently use it | 2=You used to use it but you have stopped | 3=You have tried it only once or twice | 4=You have never used it | 5=Don't know (SPONTANEOUS)
+qd4a_1,SMOKING HABITS CURRENTLY: E-CIGARETTES WITH NICOTINE,float64,25587,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Don't know (SPONTANEOUS) | 9=Inap. (not 1 in qd3_1)
+qd4a_2,SMOKING HABITS CURRENTLY: E-CIGARETTES WITHOUT NICOTINE,float64,25587,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Don't know (SPONTANEOUS) | 9=Inap. (not 1 in qd3_1)
+qd4b_1,SMOKING HABITS FORMERLY: E-CIGARETTES WITH NICOTINE,float64,23560,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You have tried it only once or twice | 6=Never | 7=Refusal (SPONTANEOUS) | 9=Inap. (not 2-3 in qd3_1)
+qd4b_2,SMOKING HABITS FORMERLY: E-CIGARETTES WITHOUT NICOTINE,float64,23560,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You have tried it only once or twice | 6=Never | 7=Refusal (SPONTANEOUS) | 9=Inap. (not 2-3 in qd3_1)
+qd4c.1,EVER EXPOSED TO E-CIGARETTES: OFFERED BY COLLEAGUES/FRIENDS/FAMILY,float64,3953,3,"0=Not mentioned | 1=Yes, I have been offered e-cigarettes by colleagues, friends or family | 9=Inap. (not 4 in qd3_1)"
+qd4c.2,EVER EXPOSED TO E-CIGARETTES: SEEN AS PART OF PROMO OR ADS,float64,3953,3,"0=Not mentioned | 1=Yes, I have seen them as part of a promotion or advertisements | 9=Inap. (not 4 in qd3_1)"
+qd4c.3,EVER EXPOSED TO E-CIGARETTES: KNOW MANY PEOPLE WHO USE,float64,3953,3,"0=Not mentioned | 1=Yes, I know many people who use e-cigarettes | 9=Inap. (not 4 in qd3_1)"
+qd4c.4,EVER EXPOSED TO E-CIGARETTES: NO/NOT FAMILIAR,float64,3953,3,"0=Not mentioned | 1=No, I am not familiar with this type of product | 9=Inap. (not 4 in qd3_1)"
+qd4c.5,EVER EXPOSED TO E-CIGARETTES: DK (SPONT),float64,3953,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. (not 4 in qd3_1)
+qd5_1,SMOKING RELATED EXPERIENCE: HEATED TOBACCO PRODUCTS,float64,25851,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS) | 9=Inap. (not 1 in qd3_2)
+qd5_2,SMOKING RELATED EXPERIENCE: NICOTINE POUCHES,float64,0,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS)
+qd5_3,SMOKING RELATED EXPERIENCE: WATER PIPE,float64,0,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS)
+qd5_4,SMOKING RELATED EXPERIENCE: ORAL/NASAL TOBACCO,float64,0,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS)
+qd6a_1,SMOKING HABITS CURRENTLY: CIGARETTES PER DAY,float64,20726,1,999=Inap. (not 1-2 in qd2a_t or Refusal/DK)
+qd6a_1r,SMOKING HABITS CURRENTLY: CIGARETTES PER DAY (REC),float64,20726,8,1=Less than 1 unit | 2=From 1 to 5 units | 3=From 6 to 10 units | 4=From 11 to 20 units | 5=21 units or more | 6=Refusal | 7=Don't know | 9=Inap. (not 1-2 in qd2a_t or Refusal/DK in qd6a_1)
+qd6a_2,SMOKING HABITS CURRENTLY: HEATED TOBACCO PRODUCTS PER DAY,float64,25948,3,997=Refusal (SPONTANEOUS) | 998=Don't know (SPONTANEOUS) | 999=Inap. (not 1-2 in qd5_1)
+qd6a_2r,SMOKING HABITS CURRENTLY: HEATED TOBACCO PRODUCTS PER DAY (REC),float64,25948,8,1=Less than 1 unit | 2=From 1 to 5 units | 3=From 6 to 10 units | 4=From 11 to 20 units | 5=21 units or more | 6=Refusal (SPONTANEOUS) | 7=Don't know (SPONTANEOUS) | 9=Inap. (not 1-2 in qd5_1)
+qd6b_1,SMOKING HABITS FORMERLY: CIGARETTES PER DAY,float64,21805,3,997=Refusal (SPONTANEOUS) | 998=Don't know (SPONTANEOUS) | 999=Inap. (not 1-2 in qd2b_t or NA [not documented])
+qd6b_1r,SMOKING HABITS FORMERLY: CIGARETTES PER DAY (REC),float64,21805,8,1=Less than 1 unit | 2=From 1 to 5 units | 3=From 6 to 10 units | 4=From 11 to 20 units | 5=21 units or more | 6=Refusal (SPONTANEOUS) | 7=Don't know (SPONTANEOUS) | 9=Inap. (not 1-2 in qd2b_t or NA [not documented] in qd6b)
+qd6b_2,SMOKING HABITS FORMERLY: HEATED TOBACCO PRODUCTS PER DAY,float64,26349,1,999=Inap. (not 5 in qd5_1)
+qd6b_2r,SMOKING HABITS FORMERLY: HEATED TOBACCO PRODUCTS PER DAY (REC),float64,26349,8,1=Less than 1 unit | 2=From 1 to 5 units | 3=From 6 to 10 units | 4=From 11 to 20 units | 5=21 units or more | 6=Refusal | 7=Don't know | 9=Inap. (not 5 in qd5_1)
+qd6c,SMOKING HABITS CURRENTLY: E-CIGARETTE USES PER DAY,float64,26311,2,997=Refusal (SPONTANEOUS) | 999=Inap. (not 1-2 in qd4a_1 and qd4a_2 or not 7 in qd2a_t or not 4 in qd3_2)
+qd6c_r,SMOKING HABITS CURRENTLY: E-CIGARETTE USES PER DAY (REC),float64,26311,8,1=Less than 1 unit | 2=From 1 to 5 units | 3=From 6 to 10 units | 4=From 11 to 20 units | 5=21 units or more | 6=Refusal (SPONTANEOUS) | 7=Don't know | 9=Inap. (not 1-2 in qd4a_1 and qd4a_2 or not 7 in qd2a_t or not 4 in qd3_2)
+qd6d,SMOKING HABITS FORMERLY: E-CIGARETTE USES PER DAY,float64,26347,2,998=Don't know (SPONTANEOUS) | 999=Inap. (not 1-2 in qd4b_1 and qd4b_2 or not 6 in qd2b_t or not 4 in qd3_2)
+qd6d_r,SMOKING HABITS FORMERLY: E-CIGARETTE USES PER DAY (REC),float64,26347,8,1=Less than 1 unit | 2=From 1 to 5 units | 3=From 6 to 10 units | 4=From 11 to 20 units | 5=21 units or more | 6=Refusal | 7=Don't know (SPONTANEOUS) | 9=Inap. (not 1-2 in qd4b_1 and qd4b_2 or not 6 in qd2b_t or not 4 in qd3_2)
+qd7a_1,FREQUENCY OF CURRENT E-CIGARETTE USE: REUSABLE DEVICE WITH SINGLE USE CARTRIDGE,float64,25587,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS) | 9=Inap. (not 1 in qd3_1)
+qd7a_2,FREQUENCY OF CURRENT E-CIGARETTE USE: REFILLABLE DEVICE WITH TANK,float64,25587,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS) | 9=Inap. (not 1 in qd3_1)
+qd7a_3,FREQUENCY OF CURRENT E-CIGARETTE USE: DISPOSABLE DEVICE,float64,25587,9,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You used to use it regularly but you have stopped | 6=You have tried it only once or twice | 7=Never | 8=Refusal (SPONTANEOUS) | 9=Inap. (not 1 in qd3_1)
+qd7b_1,FREQUENCY OF FORMER E-CIGARETTE USE: REUSABLE DEVICE WITH SINGLE USE CARTRIDGE,float64,23560,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You have tried it only once or twice | 6=Never | 7=Refusal (SPONTANEOUS) | 9=Inap. (not 2-3 in qd3_1)
+qd7b_2,FREQUENCY OF FORMER E-CIGARETTE USE: REFILLABLE DEVICE WITH TANK,float64,23560,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You have tried it only once or twice | 6=Never | 7=Refusal (SPONTANEOUS) | 9=Inap. (not 2-3 in qd3_1)
+qd7b_3,FREQUENCY OF FORMER E-CIGARETTE USE: DISPOSABLE DEVICE,float64,23560,8,1=Every day | 2=Every week | 3=Every month | 4=Less than monthly | 5=You have tried it only once or twice | 6=Never | 7=Refusal (SPONTANEOUS) | 9=Inap. (not 2-3 in qd3_1)
+qd7c_1,E-CIGARETTES - APPEALING,float64,3953,6,"1=Yes, very appealing | 2=Yes, slightly appealing | 3=No, not very appealing | 4=No, not appealing at all | 5=Don't know (SPONTANEOUS) | 9=Inap. (not 4 in qd3_1)"
+qd7c_2,HEATED TOBACCO PRODUCTS - APPEALING,float64,2573,6,"1=Yes, very appealing | 2=Yes, slightly appealing | 3=No, not very appealing | 4=No, not appealing at all | 5=Don't know (SPONTANEOUS) | 9=Inap. (not 4 in qd3_2)"
+qd7c_3,NICOTINE POUCHES - APPEALING,float64,1514,6,"1=Yes, very appealing | 2=Yes, slightly appealing | 3=No, not very appealing | 4=No, not appealing at all | 5=Don't know (SPONTANEOUS) | 9=Inap. (not 7 in qd5_2)"
+qd8a.1,E-CIGARETTES FLAVOURS CURRENTLY: TOBACCO,float64,25667,3,0=Not mentioned | 1=Tobacco flavour | 9=Inap. (not 1-3 in qd4a_1 and qd4a_2)
+qd8a.2,E-CIGARETTES FLAVOURS CURRENTLY: MENTHOL/MINT,float64,25667,3,0=Not mentioned | 1=Menthol or mint flavour | 9=Inap. (not 1-3 in qd4a_1 and qd4a_2)
+qd8a.3,E-CIGARETTES FLAVOURS CURRENTLY: FRUIT,float64,25667,3,0=Not mentioned | 1=Fruit flavour (for example cherry or strawberry flavour) | 9=Inap. (not 1-3 in qd4a_1 and qd4a_2)
+qd8a.4,E-CIGARETTES FLAVOURS CURRENTLY: CANDY,float64,25667,3,0=Not mentioned | 1=Candy flavour (for example chocolate or vanilla flavour) | 9=Inap. (not 1-3 in qd4a_1 and qd4a_2)
+qd8a.5,E-CIGARETTES FLAVOURS CURRENTLY: ALCOHOL,float64,25667,3,0=Not mentioned | 1=Alcohol flavour (for example whisky or champagne) | 9=Inap. (not 1-3 in qd4a_1 and qd4a_2)
+qd8a.6,E-CIGARETTES FLAVOURS CURRENTLY: NICOTINE SALTS BASED,float64,25667,3,0=Not mentioned | 1=Nicotine salts-based liquid | 9=Inap. (not 1-3 in qd4a_1 and qd4a_2)
+qd8a.7,E-CIGARETTES FLAVOURS CURRENTLY: CBD/CANNABIS,float64,25667,3,0=Not mentioned | 1=CBD liquid or cannabis e-juice | 9=Inap. (not 1-3 in qd4a_1 and qd4a_2)
+qd8a.8,E-CIGARETTES FLAVOURS CURRENTLY: OTHER (SPONT),float64,25667,3,0=Not mentioned | 1=Other (SPONTANEOUS) | 9=Inap. (not 1-3 in qd4a_1 and qd4a_2)
+qd8a.9,E-CIGARETTES FLAVOURS CURRENTLY: DK (SPONT),float64,25667,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. (not 1-3 in qd4a_1 and qd4a_2)
+qd8b.1,E-CIGARETTES FLAVOURS FORMERLY: TOBACCO,float64,25636,3,0=Not mentioned | 1=Tobacco flavour | 9=Inap. (not 1-3 in qd4b_1 and qd4b_2)
+qd8b.2,E-CIGARETTES FLAVOURS FORMERLY: MENTHOL/MINT,float64,25636,3,0=Not mentioned | 1=Menthol or mint flavour | 9=Inap. (not 1-3 in qd4b_1 and qd4b_2)
+qd8b.3,E-CIGARETTES FLAVOURS FORMERLY: FRUIT,float64,25636,3,0=Not mentioned | 1=Fruit flavour (for example cherry or strawberry flavour) | 9=Inap. (not 1-3 in qd4b_1 and qd4b_2)
+qd8b.4,E-CIGARETTES FLAVOURS FORMERLY: CANDY,float64,25636,3,0=Not mentioned | 1=Candy flavour (for example chocolate or vanilla flavour) | 9=Inap. (not 1-3 in qd4b_1 and qd4b_2)
+qd8b.5,E-CIGARETTES FLAVOURS FORMERLY: ALCOHOL,float64,25636,3,0=Not mentioned | 1=Alcohol flavour (for example whisky or champagne) | 9=Inap. (not 1-3 in qd4b_1 and qd4b_2)
+qd8b.6,E-CIGARETTES FLAVOURS FORMERLY: NICOTINE SALTS BASED,float64,25636,3,0=Not mentioned | 1=Nicotine salts-based liquid | 9=Inap. (not 1-3 in qd4b_1 and qd4b_2)
+qd8b.7,E-CIGARETTES FLAVOURS FORMERLY: CBD/CANNABIS,float64,25636,3,0=Not mentioned | 1=CBD liquid or cannabis e-juice | 9=Inap. (not 1-3 in qd4b_1 and qd4b_2)
+qd8b.8,E-CIGARETTES FLAVOURS FORMERLY: OTHER (SPONT),float64,25636,3,0=Not mentioned | 1=Other (SPONTANEOUS) | 9=Inap. (not 1-3 in qd4b_1 and qd4b_2)
+qd8b.9,E-CIGARETTES FLAVOURS FORMERLY: DK (SPONT),float64,25636,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. (not 1-3 in qd4b_1 and qd4b_2)
+qd8c_1,E-CIGARETTES - HELP QUIT TOBACCO,float64,3953,4,1=Yes | 2=No | 3=Don't know (SPONTANEOUS) | 9=Inap. (not 4 in qd3_1)
+qd8c_2,HEATED TOBACCO PRODUCTS - HELP QUIT TOBACCO,float64,2573,4,1=Yes | 2=No | 3=Don't know (SPONTANEOUS) | 9=Inap. (not 4 in qd3_2)
+qd9a.1,REASON STARTED USING E-CIGARETTES: STOP/REDUCE TOBACCO CONSUMPTION,float64,24464,3,0=Not mentioned | 1=To stop or reduce your tobacco consumption | 9=Inap. (not 1-3 in qd3_1 or not 4 in qd3_2)
+qd9a.2,REASON STARTED USING E-CIGARETTES: COOL/ATTRACTIVE,float64,24464,3,0=Not mentioned | 1=They were cool or attractive | 9=Inap. (not 1-3 in qd3_1 or not 4 in qd3_2)
+qd9a.3,REASON STARTED USING E-CIGARETTES: COULD VAPE WHERE SMOKING NOT ALLOWED,float64,24464,3,0=Not mentioned | 1=You could vape in places where tobacco smoking was not allowed | 9=Inap. (not 1-3 in qd3_1 or not 4 in qd3_2)
+qd9a.4,REASON STARTED USING E-CIGARETTES: CHEAPER,float64,24464,3,0=Not mentioned | 1=They were cheaper than tobacco | 9=Inap. (not 1-3 in qd3_1 or not 4 in qd3_2)
+qd9a.5,REASON STARTED USING E-CIGARETTES: FRIENDS USED E-CIGARETTES,float64,24464,3,0=Not mentioned | 1=Your friends used e-cigarettes | 9=Inap. (not 1-3 in qd3_1 or not 4 in qd3_2)
+qd9a.6,REASON STARTED USING E-CIGARETTES: LIKED FLAVOURS,float64,24464,3,0=Not mentioned | 1=You liked the flavours of e-cigarettes | 9=Inap. (not 1-3 in qd3_1 or not 4 in qd3_2)
+qd9a.7,REASON STARTED USING E-CIGARETTES: BELIEVED LESS HARMFUL THAN TOBACCO,float64,24464,3,0=Not mentioned | 1=You believed that vaping was less harmful than smoking cigarettes | 9=Inap. (not 1-3 in qd3_1 or not 4 in qd3_2)
+qd9a.8,REASON STARTED USING E-CIGARETTES: WERE MORE SOCIALLY ACCEPTABLE,float64,24464,3,0=Not mentioned | 1=They were more socially acceptable than smoking cigarettes | 9=Inap. (not 1-3 in qd3_1 or not 4 in qd3_2)
+qd9a.9,REASON STARTED USING E-CIGARETTES: OTHER (SPONT),float64,24464,3,0=Not mentioned | 1=Other (SPONTANEOUS) | 9=Inap. (not 1-3 in qd3_1 or not 4 in qd3_2)
+qd9a.10,REASON STARTED USING E-CIGARETTES: NONE (SPONT),float64,24464,3,0=Not mentioned | 1=None (SPONTANEOUS) | 9=Inap. (not 1-3 in qd3_1 or not 4 in qd3_2)
+qd9a.11,REASON STARTED USING E-CIGARETTES: DK (SPONT),float64,24464,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. (not 1-3 in qd3_1 or not 4 in qd3_2)
+qd9b.1,REASON STARTED USING HEATED TOBACCO PRODUCTS: STOP/REDUCE TOBACCO CONSUMPTION,float64,25848,3,0=Not mentioned | 1=To stop or reduce your tobacco consumption | 9=Inap. (not 4 in qd3_1 or not 1-3 in qd3_2)
+qd9b.2,REASON STARTED USING HEATED TOBACCO PRODUCTS: COOL/ATTRACTIVE,float64,25848,3,0=Not mentioned | 1=They were cool or attractive | 9=Inap. (not 4 in qd3_1 or not 1-3 in qd3_2)
+qd9b.3,REASON STARTED USING HEATED TOBACCO PRODUCTS: COULD CONSUME TOBACCO WHERE SMOKING NOT ALLOWED,float64,25848,3,0=Not mentioned | 1=You could consume tobacco in places where tobacco smoking was not allowed | 9=Inap. (not 4 in qd3_1 or not 1-3 in qd3_2)
+qd9b.4,REASON STARTED USING HEATED TOBACCO PRODUCTS: CHEAPER,float64,25848,3,0=Not mentioned | 1=They were cheaper than other tobacco products | 9=Inap. (not 4 in qd3_1 or not 1-3 in qd3_2)
+qd9b.5,REASON STARTED USING HEATED TOBACCO PRODUCTS: FRIENDS USED HEATED TOBACCO PRODUCTS,float64,25848,3,0=Not mentioned | 1=Your friends used heated tobacco products | 9=Inap. (not 4 in qd3_1 or not 1-3 in qd3_2)
+qd9b.6,REASON STARTED USING HEATED TOBACCO PRODUCTS: LIKED FLAVOURS,float64,25848,3,0=Not mentioned | 1=You liked the flavours of heated tobacco products | 9=Inap. (not 4 in qd3_1 or not 1-3 in qd3_2)
+qd9b.7,REASON STARTED USING HEATED TOBACCO PRODUCTS: BELIEVED LESS HARMFUL THAN TOBACCO,float64,25848,3,0=Not mentioned | 1=You believed that these products were less harmful than smoking cigarettes | 9=Inap. (not 4 in qd3_1 or not 1-3 in qd3_2)
+qd9b.8,REASON STARTED USING HEATED TOBACCO PRODUCTS: WERE MORE SOCIALLY ACCEPTABLE,float64,25848,3,0=Not mentioned | 1=They were more socially acceptable than smoking cigarettes | 9=Inap. (not 4 in qd3_1 or not 1-3 in qd3_2)
+qd9b.9,REASON STARTED USING HEATED TOBACCO PRODUCTS: OTHER (SPONT),float64,25848,3,0=Not mentioned | 1=Other (SPONTANEOUS) | 9=Inap. (not 4 in qd3_1 or not 1-3 in qd3_2)
+qd9b.10,REASON STARTED USING HEATED TOBACCO PRODUCTS: NONE (SPONT),float64,25848,3,0=Not mentioned | 1=None (SPONTANEOUS) | 9=Inap. (not 4 in qd3_1 or not 1-3 in qd3_2)
+qd9b.11,REASON STARTED USING HEATED TOBACCO PRODUCTS: DK (SPONT),float64,25848,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. (not 4 in qd3_1 or not 1-3 in qd3_2)
+qd9c.1,REASON STARTED USING E-CIGARETTES/HEATED TOBACCO PRODUCTS: STOP/REDUCE TOBACCO CONSUMPTION,float64,24749,3,0=Not mentioned | 1=To stop or reduce your tobacco consumption | 9=Inap. (not 1-3 in qd3_1 or qd3_2)
+qd9c.2,REASON STARTED USING E-CIGARETTES/HEATED TOBACCO PRODUCTS: COOL/ATTRACTIVE,float64,24749,3,0=Not mentioned | 1=They were cool or attractive | 9=Inap. (not 1-3 in qd3_1 or qd3_2)
+qd9c.3,REASON STARTED USING E-CIGARETTES/HEATED TOBACCO PRODUCTS: COULD VAPE/CONSUME WHERE SMOKING NOT ALLOWED,float64,24749,3,0=Not mentioned | 1=You could vape or consume tobacco in places where tobacco smoking was not allowed | 9=Inap. (not 1-3 in qd3_1 or qd3_2)
+qd9c.4,REASON STARTED USING E-CIGARETTES/HEATED TOBACCO PRODUCTS: CHEAPER,float64,24749,3,0=Not mentioned | 1=They were cheaper than other tobacco products | 9=Inap. (not 1-3 in qd3_1 or qd3_2)
+qd9c.5,REASON STARTED USING E-CIGARETTES/HEATED TOBACCO PRODUCTS: FRIENDS USED E-CIGARETTES/HEATED TOBACCO PRODUCTS,float64,24749,3,0=Not mentioned | 1=Your friends used e-cigarettes or heated tobacco products | 9=Inap. (not 1-3 in qd3_1 or qd3_2)
+qd9c.6,REASON STARTED USING E-CIGARETTES/HEATED TOBACCO PRODUCTS: LIKED FLAVOURS,float64,24749,3,0=Not mentioned | 1=You liked the flavours of e-cigarettes or heated tobacco products | 9=Inap. (not 1-3 in qd3_1 or qd3_2)
+qd9c.7,REASON STARTED USING E-CIGARETTES/HEATED TOBACCO PRODUCTS: BELIEVED LESS HARMFUL THAN TOBACCO,float64,24749,3,0=Not mentioned | 1=You believed that these products were less harmful than smoking cigarettes | 9=Inap. (not 1-3 in qd3_1 or qd3_2)
+qd9c.8,REASON STARTED USING E-CIGARETTES/HEATED TOBACCO PRODUCTS: WERE MORE SOCIALLY ACCEPTABLE,float64,24749,3,0=Not mentioned | 1=They were more socially acceptable than smoking cigarettes | 9=Inap. (not 1-3 in qd3_1 or qd3_2)
+qd9c.9,REASON STARTED USING E-CIGARETTES/HEATED TOBACCO PRODUCTS: OTHER (SPONT),float64,24749,3,0=Not mentioned | 1=Other (SPONTANEOUS) | 9=Inap. (not 1-3 in qd3_1 or qd3_2)
+qd9c.10,REASON STARTED USING E-CIGARETTES/HEATED TOBACCO PRODUCTS: NONE (SPONT),float64,24749,3,0=Not mentioned | 1=None (SPONTANEOUS) | 9=Inap. (not 1-3 in qd3_1 or qd3_2)
+qd9c.11,REASON STARTED USING E-CIGARETTES/HEATED TOBACCO PRODUCTS: DK (SPONT),float64,24749,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. (not 1-3 in qd3_1 or qd3_2)
+qd9d_1,E-CIGARETTES - SHOULD BE AS STRICTLY REGULATED,float64,4473,4,1=Yes | 2=No | 3=Don't know (SPONTANEOUS) | 9=Inap. (not 4 in qd3_1 or qd3_2)
+qd9d_2,HEATED TOBACCO PRODUCTS - SHOULD BE AS STRICTLY REGULATED,float64,4473,4,1=Yes | 2=No | 3=Don't know (SPONTANEOUS) | 9=Inap. (not 4 in qd3_1 or qd3_2)
+qd10a,E-CIGARETTES HELP STOP/REDUCE TOBACCO CONSUMPTION,float64,24845,7,"1=Yes, you stopped smoking tobacco completely | 2=Yes, you stopped smoking tobacco for a while but then you started again | 3=Yes, you reduced your tobacco consumption but you did not stop | 4=No, you did not reduce your tobacco consumption at all | 5=No, and you actually increased your tobacco consumption | 6=Don't know (SPONTANEOUS) | 9=Inap. (not 1-2 in qd1 or not 1-3 in qd3_1 or not 4 qd3_2)"
+qd10b,HEATED TOBACCO PRODUCTS HELP STOP/REDUCE TOBACCO CONSUMPTION,float64,25913,7,"1=Yes, you stopped smoking tobacco completely | 2=Yes, you stopped smoking tobacco for a while but then you started again | 3=Yes, you reduced your tobacco consumption but you did not stop | 4=No, you did not reduce your tobacco consumption at all | 5=No, and you actually increased your tobacco consumption | 6=Don't know (SPONTANEOUS) | 9=Inap. (not 1-2 in qd1 or not 4 in qd3_1 or not 1-3 in qd3_2)"
+qd10c,E-CIGARETTES/HEATED TOBACCO PRODUCTS HELP STOP/REDUCE TOBACCO CONSUMPTION,float64,24936,7,"1=Yes, you stopped smoking tobacco completely | 2=Yes, you stopped smoking tobacco for a while but then you started again | 3=Yes, you reduced your tobacco consumption but you did not stop | 4=No, you did not reduce your tobacco consumption at all | 5=No, and you actually increased your tobacco consumption | 6=Don't know (SPONTANEOUS) | 9=Inap. (not 1-2 in qd1 or not 1-3 in qd3_1 or qd3_2)"
+qd10d_1,E-CIGARETTES - KEEP OUT OF SIGHT IN SHOPS,float64,12918,4,1=In favour | 2=Not in favour | 3=Don't know (SPONTANEOUS) | 9=Inap. (not 3 in qd1 or not 4 in qd3_1 or qd3_2)
+qd10d_2,HEATED TOBACCO PRODUCTS - KEEP OUT OF SIGHT IN SHOPS,float64,12918,4,1=In favour | 2=Not in favour | 3=Don't know (SPONTANEOUS) | 9=Inap. (not 3 in qd1 or not 4 in qd3_1 or qd3_2)
+qd11a,SMOKING HABITS - PRODUCT USED FIRST,float64,13126,15,"1=Boxed cigarettes | 2=Hand-rolled cigarettes | 3=Cigars | 4=Cigarillos | 5=Pipe | 6=Water pipe tobacco (shisha, hookah) | 7=Oral tobacco (snus) | 8=Chewing tobacco | 9=Nasal tobacco (snuff) | 10=Nicotine pouches | 11=E-cigarettes or similar electronic devices | 12=Heated tobacco products | 13=Other (SPONTANEOUS) | 14=Don't know (SPONTANEOUS) | 99=Inap. ((not 1-2 in qd1) and (not 1-3 in qd3_1 and qd3_2) and (not 1-6 in qd5_2 to qd5_4))"
+qd11b_1,HEATED TOBACCO PRODUCTS/DEVICES - SEEN IN PAST 12 MONTHS,float64,13548,6,1=Often | 2=From time to time | 3=Rarely | 4=Never | 5=Don't know (SPONTANEOUS) | 9=Inap. (not 3 in qd1 or not 4 in qd3_1 or qd3_2 or not 7 in qd5_2 or qd5_3 or qd5_4)
+qd11b_2,NICOTINE POUCHES - SEEN IN PAST 12 MONTHS,float64,13548,6,1=Often | 2=From time to time | 3=Rarely | 4=Never | 5=Don't know (SPONTANEOUS) | 9=Inap. (not 3 in qd1 or not 4 in qd3_1 or qd3_2 or not 7 in qd5_2 or qd5_3 or qd5_4)
+qd12a1,SMOKING AGE WHEN STARTED: LESS THAN 15,float64,13156,3,0=Not mentioned | 1=Less than 15 years old | 9=Inap. ((not 1-2 in qd1) + (not 1-3 in qd3_1 and qd3_2) and (not 1-6 in qd5_2 to qd5_4) or NA [not documented])
+qd12a2,SMOKING AGE WHEN STARTED: BETWEEN 15 AND 18,float64,13156,3,0=Not mentioned | 1=Between 15 and 18 years old | 9=Inap. ((not 1-2 in qd1) + (not 1-3 in qd3_1 and qd3_2) and (not 1-6 in qd5_2 to qd5_4) or NA [not documented])
+qd12a3,SMOKING AGE WHEN STARTED: BETWEEN 19 AND 25,float64,13156,3,0=Not mentioned | 1=Between 19 and 25 years old | 9=Inap. ((not 1-2 in qd1) + (not 1-3 in qd3_1 and qd3_2) and (not 1-6 in qd5_2 to qd5_4) or NA [not documented])
+qd12a4,SMOKING AGE WHEN STARTED: OLDER THAN 25,float64,13156,3,0=Not mentioned | 1=Older than 25 years old | 9=Inap. ((not 1-2 in qd1) + (not 1-3 in qd3_1 and qd3_2) and (not 1-6 in qd5_2 to qd5_4) or NA [not documented])
+qd12a5,SMOKING AGE WHEN STARTED: REFUSAL (SPONT),float64,13156,3,0=Not mentioned | 1=Refusal (SPONTANEOUS) | 9=Inap. ((not 1-2 in qd1) + (not 1-3 in qd3_1 and qd3_2) and (not 1-6 in qd5_2 to qd5_4) or NA [not documented])
+qd12a6,SMOKING AGE WHEN STARTED: DK (SPONT),float64,13156,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. ((not 1-2 in qd1) + (not 1-3 in qd3_1 and qd3_2) and (not 1-6 in qd5_2 to qd5_4) or NA [not documented])
+qd12at1,LENGTH OF TIME AS SMOKER: 2 YEARS OR LESS,float64,20036,3,0=Not mentioned | 1=2 years or less | 9=Inap. (not 1 in qd1)
+qd12at2,LENGTH OF TIME AS SMOKER: 3 TO 5 YEARS,float64,20036,3,0=Not mentioned | 1=3-5 years | 9=Inap. (not 1 in qd1)
+qd12at3,LENGTH OF TIME AS SMOKER: 6 TO 10 YEARS,float64,20036,3,0=Not mentioned | 1=6-10 years | 9=Inap. (not 1 in qd1)
+qd12at4,LENGTH OF TIME AS SMOKER: 11 TO 20 YEARS,float64,20036,3,0=Not mentioned | 1=11-20 years | 9=Inap. (not 1 in qd1)
+qd12at5,LENGTH OF TIME AS SMOKER: 21 TO 40 YEARS,float64,20036,3,0=Not mentioned | 1=21-40 years | 9=Inap. (not 1 in qd1)
+qd12at6,LENGTH OF TIME AS SMOKER: MORE THAN 40 YEARS,float64,20036,3,0=Not mentioned | 1=More than 40 years | 9=Inap. (not 1 in qd1)
+qd12at7,LENGTH OF TIME AS SMOKER: REFUSAL (SPONT),float64,20036,3,0=Not mentioned | 1=Refusal (SPONTANEOUS) | 9=Inap. (not 1 in qd1)
+qd12at8,LENGTH OF TIME AS SMOKER: DK (SPONT),float64,20036,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. (not 1 in qd1)
+qd12b_1,EVER EXPOSED TO HEATED TOBACCO PRODUCTS/NICOTINE POUCHES - OFFERED BY COLLEAGUES/FRIENDS/FAMILY,float64,13548,3,"0=Not mentioned | 1=Yes, I have been offered heated tobacco products or nicotine pouches by colleagues, friends or family | 9=Inap. (not 3 in qd1 or not 4 in qd3_1 or qd3_2 or not 7 in qd5_2 or qd5_3 or qd5_4)"
+qd12b_2,EVER EXPOSED TO HEATED TOBACCO PRODUCTS/NICOTINE POUCHES - SEEN AS PART OF PROMOTION/COMMERCIAL,float64,13548,3,"0=Not mentioned | 1=Yes, I have seen them as part of a promotion or commercial | 9=Inap. (not 3 in qd1 or not 4 in qd3_1 or qd3_2 or not 7 in qd5_2 or qd5_3 or qd5_4)"
+qd12b_3,EVER EXPOSED TO HEATED TOBACCO PRODUCTS/NICOTINE POUCHES - KNOW MANY PEOPLE WHO USE,float64,13548,3,"0=Not mentioned | 1=Yes, I know many people who use heated tobacco products or nicotine pouches | 9=Inap. (not 3 in qd1 or not 4 in qd3_1 or qd3_2 or not 7 in qd5_2 or qd5_3 or qd5_4)"
+qd12b_4,EVER EXPOSED TO HEATED TOBACCO PRODUCTS/NICOTINE POUCHES - NO/NOT FAMILIAR,float64,13548,3,"0=Not mentioned | 1=No, I am not familiar with these products | 9=Inap. (not 3 in qd1 or not 4 in qd3_1 or qd3_2 or not 7 in qd5_2 or qd5_3 or qd5_4)"
+qd12b_5,EVER EXPOSED TO HEATED TOBACCO PRODUCTS/NICOTINE POUCHES - DK (SPONT),float64,13548,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. (not 3 in qd1 or not 4 in qd3_1 or qd3_2 or not 7 in qd5_2 or qd5_3 or qd5_4)
+qd12b_t,EVER EXPOSED TO HEATED TOBACCO PRODUCTS/NICOTINE POUCHES - TOTAL YES (SUM),float64,14387,3,0=Not mentioned | 1=Total Yes | 9=Inap. (not 1 in qd12b_1 to qd12b_4)
+qd13a_1,QUIT SMOKING AIDS CURRENT USERS: NICOTINE REPLACEMENT,float64,20036,3,"0=Not mentioned | 1=Nicotine replacement medication (like nicotine gum, patch or inhaler) or other medication | 9=Inap. (not 1 in qd1)"
+qd13a_2,QUIT SMOKING AIDS CURRENT USERS: E-CIGARETTES,float64,20036,3,0=Not mentioned | 1=Electronic cigarettes or any similar device | 9=Inap. (not 1 in qd1)
+qd13a_3,QUIT SMOKING AIDS CURRENT USERS: HEATED TOBACCO PRODUCTS,float64,20036,3,0=Not mentioned | 1=Heated tobacco products | 9=Inap. (not 1 in qd1)
+qd13a_4,QUIT SMOKING AIDS CURRENT USERS: ORAL/NASAL TOBACCO,float64,20036,3,"0=Not mentioned | 1=Oral tobacco (snus), nicotine pouches, chewing tobacco or nasal tobacco (snuff) | 9=Inap. (not 1 in qd1)"
+qd13a_5,QUIT SMOKING AIDS CURRENT USERS: MEDICAL SUPPORT/STOP SERVICES,float64,20036,3,0=Not mentioned | 1=Medical support or stop smoking services (such as a quitline) | 9=Inap. (not 1 in qd1)
+qd13a_6,QUIT SMOKING AIDS CURRENT USERS: STOPPED/TRIED WITHOUT ASSISTANCE,float64,20036,3,0=Not mentioned | 1=You stopped or you tried to stop without assistance | 9=Inap. (not 1 in qd1)
+qd13a_7,QUIT SMOKING AIDS CURRENT USERS: OTHER (SPONT),float64,20036,3,0=Not mentioned | 1=Other (SPONTANEOUS) | 9=Inap. (not 1 in qd1)
+qd13a_8,QUIT SMOKING AIDS CURRENT USERS: NONE OF THESE (SPONT),float64,20036,3,0=Not mentioned | 1=None of these (SPONTANEOUS) | 9=Inap. (not 1 in qd1)
+qd13a_9,QUIT SMOKING AIDS CURRENT USERS: DK (SPONT),float64,20036,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. (not 1 in qd1)
+qd13a_t,QUIT SMOKING AIDS CURRENT USERS: AT LEAST ONE (SUM),float64,20036,5,1=None | 2=One aid used | 3=Two aids used | 4=Three aids or more used | 9=Inap. (not 1 in qd1)
+qd13b_1,QUIT SMOKING AIDS FORMER USERS: NICOTINE REPLACEMENT,float64,20673,3,"0=Not mentioned | 1=Nicotine replacement medication (like nicotine gum, patch or inhaler) or other medication | 9=Inap. (not 2 in qd1)"
+qd13b_2,QUIT SMOKING AIDS FORMER USERS: E-CIGARETTES,float64,20673,3,0=Not mentioned | 1=Electronic cigarettes or any similar device | 9=Inap. (not 2 in qd1)
+qd13b_3,QUIT SMOKING AIDS FORMER USERS: HEATED TOBACCO PRODUCTS,float64,20673,3,0=Not mentioned | 1=Heated tobacco products | 9=Inap. (not 2 in qd1)
+qd13b_4,QUIT SMOKING AIDS FORMER USERS: ORAL/NASAL TOBACCO,float64,20673,3,"0=Not mentioned | 1=Oral tobacco (snus), nicotine pouches, chewing tobacco or nasal tobacco (snuff) | 9=Inap. (not 2 in qd1)"
+qd13b_5,QUIT SMOKING AIDS FORMER USERS: MEDICAL SUPPORT/STOP SERVICES,float64,20673,3,0=Not mentioned | 1=Medical support or stop smoking services (such as a quitline) | 9=Inap. (not 2 in qd1)
+qd13b_6,QUIT SMOKING AIDS FORMER USERS: STOPPED/TRIED WITHOUT ASSISTANCE,float64,20673,3,0=Not mentioned | 1=You stopped or you tried to stop without assistance | 9=Inap. (not 2 in qd1)
+qd13b_7,QUIT SMOKING AIDS FORMER USERS: OTHER (SPONT),float64,20673,3,0=Not mentioned | 1=Other (SPONTANEOUS) | 9=Inap. (not 2 in qd1)
+qd13b_8,QUIT SMOKING AIDS FORMER USERS: NONE OF THE ABOVE (SPONT),float64,20673,3,0=Not mentioned | 1=None of these (SPONTANEOUS) | 9=Inap. (not 2 in qd1)
+qd13b_9,QUIT SMOKING AIDS FORMER USERS: DK (SPONT),float64,20673,3,0=Not mentioned | 1=Don't know (SPONTANEOUS) | 9=Inap. (not 2 in qd1)
+qd13b_t,QUIT SMOKING AIDS FORMER USERS: AT LEAST ONE (SUM),float64,20673,5,1=None | 2=One aid used | 3=Two aids used | 4=Three aids or more used | 9=Inap. (not 2 in qd1)
+qd14_1,SMOKING EXPERIENCE: INDOOR WHERE NORMALLY NO SMOKING,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd14_2,SMOKING EXPERIENCE: OUTDOOR TERRACE EATING/DRINKING ESTABLISHMENT,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd14_3,SMOKING EXPERIENCE: OUTDOOR SPACES FOR CHILDREN/ADOLESCENTS,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd14_4,SMOKING EXPERIENCE: OUTDOOR EVENTS,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd14_5,SMOKING EXPERIENCE: PUBLIC SPACES,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd14_6,SMOKING EXPERIENCE: OPEN AIR PUB TRANSPORT STATIONS,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd15_1,E-CIG/HEATED TOBACCO EXPERIENCE: INDOOR WHERE NORMALLY NO SMOKING,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd15_2,E-CIG/HEATED TOBACCO EXPERIENCE: OUTDOOR TERRACE EATING/DRINKING ESTABLISHMENT,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd15_3,E-CIG/HEATED TOBACCO EXPERIENCE: OUTDOOR SPACES FOR CHILDREN/ADOLESCENTS,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd15_4,E-CIG/HEATED TOBACCO EXPERIENCE: OUTDOOR EVENTS,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd15_5,E-CIG/HEATED TOBACCO EXPERIENCE: PUBLIC SPACES,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd15_6,E-CIG/HEATED TOBACCO EXPERIENCE: OPEN AIR PUB TRANSPORT STATIONS,float64,0,4,1=Yes | 2=No | 3=Have not visited in the past 6 months (SPONTANEOUS) | 4=Don't know (SPONTANEOUS)
+qd16_1,SMOKING POLICY: PLAIN PACKAGING,float64,0,3,1=In favour | 2=Not in favour | 3=Don't know (SPONTANEOUS)
+qd16_2,SMOKING POLICY: SMOKING BAN WHERE DISTANCE CANNOT BE ENSURED,float64,0,3,1=In favour | 2=Not in favour | 3=Don't know (SPONTANEOUS)
+qd16_3,SMOKING POLICY: BAN E-CIGARETTES/HEATED TOBACCO WHERE SMOKING IS PROHIBITED,float64,0,3,1=In favour | 2=Not in favour | 3=Don't know (SPONTANEOUS)
+qd16_4,SMOKING POLICY: BAN E-CIGARETTES FLAVOURS,float64,0,3,1=In favour | 2=Not in favour | 3=Don't know (SPONTANEOUS)
+d7,MARITAL STATUS,float64,0,16,1=(Re-)Married: without children | 2=(Re-)Married: children this marriage | 3=(Re-)Married: children prev marriage | 4=(Re-)Married: children this/prev marriage | 5=Single liv w partner: without children | 6=Single liv w partner: childr this union | 7=Single liv w partner: childr prev union | 8=Single liv w partner: childr this/prev union | 9=Single: without children | 10=Single: with children | 11=Divorced/Separated: without children | 12=Divorced/Separated: with children | 13=Widow: without children | 14=Widow: with children | 15=Other (SPONT.) | 97=Refusal (SPONT.)
+d7r1,MARITAL STATUS (RECODED 1),float64,0,7,1=(Re-)Married (1-4 in d7) | 2=Single living with partner (5-8 in d7) | 3=Single (9-10 in d7) | 4=Divorced or separated (11-12 in d7) | 5=Widow (13-14 in d7) | 6=Other (SPONT.) | 7=Refusal (SPONT.)
+d7r2,MARITAL STATUS (RECODED 2),float64,0,6,1=Unmarried (9-10 in d7) | 2=(Re-)Married/Single with partner (1-8 in d7) | 3=Divorced or separated (11-12 in d7) | 4=Widowed (13-14 in d7) | 5=Other (SPONT.) | 7=Refusal (SPONT.)
+d7r3,MARITAL STATUS (RECODED CHILDREN),float64,0,6,"1=Single hh without children (9,11,13 in d7) | 2=Single hh with children (10,12,14 in d7) | 3=Multiple hh without children (1, 5 in d7) | 4=Multiple hh with children (2-4, 6-8 in d7) | 5=Other (SPONT.) | 7=Refusal (SPONT.)"
+d8,AGE EDUCATION,float64,0,6,0=Refusal | 2=2 years | 82=82 years | 997=No full-time education | 998=Still studying | 999=DK
+d8r1,AGE EDUCATION (RECODED 11 CAT),float64,0,13,1=Up to 14 years | 2=15 years | 3=16 years | 4=17 years | 5=18 years | 6=19 years | 7=20 years | 8=21 years | 9=22 years and older | 10=Still studying | 11=No full-time education | 97=Refusal | 98=DK
+d8r2,AGE EDUCATION (RECODED 5 CAT),float64,0,7,1=15- | 2=16-19 | 3=20+ | 4=Still Studying | 5=No full-time education | 6=Refusal | 7=Don't know
+d9a.1,EDUCATION LEVEL: PRE-PRIMARY EDUCATION (INCL NO EDUCATION),float64,0,2,0=Not mentioned | 1=Pre-primary education (include no education)
+d9a.2,EDUCATION LEVEL: PRIMARY EDUCATION,float64,0,2,0=Not mentioned | 1=Primary education
+d9a.3,EDUCATION LEVEL: LOWER SECONDARY EDUCATION,float64,0,2,0=Not mentioned | 1=Lower secondary education
+d9a.4,EDUCATION LEVEL: UPPER SECONDARY EDUCATION,float64,0,2,0=Not mentioned | 1=Upper secondary education
+d9a.5,EDUCATION LEVEL: POST-SECONDARY NON TERTIARY (INCL PRE-VOCATIONAL/VOCATIONAL),float64,0,2,0=Not mentioned | 1=Post-secondary non tertiary (including pre-vocational or vocational education)
+d9a.6,EDUCATION LEVEL: SHORT-CYCLE TERTIARY,float64,0,2,0=Not mentioned | 1=Short-cycle tertiary
+d9a.7,EDUCATION LEVEL: BACHELOR OR EQUIVALENT,float64,0,2,0=Not mentioned | 1=Bachelor or equivalent
+d9a.8,EDUCATION LEVEL: MASTER OR EQUIVALENT,float64,0,2,0=Not mentioned | 1=Master or equivalent
+d9a.9,EDUCATION LEVEL: DOCTORAL OR EQUIVALENT,float64,0,2,0=Not mentioned | 1=Doctoral or equivalent
+d9a.10,EDUCATION LEVEL: EDUCATION UP TO ISCED 4 COMPLETED ABROAD (SPONTANEOUS),float64,0,2,0=Not mentioned | 1=Education up to ISCED 4 completed abroad
+d9a.11,EDUCATION LEVEL: EDUCATION ISCED 5 AND ABOVE COMPLETED ABROAD (SPONTANEOUS),float64,0,2,0=Not mentioned | 1=Education ISCED 5 and above completed abroad
+d9a.12,EDUCATION LEVEL: REFUSAL (SPONTANEOUS),float64,0,2,0=Not mentioned | 1=Refusal (SPONTANEOUS)
+d9a.13,EDUCATION LEVEL: DON'T KNOW (SPONTANEOUS),float64,0,2,0=Not mentioned | 1=Don't know
+d10,GENDER,float64,0,3,1=Man | 2=Woman | 3=None of the above/ Non binary/ do not recognize yourself in above categories/Prefer not to say
+d15a,OCCUPATION OF RESPONDENT,float64,0,18,"1=Responsible for ordinary shopping, etc. | 2=Student | 3=Unemployed, temporarily not working | 4=Retired, unable to work | 5=Farmer | 6=Fisherman | 7=Professional (lawyer, etc.) | 8=Owner of a shop, craftsmen, etc. | 9=Business proprietors, etc. | 10=Employed professional (employed doctor, etc.) | 11=General management, etc. | 12=Middle management, etc. | 13=Employed position, at desk | 14=Employed position, travelling | 15=Employed position, service job | 16=Supervisor | 17=Skilled manual worker | 18=Unskilled manual worker, etc."
+d15a_r1,OCCUPATION OF RESPONDENT (RECODED),float64,0,3,1=Self-employed | 2=Employed | 3=Not working
+d15a_r2,RESPONDENT OCCUPATION SCALE (C14),float64,0,8,1=Self-employed | 2=Managers | 3=Other white collars | 4=Manual workers | 5=House persons | 6=Unemployed | 7=Retired | 8=Students
+d15b,OCCUPATION OF RESPONDENT - LAST JOB,float64,14362,16,"1=Farmer | 2=Fisherman | 3=Professional (lawyer, etc.) | 4=Owner of a shop, craftsmen, etc. | 5=Business proprietors, etc. | 6=Employed professional (employed doctor, etc.) | 7=General management, etc. | 8=Middle management, etc. | 9=Employed position, at desk | 10=Employed position, travelling | 11=Employed position, service job | 12=Supervisor | 13=Skilled manual worker | 14=Unskilled manual worker, etc. | 15=Never did any paid work | 99=Inap. (not 1 to 4 in d15a)"
+d15b_r,OCCUPATION OF RESPONDENT - LAST JOB (RECODED),float64,14362,5,0=NA | 1=Self-employed (1-5 in d15b) | 2=Employed (6-14 in d15b) | 3=Never paid work (15 in d15b) | 9=Inap. (not 1 to 4 in d15a)
+d25,TYPE OF COMMUNITY,float64,9,4,1=Rural area or village | 2=Small/middle town | 3=Large town | 8=DK (SPONT)
+d40a,HOUSEHOLD COMPOSITION: AGED 15+,float64,0,0,
+d40a_r,HOUSEHOLD COMPOSITION: AGED 15+ (REC),float64,0,5,1=One | 2=Two | 3=Three | 4=Four or more | 9=DK/NA [not documented]
+d40b,HOUSEHOLD COMPOSITION: AGED <10,float64,0,0,
+d40b_r,HOUSEHOLD COMPOSITION: AGED <10 (REC),float64,0,6,0=None | 1=One | 2=Two | 3=Three | 4=Four or more | 9=DK/NA [not documented]
+d40c,HOUSEHOLD COMPOSITION: AGED 10-14,float64,0,0,
+d40c_r,HOUSEHOLD COMPOSITION: AGED 10-14 (REC),float64,0,6,0=None | 1=One | 2=Two | 3=Three | 4=Four or more | 9=DK/NA [not documented]
+d40abc,HOUSEHOLD COMPOSITION: SIZE A+B+C,float64,0,1,999=DK/NA [not documented]
+d40abc_r1,HOUSEHOLD COMPOSITION: SIZE A+B+C (REC) 1 PERSON,float64,0,3,0=No | 1=Yes | 9=DK/NA [not documented]
+d40abc_r2,HOUSEHOLD COMPOSITION: SIZE A+B+C (REC) 2 PERSONS,float64,0,3,0=No | 1=Yes | 9=DK/NA [not documented]
+d40abc_r3,HOUSEHOLD COMPOSITION: SIZE A+B+C (REC) 3 PERSONS,float64,0,3,0=No | 1=Yes | 9=DK/NA [not documented]
+d40abc_r4,HOUSEHOLD COMPOSITION: SIZE A+B+C (REC) 4+ PERSONS,float64,0,3,0=No | 1=Yes | 9=DK/NA [not documented]
+d40_d11,ONE-PERSON HOUSEHOLD COMPOSITION BY AGE,float64,20213,4,1=15-29 years | 2=30-59 years | 3=60+ years | 9=Inap. (not 1 in d40abc_r1)
+d60,DIFFICULTIES PAYING BILLS - LAST YEAR,float64,0,4,1=Most of the time | 2=From time to time | 3=Almost never/never | 7=Refusal (SPONT.)
+d62_1,INTERNET USE FREQ: AT HOME,float64,0,7,1=Everyday/Almost everyday | 2=Two or three times a week | 3=About once a week | 4=Two or three times a month | 5=Less often | 6=Never | 7=No Internet access (SPONT.)
+d62_2,INTERNET USE FREQ: AT PLACE OF WORK,float64,0,7,1=Everyday/Almost everyday | 2=Two or three times a week | 3=About once a week | 4=Two or three times a month | 5=Less often | 6=Never | 7=No Internet access (SPONT.)
+d62_3,INTERNET USE FREQ: ON MOBILE DEVICE,float64,0,7,1=Everyday/Almost everyday | 2=Two or three times a week | 3=About once a week | 4=Two or three times a month | 5=Less often | 6=Never | 7=No Internet access (SPONT.)
+d62_4,INTERNET USE FREQ: SOMEWHERE ELSE,float64,0,7,1=Everyday/Almost everyday | 2=Two or three times a week | 3=About once a week | 4=Two or three times a month | 5=Less often | 6=Never | 7=No Internet access (SPONT.)
+d62t,INTERNET USE (TOTAL),float64,0,4,1=Everyday/almost everyday (at least once 1 in d62_1 to d62_4) | 2=Often/sometimes (at least once 2-5 in d62_1 to d62_4) | 3=Never/no access (6 or 7 in d62_1 to d62_4) | 4=No Internet access at all (only 7 in d62_1 to d62_4)
+netuse,INTERNET USE (INDEX),float64,0,7,1=Everyday/Almost everyday | 2=Two or three times a week | 3=About once a week | 4=Two or three times a month | 5=Less often | 6=Never/No access | 7=No Internet access at all
+d63,SOCIAL CLASS - SELF-ASSESSMENT (5 CAT),float64,0,9,1=The working class of society | 2=The lower middle class of society | 3=The middle class of society | 4=The upper middle class of society | 5=The higher class of society | 6=Other (SPONT.) | 7=None (SPONT.) | 8=Refusal (SPONT.) | 9=DK (SPONT.)
+d70,LIFE SATISFACTION,float64,0,5,1=Very satisfied | 2=Fairly satisfied | 3=Not very satisfied | 4=Not at all satisfied | 5=Don't know
+d70a,LIFE SATISFACTION - VARIANT DAILY LIFE,float64,0,5,1=Very satisfied | 2=Fairly satisfied | 3=Not very satisfied | 4=Not at all satisfied | 5=Don't know
+d1,LEFT-RIGHT PLACEMENT,float64,0,12,1=1 Left | 2=2 | 3=3 | 4=4 | 5=5 | 6=6 | 7=7 | 8=8 | 9=9 | 10=10 Right | 11=Refusal (SPONT.) | 12=DK (SPONT.)
+d1r1,LEFT-RIGHT PLACEMENT - RECODED 3 CAT,float64,0,5,1=(1-4) Left | 2=(5-6)  Centre | 3=(7-10) Right | 4=Refusal (SPONT.) | 5=DK (SPONT.)
+d1r2,LEFT-RIGHT PLACEMENT - RECODED 5 CAT,float64,0,6,1=(1 - 2) Left | 2=(3 - 4) | 3=(5 - 6) Centre | 4=(7 - 8) | 5=(9 -10) Right | 9=DK/Refusal
+d71_1,POLITICAL DISCUSSION - NATIONAL MATTERS,float64,0,4,1=Frequently | 2=Occasionally | 3=Never | 4=DK (SPONT.)
+d71_2,POLITICAL DISCUSSION - EUROPEAN MATTERS,float64,0,4,1=Frequently | 2=Occasionally | 3=Never | 4=DK (SPONT.)
+d71_3,POLITICAL DISCUSSION - LOCAL MATTERS,float64,0,4,1=Frequently | 2=Occasionally | 3=Never | 4=DK (SPONT.)
+polintr,POLITICAL INTEREST INDEX,float64,0,4,1=Strong | 2=Medium | 3=Low | 4=Not at all
+d78,EU IMAGE - POSITIVE/NEGATIVE,float64,0,6,1=Very positive | 2=Fairly positive | 3=Neutral | 4=Fairly negative | 5=Very negative | 6=Don't know (SPONTANEOUS)
+d73_1,DIRECTION THINGS ARE GOING - IN (OUR COUNTRY),float64,0,4,1=Things are going in the right direction | 2=Things are going in the wrong direction | 3=Neither the one nor the other (SPONTANEOUS) | 4=Don't know
+d73_2,DIRECTION THINGS ARE GOING - IN THE EU,float64,0,4,1=Things are going in the right direction | 2=Things are going in the wrong direction | 3=Neither the one nor the other (SPONTANEOUS) | 4=Don't know
+d73_3,DIRECTION THINGS ARE GOING - IN THE USA,float64,0,4,1=Things are going in the right direction | 2=Things are going in the wrong direction | 3=Neither the one nor the other (SPONTANEOUS) | 4=Don't know
+d73_4,DIRECTION THINGS ARE GOING - LIFE PERSONALLY,float64,0,4,1=Things are going in the right direction | 2=Things are going in the wrong direction | 3=Neither the one nor the other (SPONTANEOUS) | 4=Don't know
+sd20,EU FUTURE - LIFE FOR THE NEXT GENERATION,float64,0,4,1=Easier | 2=More difficult | 3=About the same | 4=DK (SPONT.)
+sd18a,DEMOCRACY SATISFACTION - COUNTRY,float64,0,5,1=Very satisfied | 2=Fairly satisfied | 3=Not very satisfied | 4=Not at all satisfied | 5=DK (SPONT.)
+sd18b,DEMOCRACY SATISFACTION - EUROPEAN UNION,float64,0,5,1=Very satisfied | 2=Fairly satisfied | 3=Not very satisfied | 4=Not at all satisfied | 5=DK (SPONT.)
+d72_1,MY VOICE COUNTS - IN THE EU,float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=DK (SPONT.)
+d72_2,MY VOICE COUNTS - IN (OUR COUNTRY),float64,0,5,1=Totally agree | 2=Tend to agree | 3=Tend to disagree | 4=Totally disagree | 5=DK (SPONT.)
+d22,PERSONAL HEALTH,float64,0,6,1=In good health | 2=In somewhat good health | 3=Not in very good health | 4=Not in good health at all | 5=Refusal (SPONT.) | 6=DK (SPONT.)
+capi_cavi,CAPI_CAVI,float64,0,2,1=CAPI | 2=CAVI
+p1,DATE OF INTERVIEW,float64,4,29,1=08/May/2023 | 2=10/May/2023 | 3=11/May/2023 | 4=12/May/2023 | 5=13/May/2023 | 6=15/May/2023 | 7=14/May/2023 | 8=16/May/2023 | 9=17/May/2023 | 10=18/May/2023 | 11=19/May/2023 | 12=20/May/2023 | 13=21/May/2023 | 14=22/May/2023 | 15=23/May/2023 | 16=24/May/2023 | 17=25/May/2023 | 18=26/May/2023 | 19=27/May/2023 | 20=28/May/2023 | 21=29/May/2023 | 22=30/May/2023 | 23=31/May/2023 | 24=01/June/2023 | 25=02/June/2023 | 26=03/June/2023 | 27=04/June/2023 | 28=05/June/2023 | 99=DK/NA [not documented]
+p2,TIME OF INTERVIEW,float64,0,7,1=<8 h | 2=8 - 12 h | 3=13 - 16 h | 4=17 - 19 h | 5=20 - 22 h | 6=+23 h | 7=DK
+p3,DURATION OF INTERVIEW (SECONDS),float64,0,0,
+p4,N OF PERSONS PRESENT DURING INTERVIEW,float64,0,4,1=Two (interviewer and respondent) | 2=Three | 3=Four | 4=Five or more
+p5,RESPONDENT COOPERATION,float64,0,4,1=Excellent | 2=Fair | 3=Average | 4=Bad
+p6,SIZE OF COMMUNITY,float64,0,3,1=Cities/urban | 2=Towns/suburbs | 3=Rural
+p13,LANGUAGE OF INTERVIEW (ALL COUNTRIES),float64,0,58,"1=Albanian (Albania) | 2=German (Austria) | 3=French (Belgium) | 4=Dutch (Belgium) | 5=Bulgarian (Bulgaria) | 6=Greek (Cyprus) | 7=Turkish (Cyprus) | 8=Czech (Czech Republic) | 9=German (Germany) | 10=Danish (Denmark) | 11=Estonian (Estonia) | 12=Russian (Estonia) | 13=Greek (Greece) | 14=Catalan (Catalan) | 15=Spanish (Spain, International Sort) | 16=Finnish (Finland) | 17=Swedish (Finland) | 18=French (France) | 19=Croatian (Croatia) | 20=Hungarian (Hungary) | 21=English (Ireland) | 22=Italian (Italy) | 23=Lower Sorbian (Germany) | 24=Lithuanian (Lithuania) | 25=Luxembourgish (Luxembourg) | 26=Latvian (Latvia) | 27=Russian (Belarus) | 28=Serbian (Latin, Montenegro) | 29=Macedonian (Macedonia, FYRO) | 30=Albanian (Macedonia, FYRO) | 31=English (Malta) | 32=Maltese (Malta) | 33=Dutch (Netherlands) | 34=Polish (Poland) | 35=Portuguese (Portugal) | 36=Romanian (Romania) | 37=Serbian (Cyrillic, Serbia) | 38=Swedish (Sweden) | 39=Slovenian (Slovenia) | 40=Slovak (Slovakia) | 41=Turkish (Turkey) | 42=Kurdish (Perso-Arabic, Iran) | 43=English (United Kingdom) | 44=German Luxembourg (Luxembourg) | 45=French Luxembourg (Luxembourg) | 46=Bosnian (Latin, Bosnia and Herzegovina) | 47=Croatian (Bosnia and Herzegovina) | 48=Serbian (Latin, Bosnia and Herzegovina) | 49=German (Switzerland) | 50=French (Switzerland) | 51=Italian (Switzerland) | 52=Icelandic (Iceland) | 53=Albanian (Kosovo) | 54=Serbian (Latin, Kosovo) | 55=Norwegian Bokmål (Norway) | 56=USA (United States) | 57=Romanian (Moldova) | 58=Russian (Moldova)"
+region_austria,REGION AUSTRIA,float64,25353,11,1=AT34 - Vorarlberg | 2=AT33 - Tirol | 3=AT32 - Salzburg | 4=AT31 - Oberoesterreich | 5=AT21 - Kaernten | 6=AT22 - Steiermark | 7=AT11 - Burgenland | 8=AT12 - Niederoesterreich | 9=AT13 - Wien | 97=NA (re-identification potential) | 99=Inap. (not AT in isocntry)
+region_belgium,REGION BELGIUM,float64,25318,13,1=BE10 - Region de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewest | 2=BE21 - Prov. Antwerpen | 3=BE22 - Prov. Limburg (BE) | 4=BE23 - Prov. Oost-Vlaanderen | 5=BE24 - Prov. Vlaams-Brabant | 6=BE25 - Prov. West-Vlaanderen | 7=BE31 - Prov. Brabant wallon | 8=BE32 - Prov. Hainaut | 9=BE33 - Prov. Liege | 10=BE34 - Prov. Luxembourg (BE) | 11=BE35 - Prov. Namur | 97=NA (re-identification potential) | 99=Inap. (not BE in isocntry)
+region_bulgaria,REGION BULGARIA,float64,25336,8,1=BG31 - Severozapaden | 2=BG32 - Severen tsentralen | 3=BG33 - Severoiztochen | 4=BG34 - Yugoiztochen | 5=BG41 - Yugozapaden | 6=BG42 - Yuzhen tsentralen | 97=NA (re-identification potential) | 99=Inap. (not BG in isocntry)
+region_croatia,REGION CROATIA,float64,25339,6,1=HR02 - Panonska Hrvatska | 2=HR03 - Jadranska Hrvatska | 3=HR05 - Grad Zagreb | 4=HR06 - Sjeverna Hrvatska | 97=NA (re-identification potential) | 99=Inap. (not HR in isocntry)
+region_cyprus,REGION CYPRUS,float64,25849,7,1=1 - Lefkosia/Nicosia | 2=5 - Lemesos/Limassol | 3=4 - Larnaka/Larnaca | 4=6 - Pafos/Paphos | 5=3 - Ammochostos/Farmagusta | 97=NA (re-identification potential) | 99=Inap. (not CY in isocntry)
+region_czechia,REGION CZECHIA,float64,25345,10,1=CZ01 - Praha | 2=CZ02 - Stredni Cechy | 3=CZ03 - Jihozapad | 4=CZ04 - Severozapad | 5=CZ05 - Severovychod | 6=CZ06 - Jihovychod | 7=CZ07 - Stredni Morava | 8=CZ08 - Moravskoslezsko | 97=NA (re-identification potential) | 99=Inap. (not CZ in isocntry)
+region_denmark,REGION DENMARK,float64,25353,7,1=DK01 - Hovedstaden | 2=DK02 - Sjaelland | 3=DK03 - Syddanmark | 4=DK04 - Midtjylland | 5=DK05 - Nordjylland | 97=NA (re-identification potential) | 99=Inap. (not DK in isocntry)
+region_germany,REGION GERMANY,float64,24848,18,1=DE1 - Baden-Wuerttemberg | 2=DE2 - Bayern | 3=DE3 - Berlin | 4=DE4 - Brandenburg | 5=DE5 - Bremen | 6=DE6 - Hamburg | 7=DE7 - Hessen | 8=DE8 - Mecklenburg-Vorpommern | 9=DE9 - Niedersachsen | 10=DEA - Nordrhein-Westfalen | 11=DEB - Rheinland-Pfalz | 12=DEC - Saarland | 13=DED - Sachsen | 14=DEE - Sachsen-Anhalt | 15=DEF - Schleswig-Holstein | 16=DEG - Thueringen | 97=NA (re-identification potential) | 99=Inap. (not DE-W/DE-E in isocntry)
+region_estonia,REGION ESTONIA,float64,25360,7,1=EE001 - Pohja-Eesti | 2=EE004 - Laeaene-Eesti | 3=EE009 - Kesk-Eesti | 4=EE00A - Kirde-Eesti | 5=EE008 - Louna-Eesti | 97=NA (re-identification potential) | 99=Inap. (not EE in isocntry)
+region_finland,REGION FINLAND,float64,25356,6,1=FI19 - Lansi-Suomi | 2=FI1B - Helsinki-Uusimaa | 3=FI1C - Etela-Suomi | 4=FI1D - Pohjois- ja Ita-Suomi | 97=NA (re-identification potential) | 99=Inap. (not FI in isocntry)
+region_france,REGION FRANCE,float64,25352,24,1=FR10 Ile-de-France | 2=FRB0 Centre - Val de Loire | 3=FRC1 Bourgogne | 4=FRC2 Franche-Comte | 5=FRD1 Basse-Normandie | 6=FRD2 Haute-Normandie | 7=FRE1 Nord-Pas de Calais | 8=FRE2 Picardie | 9=FRF1 Alsace | 10=FRF2 Champagne-Ardenne | 11=FRF3 Lorraine | 12=FRG0 Pays de la Loire | 13=FRH0 Bretagne | 14=FRI1 Aquitaine | 15=FRI2 Limousin | 16=FRI3 Poitou-Charentes | 17=FRJ1 Languedoc-Roussillon | 18=FRJ2 Midi-Pyrenees | 19=FRK1 Auvergne | 20=FRK2 Rhone-Alpes | 21=FRL0 Provence-Alpes-Cote d’Azur | 22=FRM0 Corse | 97=NA (re-identification potential) | 99=Inap. (not FR in isocntry)
+region_greece,REGION GREECE,float64,25347,15,"1=EL30 - Attiki | 2=EL43 - Kriti | 3=EL51 - Anatoliki Makedonia, Thraki | 4=EL52 - Kentriki Makedonia | 5=EL53 - Dytiki Makedonia | 6=EL54 - Ipeiros | 7=EL61 - Thessalia | 8=EL63 - Dytiki Ellada | 9=EL64 - Sterea Ellada | 10=EL65 - Peloponnisos | 11=EL41 - Voreio Aigaio | 12=EL42 - Notio Aigaio | 13=EL62 - Ionia Nisia | 97=NA (re-identification potential) | 99=Inap. (not GR in isocntry)"
+region_hungary,REGION HUNGARY,float64,25324,10,1=HU11 - Budapest | 2=HU12 - Pest | 3=HU21 - Koezep-Dunantul | 4=HU22 - Nyugat-Dunantul | 5=HU23 - Del-Dunantul | 6=HU31 - Eszak-Magyarorszag | 7=HU32 - Eszak-Alfoeld | 8=HU33 - Del-Alfoeld | 97=NA (re-identification potential) | 99=Inap. (not HU in isocntry)
+region_ireland,REGION IRELAND,float64,25348,10,1=IE041 - Border | 2=IE042 - West | 3=IE051 - Mid-West | 4=IE052 - South-East (IE) | 5=IE053 - South-West (IE) | 6=IE061 - Dublin | 7=IE062 - Mid-East | 8=IE063 - Midland | 97=NA (re-identification potential) | 99=Inap. (not IE in isocntry)
+region_italy,REGION ITALY,float64,25334,19,1=ITC1 - Piemonte + ITC2 - Valle d'Aosta/Vallee d'Aoste | 2=ITC3 - Liguria | 3=ITC4 - Lombardia | 4=ITF1 - Abruzzo + ITF2 - Molise | 5=ITF3 - Campania | 6=ITF4 - Puglia + ITF5 - Basilicata | 7=ITF6 - Calabria | 8=ITG1 - Sicilia | 9=ITG2 - Sardegna | 10=ITH2 - Provincia Autonoma di Trento + ITH1 - Provincia Autonoma di Bolzano/Bozen | 11=ITH3 - Veneto | 12=ITH4 - Friuli-Venezia Giulia | 13=ITH5 - Emilia-Romagna | 14=ITI1 - Toscana | 15=ITI2 - Umbria | 16=ITI3 - Marche | 17=ITI4 - Lazio | 97=NA (re-identification potential) | 99=Inap. (not IT in isocntry)
+region_latvia,REGION LATVIA,float64,25334,8,1=LV003 - Kurzeme | 2=LV005 - Latgale | 3=LV006 - Riga | 4=LV007 - Pieriga | 5=LV008 - Vidzeme | 6=LV009 - Zemgale | 97=NA (re-identification potential) | 99=Inap. (not LV in isocntry)
+region_lithuania,REGION LITHUANIA,float64,25344,12,1=LT011 - Vilniaus apskritis | 2=LT021 - Alytaus apskritis | 3=LT022 - Kauno apskritis | 4=LT023 - Klaipedos apskritis | 5=LT024 - Marijampoles apskritis | 6=LT025 - Panevezio apskritis | 7=LT026 - Siauliu apskritis | 8=LT027 - Taurages apskritis | 9=LT028 - Telsiu apskritis | 10=LT029 - Utenos apskritis | 97=NA (re-identification potential) | 99=Inap. (not LT in isocntry)
+region_luxembourg,REGION LUXEMBOURG,float64,25846,6,1=CENTRE | 2=EST | 3=NORD | 4=SUD | 97=NA (re-identification potential) | 99=Inap. (not LU in isocntry)
+region_malta,REGION MALTA,float64,25849,3,1=Malta | 97=NA (re-identification potential) | 99=Inap. (not MT in isocntry)
+region_netherlands,REGION NETHERLANDS,float64,25339,14,1=NL11 - Groningen | 2=NL12 - Friesland | 3=NL13 - Drenthe | 4=NL21 - Overijssel | 5=NL22 - Gelderland | 6=NL23 - Flevoland | 7=NL31 - Utrecht | 8=NL32 - Noord-Holland | 9=NL33 - Zuid-Holland | 10=NL34 - Zeeland | 11=NL41 - Noord-Brabant | 12=NL42 - Limburg | 97=NA (re-identification potential) | 99=Inap. (not NL in isocntry)
+region_poland,REGION POLAND,float64,25329,19,1=PL21 - Malopolskie | 2=PL22 - Slaskie | 3=PL41 - Wielkopolskie | 4=PL42 - Zachodniopomorskie | 5=PL43 - Lubuskie | 6=PL51 - Dolnoslaskie | 7=PL52 - Opolskie | 8=PL61 - Kujawsko-pomorskie | 9=PL62 - Warminsko-mazurskie | 10=PL63 - Pomorskie | 11=PL71 - Lodzkie | 12=PL72 - Swietokrzyskie | 13=PL81 - Lubelskie | 14=PL82 - Podkarpackie | 15=PL84 - Podlaskie | 16=PL91 - Warszawski stoleczny | 17=PL92 - Mazowiecki regionalny | 97=NA (re-identification potential) | 99=Inap. (not PL in isocntry)
+region_portugal,REGION PORTUGAL,float64,25355,7,1=PT11 - Norte | 2=PT15 - Algarve | 3=PT16 - Centro (PT) | 4=PT17 - Area Metropolitana de Lisboa | 5=PT18 - Alentejo | 97=NA (re-identification potential) | 99=Inap. (not PT in isocntry)
+region_romania,REGION ROMANIA,float64,25291,10,1=RO11 - Nord-Vest | 2=RO12 - Centru | 3=RO21 - Nord-Est | 4=RO22 - Sud-Est | 5=RO31 - Sud - Muntenia | 6=RO32 - Bucuresti - Ilfov | 7=RO41 - Sud-Vest Oltenia | 8=RO42 - Vest | 97=NA (re-identification potential) | 99=Inap. (not RO in isocntry)
+region_slovenia,REGION SLOVENIA,float64,25353,14,1=SI031 - Pomurska | 2=SI032 - Podravska | 3=SI033 - Koroska | 4=SI034 - Savinjska | 5=SI035 - Zasavska | 6=SI036 - Posavska | 7=SI037 - Jugovzhodna Slovenija | 8=SI038 - Primorsko-notranjska | 9=SI041 - Osrednjeslovenska | 10=SI042 - Gorenjska | 11=SI043 - Goriska | 12=SI044 - Obalno-kraska | 97=NA (re-identification potential) | 99=Inap. (not SI in isocntry)
+region_slovakia,REGION SLOVAKIA,float64,25351,6,1=SK01 - Bratislavsky kraj | 2=SK02 - Zapadne Slovensko | 3=SK03 - Stredne Slovensko | 4=SK04 - Vychodne Slovensko | 97=NA (re-identification potential) | 99=Inap. (not SK in isocntry)
+region_spain,REGION SPAIN,float64,25338,19,1=ES11 - Galicia | 2=ES12 - Principado de Asturias | 3=ES13 - Cantabria | 4=ES21 - Pais Vasco | 5=ES22 - Comunidad Foral de Navarra | 6=ES23 - La Rioja | 7=ES24 - Aragon | 8=ES30 - Comunidad de Madrid | 9=ES41 - Castilla y Leon | 10=ES42 - Castilla-la Mancha | 11=ES43 - Extremadura | 12=ES51 - Cataluna | 13=ES52 - Comunidad Valenciana | 14=ES53 - Illes Balears | 15=ES61 - Andalucia | 16=ES62 - Region de Murcia | 17=ES70 - Canarias | 97=NA (re-identification potential) | 99=Inap. (not ES in isocntry)
+region_sweden,REGION SWEDEN,float64,25339,5,1=SE1 - Stockholm/Ostra Mellansverige | 2=SE2 - Smaland med oarna/Sydsverige/Vastsverige | 3=SE3 - Norra Mellansverige/Mellersta Norrland/Ovre Norrland | 97=NA (re-identification potential) | 99=Inap. (not SE in isocntry)
+w1,WEIGHT RESULT FROM TARGET (REDRESSMENT),float64,0,0,
+w1de,WEIGHT RESULT FROM TARGET (REDRESSMENT) - GERMANY,float64,0,0,
+w5,WEIGHT EU6,float64,20752,0,
+w6,WEIGHT EU9,float64,18747,0,
+w7,WEIGHT EU10,float64,17741,0,
+w9,WEIGHT EU12+ (INCLUDING DE-E),float64,15228,0,
+w10,WEIGHT EU NMS 3,float64,23333,0,
+w11,WEIGHT EU15,float64,12208,0,
+w85,WEIGHT EURO ZONE 20 (EU27B),float64,7165,0,
+w86,WEIGHT NON-EURO ZONE 20 (EU27B),float64,19188,0,
+w13,WEIGHT EU NMS 10,float64,17241,0,
+w94,WEIGHT EU NMS 13,float64,14145,0,
+w14,WEIGHT EU25,float64,3096,0,
+w22,WEIGHT EU27,float64,1014,0,
+w92,WEIGHT TOTAL (ALL SAMPLES),float64,0,0,
+country_iso,,str,0,0,

@@ -1,0 +1,212 @@
+﻿variable,label,dtype,n_missing,n_values,values
+studyno,ARCHIVE STUDY NUMBER,float64,0,1,7807=GESIS STUDY ID ZA7807
+doi,DIGITAL OBJECT IDENTIFIER,str,0,0,
+version,GESIS ARCHIVE VERSION & DATE,str,0,0,
+edition,DATASET EDITION,float64,0,1,1=ARCHIVE RELEASE
+survey,SURVEY IDENTIFICATION,float64,0,1,499=Flash Eurobarometer 499 (October 2021)
+uniqid,UNIQUE RESPONDENT ID (CASEID BY IPSOS COUNTRY CODE),Int64,0,0,
+serialid,SERIAL CASE ID (PROVIDED BY IPSOS),Int64,0,0,
+ipscntry,ORIGINAL IPSOS COUNTRY/SAMPLE ID,float64,0,27,1=Belgium | 2=Bulgaria | 3=Czechia | 4=Denmark | 5=Germany | 6=Estonia | 7=Ireland | 8=Greece | 9=Spain | 10=France | 11=Croatia | 12=Italy | 13=Republic of Cyprus | 14=Latvia | 15=Lithuania | 16=Luxembourg | 17=Hungary | 18=Malta | 19=Netherlands | 20=Austria | 21=Poland | 22=Portugal | 23=Romania | 24=Slovenia | 25=Slovakia | 26=Finland | 27=Sweden
+country,COUNTRY/SAMPLE ID (SERIES STANDARD),float64,0,44,1=FR - France | 2=BE - Belgium | 3=NL - The Netherlands | 4=DE - Germany | 5=IT - Italy | 6=LU - Luxembourg | 7=DK - Denmark | 8=IE - Ireland | 9=GB - United Kingdom (NOT INCLUDED) | 10=GBNIR - Northern Ireland (NO SEPARATE SAMPLE) | 11=GR - Greece | 12=ES -Spain | 13=PT - Portugal | 14=DE-E Germany East (NO SEPARATE SAMPLE) | 15= (OUTDATED CODE FOR NORWAY) | 16=FI - Finland | 17=SE - Sweden | 18=AT - Austria | 19=CY - Cyprus (Republic) | 20=CZ - Czech Republic | 21=EE - Estonia | 22=HU - Hungary | 23=LV - Latvia | 24=LT - Lithuania | 25=MT - Malta | 26=PL - Poland | 27=SK - Slovakia | 28=SI - Slovenia | 29=BG - Bulgaria | 30=RO - Romania | 31=TR - Turkey (NOT INCLUDED) | 32=HR - Croatia | 33=CY-TCC - Cyprus TCC (NOT INCLUDED) | 34=MK - Makedonia/FYROM (NOT INCLUDED) | 35=ME - Montenegro (NOT INCLUDED) | 36=RS - Serbia (NOT INCLUDED | 37=AL - Albania (NOT INCLUDED) | 39=MD - Moldavia (NOT INCLUDED) | 41=NO - Norway (NOT INCLUDED) | 42=CH - Switzerland (NOT INCLUDED) | 43=IS - Iceland (NOT INCLUDED) | 44=LI - Liechtenstein (NOT INCLUDED) | 49=IL - Israel (NOT INCLUDED) | 61=US - USA (NOT INCLUDED)
+isocntry,COUNTRY CODE - ISO 3166,str,0,0,
+mode,INTERVIEW: TYPE OF PHONE LINE (PH1),float64,0,2,1=Mobile | 2=Landline
+d1,AGE EXACT,float64,0,2,15=15 years | 102=102 years
+d1r1,AGE RECODED - 4 CATEGORIES,float64,0,4,1=15 - 24 years | 2=25 - 39 years | 3=40 - 54 years | 4=55 years and older
+d1r2,AGE RECODED - 6 CATEGORIES,float64,0,6,1=15 - 24 years | 2=25 - 34 years | 3=35 - 44 years | 4=45 - 54 years | 5=55 - 64 years | 6=65 years and older
+d2,GENDER,float64,0,3,1=Male | 2=Female | 3=In another way / Prefer not to say
+d3.1,NATIONALITY: BELGIUM,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.2,NATIONALITY: DENMARK,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.3,NATIONALITY: GERMANY,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.4,NATIONALITY: GREECE,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.5,NATIONALITY: SPAIN,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.6,NATIONALITY: FINLAND,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.7,NATIONALITY: FRANCE,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.8,NATIONALITY: IRELAND,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.9,NATIONALITY: ITALY,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.10,NATIONALITY:  LUXEMBOURG,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.11,NATIONALITY: NETHERLANDS,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.12,NATIONALITY: AUSTRIA,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.13,NATIONALITY: PORTUGAL,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.14,NATIONALITY: SWEDEN,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.16,NATIONALITY: BULGARIA,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.17,NATIONALITY: REP. OF CYPRUS,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.18,NATIONALITY: CZECH REPUBLIC,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.19,NATIONALITY: ESTONIA,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.20,NATIONALITY: HUNGARY,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.21,NATIONALITY: LATVIA,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.22,NATIONALITY: LITHUANIA,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.23,NATIONALITY: MALTA,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.24,NATIONALITY: POLAND,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.25,NATIONALITY: ROMANIA,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.26,NATIONALITY: SLOVAKIA,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.27,NATIONALITY: SLOVENIA,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.28,NATIONALITY: REPUBLIC OF CROATIA,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.29,NATIONALITY: OTHER COUNTRIES,float64,0,2,0=Not mentioned | 1=Mentioned
+d3.30,NATIONALITY: REFUSAL,float64,0,2,0=Not mentioned | 1=Mentioned
+d3c,NATIONALITY: PERMANENT RESIDENTS,float64,0,3,0=No | 1=Yes | 9=Has nationality of survey country
+d13,TYPE OF COMMUNITY,float64,0,5,1=Rural area or village | 2=Small or middle sized town | 3=Large town | 8=DK | 998=Don't know
+dx1,"DX1 Before the COVID-19 pandemic, how frequently did you travel for leisure or work?",float64,0,5,1=Several times a year | 2=Once or twice a year | 3=Once every few years | 4=Never | 998=Don't know
+q1.1,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,"0=Not mentioned | 1=Change in type of travel destination (beach, city trip, etc.)"
+q1.2,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,0=Not mentioned | 1=Change in destination countries
+q1.3,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,0=Not mentioned | 1=Change in type of accommodation
+q1.4,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,0=Not mentioned | 1=Change in activities on holiday
+q1.5,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,0=Not mentioned | 1=Change in transport mode to the destination
+q1.6,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,0=Not mentioned | 1=Less travelling overall
+q1.7,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,0=Not mentioned | 1=More holidays in own country
+q1.8,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,0=Not mentioned | 1=More attention to health and safety measures
+q1.9,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,0=Not mentioned | 1=More attention to impact of tourism on local communities
+q1.10,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,0=Not mentioned | 1=You expect no long-term effects
+q1.11,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,0=Not mentioned | 1=Other
+q1.12,"Q1 What long-term effects, if any, do you expect the COVID-19 pandemic will have on your travelling behaviour?",float64,0,2,0=Not mentioned | 1=Don’t know/ not applicable
+q2.1,"Q2 When you begin to plan your next holiday, what type of accommodation are you most likely to consider?",float64,0,2,"0=Not mentioned | 1=Commercial accommodation (hotel, B&B) with board included"
+q2.2,"Q2 When you begin to plan your next holiday, what type of accommodation are you most likely to consider?",float64,0,2,"0=Not mentioned | 1=Commercial accommodation (hotel, B&B) without board"
+q2.3,"Q2 When you begin to plan your next holiday, what type of accommodation are you most likely to consider?",float64,0,2,0=Not mentioned | 1=Private accommodation (holiday home or apartment booked directly from the owner)
+q2.4,"Q2 When you begin to plan your next holiday, what type of accommodation are you most likely to consider?",float64,0,2,0=Not mentioned | 1=Your own property or second home
+q2.5,"Q2 When you begin to plan your next holiday, what type of accommodation are you most likely to consider?",float64,0,2,0=Not mentioned | 1=Staying at a friend’s or relative’s place
+q2.6,"Q2 When you begin to plan your next holiday, what type of accommodation are you most likely to consider?",float64,0,2,0=Not mentioned | 1=A place organised via an online platform without payment (e.g. “couch surfing”)
+q2.7,"Q2 When you begin to plan your next holiday, what type of accommodation are you most likely to consider?",float64,0,2,0=Not mentioned | 1=Camp site or holiday village
+q2.8,"Q2 When you begin to plan your next holiday, what type of accommodation are you most likely to consider?",float64,0,2,0=Not mentioned | 1=Another type of accommodation
+q2.9,"Q2 When you begin to plan your next holiday, what type of accommodation are you most likely to consider?",float64,0,2,0=Not mentioned | 1=Don’t know/ not applicable
+q3.1,Q3 What method are you most likely to use to organise travel and tourism activities?,float64,0,2,"0=Not mentioned | 1=Online listings of private housing offerings (rooms, apartments)"
+q3.2,Q3 What method are you most likely to use to organise travel and tourism activities?,float64,0,2,"0=Not mentioned | 1=Online platforms for professional accommodation services (hotels, B&B)"
+q3.3,Q3 What method are you most likely to use to organise travel and tourism activities?,float64,0,2,"0=Not mentioned | 1=Online platforms combining travel services (accommodation, car rental, flights, etc.)"
+q3.4,Q3 What method are you most likely to use to organise travel and tourism activities?,float64,0,2,"0=Not mentioned | 1=Website of a hotel, airline company"
+q3.5,Q3 What method are you most likely to use to organise travel and tourism activities?,float64,0,2,0=Not mentioned | 1=Over the phone
+q3.6,Q3 What method are you most likely to use to organise travel and tourism activities?,float64,0,2,0=Not mentioned | 1=Over the counter (travel agency or transportation company)
+q3.7,Q3 What method are you most likely to use to organise travel and tourism activities?,float64,0,2,0=Not mentioned | 1=Through someone you know
+q3.8,Q3 What method are you most likely to use to organise travel and tourism activities?,float64,0,2,0=Not mentioned | 1=On-site (at the destination)
+q3.9,Q3 What method are you most likely to use to organise travel and tourism activities?,float64,0,2,0=Not mentioned | 1=Another method
+q3.10,Q3 What method are you most likely to use to organise travel and tourism activities?,float64,0,2,0=Not mentioned | 1=Don’t know/ not applicable
+q4a,"Q4a When you choose a destination to visit, which of the following are most important? Firstly?",float64,0,12,"1=Cultural offerings at the destination (museums, local events, gastronomy) | 2=Natural environment in the destination | 3=Activities available in the destination | 4=The price of the overall trip | 5=Accessibility of services and activities for all: children, elderly, persons with disabilities | 6=Destination (city, region) promotes eco-friendly practices | 7=Destination can be reached by low-impact transport | 8=Sustainability certification of accommodation and attractions | 9=Local population involved in tourism activities | 10=Clear information on health and safety guidelines | 11=Something else | 998=Don't know/ not applicable"
+q4b.1,Q4b And then?,float64,637,3,"0=Not mentioned | 1=Cultural offerings at the destination (museums, local events, gastronomy) | 9=Inap. (not 1-11 in q4a)"
+q4b.2,Q4b And then?,float64,637,3,0=Not mentioned | 1=Natural environment in the destination | 9=Inap. (not 1-11 in q4a)
+q4b.3,Q4b And then?,float64,637,3,0=Not mentioned | 1=Activities available in the destination | 9=Inap. (not 1-11 in q4a)
+q4b.4,Q4b And then?,float64,637,3,0=Not mentioned | 1=The price of the overall trip | 9=Inap. (not 1-11 in q4a)
+q4b.5,Q4b And then?,float64,637,3,"0=Not mentioned | 1=Accessibility of services and activities for all: children, elderly, persons with disabilities | 9=Inap. (not 1-11 in q4a)"
+q4b.6,Q4b And then?,float64,637,3,"0=Not mentioned | 1=Destination (city, region) promotes eco-friendly practices | 9=Inap. (not 1-11 in q4a)"
+q4b.7,Q4b And then?,float64,637,3,0=Not mentioned | 1=Destination can be reached by low-impact transport | 9=Inap. (not 1-11 in q4a)
+q4b.8,Q4b And then?,float64,637,3,0=Not mentioned | 1=Sustainability certification of accommodation and attractions | 9=Inap. (not 1-11 in q4a)
+q4b.9,Q4b And then?,float64,637,3,0=Not mentioned | 1=Local population involved in tourism activities | 9=Inap. (not 1-11 in q4a)
+q4b.10,Q4b And then?,float64,637,3,0=Not mentioned | 1=Clear information on health and safety guidelines | 9=Inap. (not 1-11 in q4a)
+q4b.11,Q4b And then?,float64,637,3,0=Not mentioned | 1=Something else | 9=Inap. (not 1-11 in q4a)
+q4b.12,Q4b And then?,float64,637,3,0=Not mentioned | 1=Don’t know/ not applicable | 9=Inap. (not 1-11 in q4a)
+q4_total.1,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,"0=Not mentioned | 1=Cultural offerings at the destination (museums, local events, gastronomy)"
+q4_total.2,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,0=Not mentioned | 1=Natural environment in the destination
+q4_total.3,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,0=Not mentioned | 1=Activities available in the destination
+q4_total.4,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,0=Not mentioned | 1=The price of the overall trip
+q4_total.5,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,"0=Not mentioned | 1=Accessibility of services and activities for all: children, elderly, persons with disabilities"
+q4_total.6,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,"0=Not mentioned | 1=Destination (city, region) promotes eco-friendly practices"
+q4_total.7,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,0=Not mentioned | 1=Destination can be reached by low-impact transport
+q4_total.8,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,0=Not mentioned | 1=Sustainability certification of accommodation and attractions
+q4_total.9,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,0=Not mentioned | 1=Local population involved in tourism activities
+q4_total.10,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,0=Not mentioned | 1=Clear information on health and safety guidelines
+q4_total.11,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,0=Not mentioned | 1=Something else
+q4_total.12,"Q4_Total When you choose a destination to visit, which of the following are most important?",float64,0,2,0=Not mentioned | 1=Don’t know/ not applicable
+q5.1,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=Pay more to protect the natural environment
+q5.2,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=Pay more to the benefit of the local community
+q5.3,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=Take holidays outside of the high tourist season
+q5.4,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=Travel to less visited destinations
+q5.5,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=Contribute to carbon-offsetting activities (e.g. plant trees)
+q5.6,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=Consume locally sourced products on holiday
+q5.7,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=Choose transport options based on ecological impact
+q5.8,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=Reduce waste while on holiday
+q5.9,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=Reduce water usage on holiday
+q5.10,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=I am not prepared to change my habits
+q5.11,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=Something else
+q5.12,"Q5 Are you prepared to change your travel and tourism habits to be more sustainable? If so, in which of the following ways?",float64,0,2,0=Not mentioned | 1=Don’t know/ not applicable
+q6.1,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,0=Not mentioned | 1=Personal experience
+q6.2,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,"0=Not mentioned | 1=Recommendations from friends, colleagues or relatives"
+q6.3,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,0=Not mentioned | 1=Paid for guidebooks and magazines
+q6.4,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,0=Not mentioned | 1=Website or social media page of the service provider
+q6.5,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,0=Not mentioned | 1=Websites collecting reviews and ratings from travellers
+q6.6,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,0=Not mentioned | 1=Online influencers and blogs
+q6.7,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,0=Not mentioned | 1=Destination promotion campaigns 
+q6.8,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,0=Not mentioned | 1=Information from travel agencies
+q6.9,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,0=Not mentioned | 1=Information from tourism offices
+q6.10,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,"0=Not mentioned | 1=Newspaper, radio, TV"
+q6.11,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,0=Not mentioned | 1=Other
+q6.12,Q6 Which of the following information sources are most important when you make travel plans?,float64,0,2,0=Not mentioned | 1=Don’t know/ not applicable
+q7_1,Q7_1 How easy or difficult it is for you to find trustworthy information for your travel planning on the following aspects? Carbon footprint of transportation options,float64,0,5,1=Very easy | 2=Rather easy | 3=Rather difficult | 4=Very difficult | 998=Don’t know/ not applicable
+q7_2,Q7_2 How easy or difficult it is for you to find trustworthy information for your travel planning on the following aspects? Eco-friendly tourism activities at the destination,float64,0,5,1=Very easy | 2=Rather easy | 3=Rather difficult | 4=Very difficult | 998=Don’t know/ not applicable
+q7_3,Q7_3 How easy or difficult it is for you to find trustworthy information for your travel planning on the following aspects? Sustainability certifications of the accommodations,float64,0,5,1=Very easy | 2=Rather easy | 3=Rather difficult | 4=Very difficult | 998=Don’t know/ not applicable
+q7_4,Q7_4 How easy or difficult it is for you to find trustworthy information for your travel planning on the following aspects? Sustainability commitments of destinations,float64,0,5,1=Very easy | 2=Rather easy | 3=Rather difficult | 4=Very difficult | 998=Don’t know/ not applicable
+q7_5,Q7_5 How easy or difficult it is for you to find trustworthy information for your travel planning on the following aspects? How to engage in authentic local activities,float64,0,5,1=Very easy | 2=Rather easy | 3=Rather difficult | 4=Very difficult | 998=Don’t know/ not applicable
+q7_6,Q7_6 How easy or difficult it is for you to find trustworthy information for your travel planning on the following aspects? Local sourcing of food in restaurants,float64,0,5,1=Very easy | 2=Rather easy | 3=Rather difficult | 4=Very difficult | 998=Don’t know/ not applicable
+q7_7,Q7_7 How easy or difficult it is for you to find trustworthy information for your travel planning on the following aspects? Appropriateness of destinations/attractions for children,float64,0,5,1=Very easy | 2=Rather easy | 3=Rather difficult | 4=Very difficult | 998=Don’t know/ not applicable
+q7_8,Q7_8 How easy or difficult it is for you to find trustworthy information for your travel planning on the following aspects? Accessibility of destination for persons with disabilities or with reduced mobility,float64,0,5,1=Very easy | 2=Rather easy | 3=Rather difficult | 4=Very difficult | 998=Don’t know/ not applicable
+d4,AGE EDUCATION,float64,0,6,1=1 year | 82=82 years | 97=No full-time education | 98=Still studying | 99=DK | 999=Refusal
+d4r1,AGE EDUCATION (RECODED 11 CAT),float64,0,13,1=Up to 14 years | 2=15 years | 3=16 years | 4=17 years | 5=18 years | 6=19 years | 7=20 years | 8=21 years | 9=22 years and older | 10=Still studying | 11=No full-time education | 97=Refusal | 98=DK
+d4r2,AGE EDUCATION (RECODED 5 CAT),float64,0,7,1=Up to 15 years | 2=16-19 | 3=20 years and older | 996=Still in full-time education | 997=Never been in full-time education | 998=Don't know | 999=Refusal
+d5r,OCCUPATION OF RESPONDENT (SCALE),float64,0,5,1=Self-employed | 2=Employee | 3=Manual worker | 4=Without a professional activity | 999=Refusal
+d5,OCCUPATION OF RESPONDENT,float64,0,22,"1=Farmer, forester, fisherman (self-employed) | 2=Owner of shop, craftsman (self-employed) | 3=Professional (self-employed lawyer, medical practitioner, ...) | 4=Manager of a company (self-employed) | 5=Other (self-employed) | 6=Professional (employed doctor, lawyer, accountant, architect ...) | 7=General management, director or top management | 8=Middle management | 9=Civil servant | 10=Office clerk | 11=Other employee (salesman, nurse, ...) | 12=Other (Employee) | 13=Supervisor/foreman (team manager, ...) | 14=Manual worker | 15=Unskilled manual worker | 16=Other (manual worker) | 17=Looking after the home | 18=Student (full-time) | 19=Retired | 20=Seeking a job | 21=Other (without a professional activity) | 999=Refusal"
+d18,PHONE AVAILABLE - MOBILE PHONE,float64,21872,4,"1=Yes, one mobile phone | 2=Yes, more than one mobile phone | 3=No | 9=Inap. (1 in mode)"
+d19,PHONE AVAILABLE - MORE THAN ONE MOBILE PHONE (MOBILE PHONE INTERVIEWS ONLY),float64,3839,3,0=No | 1=Yes | 9=Inap. (2 in mode)
+d20,PHONE AVAILABLE - LANDLINE,float64,3839,3,0=No | 1=Yes | 9=Inap. (2 in mode)
+d18_d20,PHONE AVAILABLE (SUMMARIZED),float64,0,3,1=Mobile only | 2=Landline only | 3=Mobile and landline
+d22,HOUSEHOLD SIZE - AGED 15+,float64,0,4,1=1 | 24=24 | 98=DK | 99=Refusal
+d22r,HOUSEHOLD SIZE - AGED 15+ (RECODED),float64,0,6,1=1 | 2=2 | 3=3 | 4=4+ | 998=Don't know | 999=Refusal
+d12be,REGION - BELGIUM NUTS 2,float64,24697,14,1=Region de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewest | 2=Prov. Antwerpen | 3=Prov. Oost-Vlaanderen | 4=Prov. West-Vlaanderen | 5=Prov. Limburg (BE) | 6=Prov. Vlaams-Brabant | 7=Prov. Brabant Wallon | 8=Prov. Hainaut | 9=Prov. Liege | 10=Prov. Luxembourg (BE) | 11=Prov. Namur | 997=NA (re-identification potential) | 998=Don't know | 999=Inap.  (not BE in isocntry)
+d12be_r,REGION - BELGIUM NUTS 1,float64,24697,6,1=Region de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewest | 2=Vlaams gewest | 3=Region Wallone | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not BE in isocntry)
+d12at,REGION - AUSTRIA NUTS 2,float64,24699,12,1=Wien | 2=Niederoesterreich | 3=Burgenland (AT) | 4=Oberoesterreich | 5=Tirol | 6=Salzburg | 7=Vorarlberg | 8=Steiermark | 9=Kaernten | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not AT in isocntry)
+d12at_r,REGION - AUSTRIA NUTS 1,float64,24699,6,1=Ost-Oesterreich | 2=Sued-Oesterreich | 3=West-Oesterreich | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not AT in isocntry)
+d12bg,REGION - BULGARIA NUTS 2,float64,24696,9,1=Severozapaden | 2=Severen tsentralen | 3=Severoiztochen | 4=Yugoiztochen | 5=Yugozapaden | 6=Yuzhen tsentralen | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not BG in isocntry)
+d12cy,REGION - CYPRUS (REP),float64,25211,8,1=Nicocia | 2=Limassol | 3=Larnaca | 4=Paphos | 5=Famagusta | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not CY in isocntry)
+d12cz,REGION - CZECH REPUBLIC NUTS 2,float64,24711,11,1=Praha | 2=Stredni Cechy | 3=Jihozapad | 4=Severozapad | 5=Severovychod | 6=Jihovychod | 7=Strední Morava | 8=Moravskoslezsko | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not CZ in isocntry)
+d12dk,REGION - DENMARK NUTS 2,float64,24707,8,1=Hovedstaden | 2=Sjaelland | 3=Syddanmark | 4=Midtjylland | 5=Nordjylland | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not DK in isocntry)
+d12ee,REGION - ESTONIA,float64,24702,8,1=Pohja-Eesti | 2=Laane-Eesti | 3=Kesk-Eesti | 4=Kirde-Eesti | 5=Louna-Eesti | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not EE in isocntry)
+d12de,REGION - GERMANY NUTS 1,float64,24700,19,1=Baden-Wuerttemberg | 2=Bayern | 3=Berlin | 4=Brandenburg | 5=Bremen | 6=Hamburg | 7=Hessen | 8=Mecklenburg-Vorpommern | 9=Niedersachsen | 10=Nordrhein-Westfalen | 11=Rheinland-Pfalz | 12=Saarland | 13=Sachsen | 14=Sachsen-Anhalt | 15=Schleswig-Holstein | 16=Thueringen | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not DE in isocntry)
+d12gr,REGION - GREECE NUTS 2,float64,24709,16,"1=Attiki | 2=Anatoliki Makedonia, Thraki | 3=Kentriki Makedonia | 4=Dytiki Makedonia | 5=Ipeiros | 6=Thessalia | 7=Dytiki Ellada | 8=Sterea Ellada | 9=Peloponnisos | 10=Ionia Nisia | 11=Kriti | 12=Voreio Aigaio | 13=Notio Aigaio | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not GR in isocntry)"
+d12gr_r,REGION - GREECE NUTS 1,float64,24709,7,"1=Voreia ellada | 2=Kentriki ellada | 3=Attiki | 4=Nisia Aigaiou, Kriti | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not GR in isocntry)"
+d12es,REGION - SPAIN NUTS 2,float64,24711,20,1=Comunidad de Madrid | 2=Castilla y Leon | 3=Castilla-la Mancha | 4=Extremadura | 5=Andalucia | 6=Region de Murcia | 7=Cataluna | 8=Comunidad Valenciana | 9=Illes Balears | 10=Galicia | 11=Cantabria | 12=Principado de Asturias | 13=Aragon | 14=Comunidad Foral de Navarra | 15=Pais Vasco | 16=La Rioja | 17=Canarias (ES) | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not ES in isocntry)
+d12es_r,REGION - SPAIN NUTS 1,float64,24711,10,1=Noroeste (ES) | 2=Noreste (ES) | 3=Comunidad de Madrid | 4=Centro (ES) | 5=Este (ES) | 6=Sur (ES) | 7=Canarias (ES) | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not ES in isocntry)
+d12fi,REGION - FINLAND NUTS 2,float64,24704,8,1=Lansi-Suomi | 2=Helsinki-Uusimaa | 3=Etela-Suomi | 4=Pohjois- ja Ita-Suomi | 5=Aland | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not FI in isocntry)
+d12fr,REGION - FRANCE NUTS 2,float64,24703,25,1=Ile de France | 2=Champagne-Ardenne | 3=Picardie | 4=Haute-Normandie | 5=Centre - Val de Loire | 6=Basse-Normandie | 7=Bourgogne | 8=Nord-Pas-de-Calais | 9=Lorraine | 10=Alsace | 11=Franche-Comte | 12=Pays-de-la-Loire | 13=Bretagne | 14=Poitou-Charentes | 15=Aquitaine | 16=Midi-Pyrenees | 17=Limousin | 18=Rhone-Alpes | 19=Auvergne | 20=Languedoc-Roussillon | 21=Provence-Alpes-Cote d'Azur | 22=Corse | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not FR in isocntry)
+d12fr_r,REGION - FRANCE NUTS 1,float64,24703,16,1=Ile de France | 2=Centre - Val de Loire | 3=Bourgogne - Franche-Comte | 4=Normandie | 5=Nord-Pas-de-Calais - Picardie | 6=Alsace - Champagne-Ardenne - Lorraine | 7=Pays-de-la-Loire | 8=Bretagne | 9=Aquitaine - Limousin - Poitou-Charentes | 10=Languedoc - Roussillon - Midi-Pyrenees | 11=Auvergne - Rhone-Alpes | 12=Provence-Alpes-Cote d'Azur | 13=Corse | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not FR in isocntry)
+d12hu,REGION - HUNGARY NUTS 2,float64,24710,11,1=Budapest | 2=Pest | 3=Eszak-Magyarorszag | 4=Eszak-Alfoeld | 5=Del-Alfoeld | 6=Koezep-Dunantul | 7=Del-Dunantul | 8=Nyugat-Dunantul | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not HU in isocntry)
+d12ie,REGION - IRELAND,float64,24690,11,"1=Dublin (Dublin City Council, Dun Laoghaire-Rathdown, Fingal and South Dublin) | 2=Midland (Laois, Longford, Offaly, Westmeath) | 3=Mid-East (Kildare, Meath, Wicklow) | 4=Border (Cavan, Donegal, Leitrim, Louth, Monaghan, Sligo) | 5=West (Galway City Council, Galway, Mayo, Roscommon) | 6=Mid-West (Clare, Limerick, Limerick City Council, North Tipperary) | 7=South-East (Carlow, Kilkenny, Waterford, Wexford, Tipperary, Waterford City Council) | 8=South-West (Cork City Council, Cork and Kerry) | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not IE in isocntry)"
+d12it,REGION - ITALY NUTS 2,float64,24710,24,1=Lombardia | 2=Piemonte | 3=Liguria | 4=Valle d'Aosta/Vallee d'Aoste | 5=Emilia-Romagna | 6=Friuli-Venezia Giulia | 7=Veneto | 8=Provincia Autonoma di Trento | 9=Provincia Autonoma di Bolzano/Bozen | 10=Lazio | 11=Toscana | 12=Marche | 13=Umbria | 14=Abruzzo | 15=Calabria | 16=Campania | 17=Puglia | 18=Basilicata | 19=Molise | 20=Sardegna | 21=Sicilia | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not IT in isocntry)
+d12it_r,REGION - ITALY NUTS 1,float64,24710,8,1=Nord-Ovest | 2=Nord-Est | 3=Centro (IT) | 4=Sud | 5=Isole | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not IT in isocntry)
+d12lt,REGION - LITHUANIA NUTS 3,float64,24700,13,1=Vilnius county | 2=Alytus county | 3=Kaunas county | 4=Klaipeda County | 5=Marijampole County | 6=Panevezys County | 7=Siauliai County | 8=Taurage County | 9=Telsiai County | 10=Utena county | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not LT in isocntry)
+d12lu,REGION - LUXEMBOURG,float64,25202,7,1=Centre (LU) | 2=Sud (LU) | 3=Nord (LU) | 4=Est (LU) | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not LU in isocntry)
+d12lv,REGION - LATVIA NUTS 3,float64,24711,9,1=Riga | 2=Pieriga | 3=Vidzeme | 4=Kurzeme | 5=Zemgale | 6=Latgale | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not LV in isocntry)
+d12nl,REGION - NETHERLANDS NUTS 2,float64,24699,15,1=Groningen | 2=Friesland (NL) | 3=Drenthe | 4=Overijssel | 5=Gelderland | 6=Flevoland | 7=Utrecht | 8=Noord-Holland | 9=Zuid-Holland | 10=Zeeland | 11=Noord-Brabant | 12=Limburg (NL) | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not NL in isocntry)
+d12nl_r,REGION - NETHERLANDS NUTS 1,float64,24699,7,1=Noord-Nederland | 2=Oost-Nederland | 3=West-Nederland | 4=Zuid-Nederland | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not NL in isocntry)
+d12pl,REGION - POLAND NUTS 2,float64,24692,20,1=Dolnoslaskie | 2=Kujawsko-Pomorskie | 3=Lubelskie | 4=Lubuskie | 5=Lodzkie | 6=Malopolskie | 7=Mazowiecki regionalny | 8=Opolskie | 9=Podkarpackie | 10=Podlaskie | 11=Pomorskie | 12=Slaskie | 13=Swietokrzyskie | 14=Warminsko-Mazurskie | 15=Warszawski stoleczny | 16=Wielkopolskie | 17=Zachodniopomorskie | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not PL in isocntry)
+d12pl_r,REGION - POLAND NUTS 1,float64,24692,10,1=Makroregion Centralny | 2=Makroregion Poludniowy | 3=Makroregion Wschodni | 4=Makroregion Pólnocno-Zachodni | 5=Makroregion Poludniowo-Zachodni | 6=Makroregion Pólnocny | 7=Makroregion Województwo Mazowieckie | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not PL in isocntry)
+d12pt,REGION - PORTUGAL NUTS 2,float64,24706,10,1=Norte | 2=Centro (PT) | 3=Area Metropolitana de Lisboa | 4=Alentejo | 5=Algarve | 6=Regiao Autonoma dos Acores (PT) | 7=Regiao Autonoma da Madeira (PT) | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not PT in isocntry)
+d12ro,REGION - ROMANIA NUTS 2,float64,24690,11,1=Nord-Est | 2=Sud-Est | 3=Sud - Muntenia | 4=Sud-Vest Oltenia | 5=Vest | 6=Nord-Vest | 7=Centru | 8=Bucuresti - Ilfov | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not RO in isocntry)
+d12se,REGION - SWEDEN NUTS 2,float64,24708,11,1=Stockholm | 2=Ostra Mellansverige | 3=Smaland med oarna | 4=Sydsverige | 5=Vastsverige | 6=Norra Mellansverige | 7=Mellersta Norrland | 8=Ovre Norrland | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not SE in isocntry)
+d12si,REGION - SLOVENIA NUTS 3,float64,24696,15,1=Osrednjeslovenska | 2=Gorenjska | 3=Goriska | 4=Obalno-kraska | 5=Pomurska | 6=Podravska | 7=Koroska | 8=Savinjska | 9=Zasavska | 10=Posavska | 11=Jugovzhodna Slovenija | 12=Primorsko-notranjska | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not SI in isocntry)
+d12si_r,REGION - SLOVENIA NUTS 2,float64,24696,5,1=Vzhodna Slovenija | 2=Zahodna Slovenija | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not SI in isocntry)
+d12sk,REGION - SLOVAKIA NUTS 2,float64,24711,7,1=SK01 Bratislavsky kraj | 2=SK02 Zapadne Slovensko | 3=SK03 Stredne Slovensko | 4=SK04 Vychodne Slovensko | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not SK in isocntry)
+d12mt,REGION - MALTA DISTRICTS LAU 1,float64,25207,9,1=Northern Harbour | 2=Southern Harbour | 3=Western | 4=Northern | 5=South Eastern | 6=Gozo and Comino | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not MT in isocntry)
+d12hr,REGION - CROATIA NUTS 2,float64,24704,7,1=Jadranska Hrvatska | 2=Grad Zagreb | 3=Sjeverna Hrvatska | 4=Panonska Hrvatska | 997=NA (re-identification potential) | 998=Don't know | 999=Inap. (not HR in isocntry)
+eu6,NATION GROUP EU-6,float64,0,2,0=Not country group | 1=EU-6
+eu9,NATION GROUP EU-9,float64,0,2,0=Not country group | 1=EU-9
+eu10,NATION GROUP EU-10 (1981),float64,0,2,0=Not country group | 1=EU-10
+eu12_2,NATION GROUP EU-12+ INCL DE-E (1990),float64,0,2,0=Not country group | 1=EU-12 INCL DE-E
+eu_nms3,NATION GROUP EU NMS-3 (1995),float64,0,2,0=Not country group | 1=EU NMS-3
+eu15,NATION GROUP EU-15 (1995),float64,0,2,0=Not country group | 1=EU-15
+euroz19,NATION GROUP EURO ZONE 19 (2015),float64,0,2,0=Not country group | 1=EURO ZONE 19
+euronz19,NATION GROUP NON-EURO ZONE 19 EU28 (2015),float64,0,2,0=Not country group | 1=NON-EURO ZONE 19
+eu_nms10,NATION GROUP EU NMS-10 (2004),float64,0,2,0=Not country group | 1=EU NMS-10
+eu_nms12,NATION GROUP EU NMS-12 (2004/2007),float64,0,2,0=Not country group | 1=EU NMS-12
+eu_nms13,NATION GROUP EU NMS-13 (2004/2007/2013),float64,0,2,0=Not country group | 1=EU NMS-13
+eu25,NATION GROUP EU-25 (2004),float64,0,2,0=Not country group | 1=EU-25
+eu27,NATION GROUP EU-27,float64,0,2,0=Not country group | 1=EU-27
+eu_la6,NATION GROUP 6 LARGEST EU COUNTRIES,float64,0,2,0=Not country group | 1=6 largest EU countries
+w1,WEIGHT RESULT FROM TARGET (POST-STRATIFICATION WEIGHT),float64,0,0,
+w5,WEIGHT EU-6,float64,20156,0,
+w6,WEIGHT EU-9,float64,18131,0,
+w7,WEIGHT EU-10,float64,17129,0,
+w9,WEIGHT EU-12,float64,15124,0,
+w10,WEIGHT EU NMS-3,float64,22689,0,
+w11,WEIGHT EU-15,float64,12102,0,
+w13,WEIGHT EU NMS-10,float64,16652,0,
+w14,WEIGHT EU-25,float64,3043,0,
+w24,WEIGHT EU NMS-12,float64,14616,0,
+w87,WEIGHT EURO-28-UK,float64,0,0,
+w94,WEIGHT NMS-13,float64,13609,0,
+w97,WEIGHT EURO ZONE 19,float64,8070,0,
+w98,WEIGHT NON-EURO ZONE 19 EU28,float64,17641,0,
+w100,WEIGHT 6 LARGEST EU COUNTRIES,float64,19651,0,
