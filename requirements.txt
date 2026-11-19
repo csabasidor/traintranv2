@@ -1,0 +1,56 @@
+# pip requirements for traintranv2 (Python 3.11): every notebook (00 preparation, 01a-07), the tests, the diagram.
+# Same packages and versions as environment.yml.
+# Graphviz (for docs/build_pipeline_docs.py) is a program, not a pip package: install it separately
+# (https://graphviz.org/download/, e.g. `winget install graphviz`) and put its bin folder on PATH or in GRAPHVIZ_BIN.
+# No database is needed. sqlalchemy / psycopg2-binary serve only the optional comparison in 00_b1-00_b5 with older
+# 2021 population tables in PostgreSQL (TRAINTRAN_PG_URL).
+# Prefer environment.yml (conda-forge) on Windows: the geospatial wheels (pyogrio, pyproj, shapely) need matching
+# GDAL / PROJ builds, which conda installs reliably.
+#
+#   python -m venv .venv  &&  .venv\Scripts\activate      (or: source .venv/bin/activate)
+#   pip install -r requirements.txt
+#   python -m ipykernel install --user --name traintranv2 --display-name "Python (traintranv2)"
+
+# data
+numpy==2.2.6
+pandas==3.0.3
+pyarrow==24.0.0
+openpyxl==3.1.5
+xlrd==2.0.2
+pyreadstat==1.3.6
+requests==2.34.1
+
+# geospatial
+geopandas==1.1.3
+shapely==2.1.2
+pyproj==3.7.2
+pyogrio==0.12.1
+fiona==1.10.1
+rasterio==1.4.4
+scikit-learn==1.8.0
+
+# optional: 00_b1-00_b5 comparison with the 2021 PostgreSQL tables (feeds no output)
+sqlalchemy==2.0.49
+psycopg2-binary==2.9.11
+
+# statistics
+scipy==1.14.1
+statsmodels==0.14.6
+libpysal==4.14.1
+esda==2.9.0
+spreg==1.9.0
+
+# figures
+matplotlib==3.10.9
+
+# notebooks
+ipykernel==7.2.0
+ipython==9.13.0
+jupyterlab==4.5.7
+jupytext==1.19.6
+nbformat==5.10.4
+nbclient==0.10.4
+nbconvert==7.17.1
+
+# tests
+pytest==9.0.3
