@@ -1,0 +1,17 @@
+station_name,station_stop_id,feed_key,feed_stop_id,feed_stop_name,decision,note
+Bratislava hl.st.,5613206,BAHN_AT,Psk:56:1,Bratislava hl.st.,accept,legacy manual override (ksc_analysis cfg.manual_station_matches)
+Linz Hbf,8100013,BAHN_AT,Pat:44:41164,Linz/Donau Hauptbahnhof,accept,"review 2026-11-10: = Linz/Donau Hauptbahnhof, 0.05 km"
+Baumgarten,8100216,BAHN_AT,Pat:41:3145,Baumgarten-Schattendorf Bahnhof,accept,"review 2026-11-10: = Baumgarten-Schattendorf Bahnhof, 0.09 km (station LAU Schattendorf)"
+St. Anton am Arlberg,8100064,BAHN_AT,Pat:47:1222,St. Anton a. A. Bahnhof,accept,"review 2026-11-10: = St. Anton a. A. Bahnhof, 0.14 km"
+Trautmannsdorf an der Leitha,8101653,BAHN_AT,at:43:5013:0:1,Trautmannsdorf/Leitha Bhf.,accept,"review 2026-11-10: = Trautmannsdorf/Leitha Bhf., 0.11 km"
+Kúty Gr.,5430145,DRAHY_CZ,czptt:stop:SK:13016,Kúty,reject,review 2026-11-10: Kúty Gr. is the border point; Kúty is a separate station 6.5 km away (matched to ZSR_SK Kúty)
+Bruck/Leitha,8100198,BAHN_AT,Pat:43:3209,Bruck/Leitha Bahnhof,accept,"review 2026-11-10: same station, points either side of a LAU border (AT_30704 / AT_10703), 0.10 km"
+Forro-Encs,5500033,MAV_HU,875,Forró-Encs,accept,"review 2026-11-10: same station, points either side of a LAU border (HU_30483 / HU_33048), 0.14 km"
+Hidasnémeti,5500034,MAV_HU,880,Hidasnémeti,accept,"review 2026-11-10: same station, points either side of a LAU border (HU_29054 / HU_11697), 0.14 km"
+Klamm-Schottwien,8101050,BAHN_AT,Pat:43:8766,Klamm-Schottwien Bahnhof,accept,"review 2026-11-10: same station, points either side of a LAU border (AT_31833 / AT_31805), 0.10 km"
+Neudorf b.Parndorf,8100388,BAHN_AT,at:41:5969:0:1,Neudorf,accept,"review 2026-11-10: same station, points either side of a LAU border (AT_10717 / AT_10725), 0.10 km"
+Petrov u Strážnice,5437105,DRAHY_CZ,czptt:stop:CZ:37105,Petrov u Strážnice,accept,"review 2026-11-10: same station, points either side of a LAU border (CZ_586587 / CZ_586480), 0.10 km"
+Ropice zast. (Ropica przystanek),5433254,DRAHY_CZ,czptt:stop:CZ:33254,Ropice zastávka,accept,"review 2026-11-10: same station, points either side of a LAU border (CZ_556971 / CZ_598933), 0.11 km"
+Ebreichsdorf,8100226,BAHN_AT,Pat:43:3653,Ebreichsdorf Bahnhof,accept,"review 2026-11-15: = Ebreichsdorf Bahnhof (0.82 km, same LAU)"
+Neufeld/Leitha,8100495,BAHN_AT,at:41:4327:0:1,Neufeld an der Leitha Bahnhof,accept,"review 2026-11-15: = Neufeld an der Leitha Bahnhof (0.11 km, same LAU)"
+Ötztal,8100061,BAHN_AT,Pat:47:1204,Ötztal-Bahnhof,accept,"review 2026-11-15: = Ötztal-Bahnhof (0.14 km, LAU AT_70202)"

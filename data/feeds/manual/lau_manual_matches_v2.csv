@@ -1,0 +1,393 @@
+feed_key,stop_id,stop_name,gisco_id,note,conversion,legacy_station_id,match_distance_km
+ZSR_SK,8010022,Bad Schandau,DE_14628030,"confirmed ok in manual review (Bad Schandau -> Bad Schandau, Stadt)",dropped_out_of_scope,S00003,0.0
+ZSR_SK,8100025,Baden b.Wien,AT_30604,confirmed ok in manual review (Baden b.Wien -> Baden),ok,S00004,0.0
+ZSR_SK,5613383,Banská Bystrica mesto,SK_508438,confirmed ok in manual review (Banská Bystrica mesto -> Banská Bystrica),ok,S00008,0.0
+ZSR_SK,5615290,Barca,SK_599093,confirmed ok in manual review (Barca -> Košice - mestská časť Barca),ok,S00011,0.0
+ZSR_SK,5616310,Belá n.Cirochou,SK_520039,confirmed ok in manual review (Belá n.Cirochou -> Belá nad Cirochou),ok,S00017,0.0
+ZSR_SK,8098160,Berlin Hbf (tief),DE_11000000,"confirmed ok in manual review (Berlin Hbf (tief) -> Berlin, Stadt)",dropped_out_of_scope,S00018,0.0
+ZSR_SK,8011113,Berlin Südkreuz,DE_11000000,"confirmed ok in manual review (Berlin Südkreuz -> Berlin, Stadt)",dropped_out_of_scope,S00019,0.0
+ZSR_SK,8010404,Berlin-Spandau,DE_11000000,"confirmed ok in manual review (Berlin-Spandau -> Berlin, Stadt)",dropped_out_of_scope,S00020,0.0
+ZSR_SK,5615646,Beša,SK_502065,confirmed ok in manual review (Beša -> Beša (okres Levice)),ok,S00024,0.0
+ZSR_SK,5437125,Blatnice p.Sv.Antonínkem,CZ_586048,confirmed ok in manual review (Blatnice p.Sv.Antonínkem -> Blatnice pod Svatým Antonínkem),ok,S00027,0.0
+ZSR_SK,5433634,Bocanovice (Boconowice),CZ_511633,confirmed ok in manual review (Bocanovice (Boconowice) -> Bocanovice),ok,S00030,0.0
+ZSR_SK,5613206,Bratislava hl.st.,SK_528595,confirmed ok in manual review (Bratislava hl.st. -> Bratislava - mestská časť Staré Mesto),ok,S00039,0.0
+ZSR_SK,5614516,Bratislava predm.,SK_529346,confirmed ok in manual review (Bratislava predm. -> Bratislava - mestská časť Nové Mesto),ok,S00040,0.0
+ZSR_SK,5613166,Bratislava-Lamač,SK_529419,confirmed ok in manual review (Bratislava-Lamač -> Bratislava - mestská časť Lamač),ok,S00041,0.0
+ZSR_SK,5614616,Bratislava-N.Mesto,SK_529346,confirmed ok in manual review (Bratislava-N.Mesto -> Bratislava - mestská časť Nové Mesto),ok,S00042,0.0
+ZSR_SK,5614576,Bratislava-Petržalka,SK_529460,confirmed ok in manual review (Bratislava-Petržalka -> Bratislava - mestská časť Petržalka),ok,S00043,0.0
+ZSR_SK,5613606,Bratislava-Rača,SK_529354,confirmed ok in manual review (Bratislava-Rača -> Bratislava - mestská časť Rača),ok,S00044,0.0
+ZSR_SK,5613216,Bratislava-Vajnory,SK_529362,confirmed ok in manual review (Bratislava-Vajnory -> Bratislava - mestská časť Vajnory),ok,S00045,0.0
+ZSR_SK,5613596,Bratislava-Vinohrady,SK_529346,confirmed ok in manual review (Bratislava-Vinohrady -> Bratislava - mestská časť Nové Mesto),ok,S00046,0.0
+ZSR_SK,5614618,Bratislava-Vrakuňa,SK_529338,confirmed ok in manual review (Bratislava-Vrakuňa -> Bratislava - mestská časť Vrakuňa),ok,S00047,0.0
+ZSR_SK,5613176,Bratislava-Železná studienka,SK_529401,confirmed ok in manual review (Bratislava-Železná studienka -> Bratislava - mestská časť Devín),ok,S00048,0.0
+ZSR_SK,8100692,Breitenstein am Semmering,AT_31805,confirmed ok in manual review (Breitenstein am Semmering -> Breitenstein),ok,S00049,0.0
+ZSR_SK,5614386,Brestovec,SK_504254,confirmed ok in manual review (Brestovec -> Brestovec (okres Myjava)),ok,S00052,0.0
+ZSR_SK,5614833,Breznička,SK_511269,confirmed ok in manual review (Breznička -> Breznička (okres Poltár)),ok,S00053,0.0
+ZSR_SK,5614363,Brezno mesto,SK_508497,confirmed ok in manual review (Brezno mesto -> Brezno),ok,S00055,0.0
+ZSR_SK,5614373,Brezno-Halny,SK_508497,confirmed ok in manual review (Brezno-Halny -> Brezno),ok,S00056,0.0
+ZSR_SK,5615143,Brezno-Rohozná,SK_508497,confirmed ok in manual review (Brezno-Rohozná -> Brezno),ok,S00057,0.0
+ZSR_SK,5433295,Brno hl.n.,CZ_582786,confirmed ok in manual review (Brno hl.n. -> Brno),ok,S00058,0.0
+ZSR_SK,5433395,Brno-Židenice,CZ_582786,confirmed ok in manual review (Brno-Židenice -> Brno),ok,S00059,0.0
+ZSR_SK,8100198,Bruck/Leitha,AT_30704,confirmed ok in manual review (Bruck/Leitha -> Bruck an der Leitha),ok,S00062,0.0
+ZSR_SK,5614263,Brusno kúpele,SK_508675,confirmed ok in manual review (Brusno kúpele -> Brusno),ok,S00063,0.0
+ZSR_SK,8509404,Buchs SG,CH_CH3271,confirmed ok in manual review (Buchs SG -> Buchs (SG)),dropped_out_of_scope,S00064,0.0
+ZSR_SK,5500003,Budapest-Keleti pu,HU_13578,confirmed ok in manual review (Budapest-Keleti pu -> Budapest),ok,S00065,0.0
+ZSR_SK,5500728,Budapest-Nyugati pu,HU_13578,confirmed ok in manual review (Budapest-Nyugati pu -> Budapest),ok,S00066,0.0
+ZSR_SK,5433104,Bystřice (Bystrzyca),CZ_598062,confirmed ok in manual review (Bystřice (Bystrzyca) -> Bystřice),ok,S00072,0.0
+ZSR_SK,5615146,Bánovce n.Bebravou,SK_542652,confirmed ok in manual review (Bánovce n.Bebravou -> Bánovce nad Bebravou),ok,S00079,0.0
+ZSR_SK,5616690,Bánovce n.Ondavou,SK_522295,confirmed ok in manual review (Bánovce n.Ondavou -> Bánovce nad Ondavou),ok,S00080,0.0
+ZSR_SK,5614176,Cerová-Lieskové,SK_504297,confirmed ok in manual review (Cerová-Lieskové -> Cerová),ok,S00084,0.0
+ZSR_SK,2200010,Chop,UA_ZAK_1,confirmed ok in manual review (Chop -> Chop),ua_review,S00089,0.0
+ZSR_SK,5433244,Chotěbuz (Kocobedz),CZ_555291,confirmed ok in manual review (Chotěbuz (Kocobedz) -> Chotěbuz),ok,S00091,0.0
+ZSR_SK,5613410,Chrasť n.Hornádom,SK_543152,confirmed ok in manual review (Chrasť n.Hornádom -> Chrasť nad Hornádom),ok,S00093,0.0
+ZSR_SK,5617295,Chrenovec,SK_514021,confirmed ok in manual review (Chrenovec -> Chrenovec-Brusno),ok,S00094,0.0
+ZSR_SK,5614323,Chvatimech,SK_508667,confirmed ok in manual review (Chvatimech -> Hronec),ok,S00095,0.0
+ZSR_SK,5100250,Dabrowa Gornicza,PL_1001241506501,confirmed ok in manual review (Dabrowa Gornicza -> Dąbrowa Górnicza),ok,S00098,0.0
+ZSR_SK,,Dabrowa Gornicza Zabkowice,PL_1001241506501,confirmed ok in manual review (Dabrowa Gornicza Zabkowice -> Dąbrowa Górnicza),unmatched,S00099,
+ZSR_SK,5615850,Demjata obec,SK_524336,confirmed ok in manual review (Demjata obec -> Demjata),ok,S00102,0.0
+ZSR_SK,5613136,Devínska N.Ves,SK_529371,confirmed ok in manual review (Devínska N.Ves -> Bratislava - mestská časť Devínska Nová Ves),ok,S00105,0.0
+ZSR_SK,5613146,Devínske Jazero,SK_529371,confirmed ok in manual review (Devínske Jazero -> Bratislava - mestská časť Devínska Nová Ves),ok,S00106,0.0
+ZSR_SK,5617595,Dlhá n.Oravou,SK_509639,confirmed ok in manual review (Dlhá n.Oravou -> Dlhá nad Oravou),ok,S00108,0.0
+ZSR_SK,5616110,Dlhé n.Cirochou,SK_520161,confirmed ok in manual review (Dlhé n.Cirochou -> Dlhé nad Cirochou),ok,S00109,0.0
+ZSR_SK,5616120,Dlhé n.Cirochou obec,SK_520161,confirmed ok in manual review (Dlhé n.Cirochou obec -> Dlhé nad Cirochou),ok,S00110,0.0
+ZSR_SK,5614550,Dobšinská Ľadová Jas.,SK_526291,confirmed ok in manual review (Dobšinská Ľadová Jas. -> Stratená),ok,S00112,0.0
+ZSR_SK,5617435,Dolný Kubín zast.,SK_509540,confirmed ok in manual review (Dolný Kubín zast. -> Dolný Kubín),ok,S00123,0.0
+ZSR_SK,5614130,Dolný Smokovec,SK_560103,confirmed ok in manual review (Dolný Smokovec -> Vysoké Tatry),ok,S00124,0.0
+ZSR_SK,8010085,Dresden Hbf,DE_14612000,"confirmed ok in manual review (Dresden Hbf -> Dresden, Stadt)",dropped_out_of_scope,S00127,0.0
+ZSR_SK,8010089,Dresden-Neustadt,DE_14612000,"confirmed ok in manual review (Dresden-Neustadt -> Dresden, Stadt)",dropped_out_of_scope,S00128,0.0
+ZSR_SK,5616960,Drienovská Nová Ves obec,SK_524361,confirmed ok in manual review (Drienovská Nová Ves obec -> Drienovská Nová Ves),ok,S00130,0.0
+ZSR_SK,5617015,Dubnica n.Váhom,SK_513016,confirmed ok in manual review (Dubnica n.Váhom -> Dubnica nad Váhom),ok,S00131,0.0
+ZSR_SK,5613446,Dvory n.Žitavou,SK_503177,confirmed ok in manual review (Dvory n.Žitavou -> Dvory nad Žitavou),ok,S00135,0.0
+ZSR_SK,5455659,Děčín hl.n.,CZ_562335,confirmed ok in manual review (Děčín hl.n. -> Děčín),ok,S00138,0.0
+ZSR_SK,5613703,Fiľakovo zast.,SK_511391,confirmed ok in manual review (Fiľakovo zast. -> Fiľakovo),ok,S00143,0.0
+ZSR_SK,5500033,Forro-Encs,HU_30483,confirmed ok in manual review (Forro-Encs -> Forró),ok,S00145,0.0
+ZSR_SK,,Gbely zast.,SK_504351,confirmed ok in manual review (Gbely zast. -> Gbely),unmatched,S00152,
+ZSR_SK,5614960,Gelnica mesto,SK_526509,confirmed ok in manual review (Gelnica mesto -> Gelnica),ok,S00154,0.0
+ZSR_SK,8100254,Götzendorf/Leitha,AT_30709,confirmed ok in manual review (Götzendorf/Leitha -> Götzendorf an der Leitha),ok,S00161,0.0
+ZSR_SK,8002549,Hamburg Hbf,DE_02000000,"confirmed ok in manual review (Hamburg Hbf -> Hamburg, Freie und Hansestadt)",dropped_out_of_scope,S00164,0.0
+ZSR_SK,8002553,Hamburg-Altona,DE_02000000,"confirmed ok in manual review (Hamburg-Altona -> Hamburg, Freie und Hansestadt)",dropped_out_of_scope,S00165,0.0
+ZSR_SK,5615280,Haniska pri Košiciach,SK_521400,confirmed ok in manual review (Haniska pri Košiciach -> Haniska (okres Košice - okolie)),ok,S00167,0.0
+ZSR_SK,5615770,Haniska pri Prešove,SK_518522,confirmed ok in manual review (Haniska pri Prešove -> Haniska (okres Prešov)),ok,S00168,0.0
+ZSR_SK,5615870,Hanušovce n.Topľou,SK_544213,confirmed ok in manual review (Hanušovce n.Topľou -> Hanušovce nad Topľou),ok,S00170,0.0
+ZSR_SK,5615890,Hanušovce n.Topľou mesto,SK_544213,confirmed ok in manual review (Hanušovce n.Topľou mesto -> Hanušovce nad Topľou),ok,S00171,0.0
+ZSR_SK,5616070,Hažín n.Cirochou,SK_559598,confirmed ok in manual review (Hažín n.Cirochou -> Hažín nad Cirochou),ok,S00176,0.0
+ZSR_SK,5614093,Hliník n.Hronom,SK_516767,confirmed ok in manual review (Hliník n.Hronom -> Hliník nad Hronom),ok,S00184,0.0
+ZSR_SK,5615263,Hnúšťa zast.,SK_514829,confirmed ok in manual review (Hnúšťa zast. -> Hnúšťa),ok,S00188,0.0
+ZSR_SK,5617605,Horná Lehota,SK_509671,confirmed ok in manual review (Horná Lehota -> Horná Lehota (okres Dolný Kubín)),ok,S00193,0.0
+ZSR_SK,5613293,Horná Štubňa obec,SK_512273,confirmed ok in manual review (Horná Štubňa obec -> Horná Štubňa),ok,S00196,0.0
+ZSR_SK,5613103,Horná Štubňa zast.,SK_512273,confirmed ok in manual review (Horná Štubňa zast. -> Horná Štubňa),ok,S00197,0.0
+ZSR_SK,5614160,Horný Smokovec,SK_560103,confirmed ok in manual review (Horný Smokovec -> Vysoké Tatry),ok,S00203,0.0
+ZSR_SK,5616180,Hrabovec n.Laborcom,SK_520225,confirmed ok in manual review (Hrabovec n.Laborcom -> Hrabovec nad Laborcom),ok,S00204,0.0
+ZSR_SK,5433722,Hranice na Moravě,CZ_513750,confirmed ok in manual review (Hranice na Moravě -> Hranice),ok,S00207,0.0
+ZSR_SK,5433114,Hrádek (Gródek),CZ_512176,confirmed ok in manual review (Hrádek (Gródek) -> Hrádek),ok,S00216,0.0
+ZSR_SK,5616060,Humenné mesto,SK_520004,confirmed ok in manual review (Humenné mesto -> Humenné),ok,S00220,0.0
+ZSR_SK,5501582,Inancs,HU_08086,confirmed ok in manual review (Inancs -> Ináncs),ok,S00225,0.0
+ZSR_SK,8100108,Innsbruck Hbf,AT_70101,confirmed ok in manual review (Innsbruck Hbf -> Innsbruck),ok,S00226,0.0
+ZSR_SK,5617345,Jalovec,SK_557714,confirmed ok in manual review (Jalovec -> Jalovec (okres Prievidza)),ok,S00234,0.0
+ZSR_SK,5613803,Jesenské,SK_515001,confirmed ok in manual review (Jesenské -> Jesenské (okres Rimavská Sobota)),ok,S00240,0.0
+ZSR_SK,5613823,Jesenské zast.,SK_515001,confirmed ok in manual review (Jesenské zast. -> Jesenské (okres Rimavská Sobota)),ok,S00241,0.0
+ZSR_SK,5615666,Jesenské údolie,SK_556777,confirmed ok in manual review (Jesenské údolie -> Jesenské (okres Levice)),ok,S00242,0.0
+ZSR_SK,5615696,Kalná n.Hronom,SK_502413,confirmed ok in manual review (Kalná n.Hronom -> Kalná nad Hronom),ok,S00244,0.0
+ZSR_SK,5616080,Kamenica n.Cirochou,SK_520331,confirmed ok in manual review (Kamenica n.Cirochou -> Kamenica nad Cirochou),ok,S00247,0.0
+ZSR_SK,5616090,Kamenica n.Cirochou dv.,SK_520331,confirmed ok in manual review (Kamenica n.Cirochou dv. -> Kamenica nad Cirochou),ok,S00248,0.0
+ZSR_SK,5616376,Kamenný Most n.Hronom,SK_503258,confirmed ok in manual review (Kamenný Most n.Hronom -> Kamenný Most),ok,S00249,0.0
+ZSR_SK,5615800,Kapušany pri Prešove,SK_524620,confirmed ok in manual review (Kapušany pri Prešove -> Kapušany),ok,S00251,0.0
+ZSR_SK,5433674,Karviná hl.n.,CZ_598917,confirmed ok in manual review (Karviná hl.n. -> Karviná),ok,S00252,0.0
+ZSR_SK,,Katowice Ligota,PL_1001241486901,confirmed ok in manual review (Katowice Ligota -> Katowice),unmatched,S00254,
+ZSR_SK,5614250,Kežmarok zast.,SK_523585,confirmed ok in manual review (Kežmarok zast. -> Kežmarok),ok,S00258,0.0
+ZSR_SK,5614260,Kežmarok-Pradiareň,SK_523585,confirmed ok in manual review (Kežmarok-Pradiareň -> Kežmarok),ok,S00259,0.0
+ZSR_SK,8000199,Kiel Hbf,DE_01002000,"confirmed ok in manual review (Kiel Hbf -> Kiel, Landeshauptstadt)",dropped_out_of_scope,S00260,0.0
+ZSR_SK,8101050,Klamm-Schottwien,AT_31833,confirmed ok in manual review (Klamm-Schottwien -> Schottwien),ok,S00262,0.0
+ZSR_SK,5613043,Kláštor p.Znievom,SK_512354,confirmed ok in manual review (Kláštor p.Znievom -> Kláštor pod Znievom),ok,S00265,0.0
+ZSR_SK,5616470,Kochanovce,SK_520373,confirmed ok in manual review (Kochanovce -> Kochanovce (okres Humenné)),ok,S00268,0.0
+ZSR_SK,5614963,Kokava n.Rim.-Liešnica,SK_511498,confirmed ok in manual review (Kokava n.Rim.-Liešnica -> Kokava nad Rimavicou),ok,S00270,0.0
+ZSR_SK,5614943,Kokava n.Rimavicou,SK_511498,confirmed ok in manual review (Kokava n.Rimavicou -> Kokava nad Rimavicou),ok,S00271,0.0
+ZSR_SK,5614966,Komárno závody,SK_501026,confirmed ok in manual review (Komárno závody -> Komárno),ok,S00276,0.0
+ZSR_SK,5613580,Kostoľany n.Hornádom,SK_582514,confirmed ok in manual review (Kostoľany n.Hornádom -> Kostoľany nad Hornádom),ok,S00281,0.0
+ZSR_SK,5613600,Košice,SK_598186,confirmed ok in manual review (Košice -> Košice - mestská časť Staré Mesto),ok,S00286,0.0
+ZSR_SK,5613620,Košice predmestie,SK_599824,confirmed ok in manual review (Košice predmestie -> Košice - mestská časť Juh),ok,S00287,0.0
+ZSR_SK,5613023,Košťany n.Turcom,SK_512371,confirmed ok in manual review (Košťany n.Turcom -> Košťany nad Turcom),ok,S00289,0.0
+ZSR_SK,5617495,Kraľovany zast.,SK_509744,confirmed ok in manual review (Kraľovany zast. -> Kraľovany),ok,S00291,0.0
+ZSR_SK,5615026,Križovany n.Dudváhom,SK_556483,confirmed ok in manual review (Križovany n.Dudváhom -> Križovany nad Dudváhom),ok,S00297,0.0
+ZSR_SK,5613660,Krásna n.Hornádom,SK_599794,confirmed ok in manual review (Krásna n.Hornádom -> Košice - mestská časť Krásna),ok,S00302,0.0
+ZSR_SK,5618215,Krásno n.Kysucou,SK_509248,confirmed ok in manual review (Krásno n.Kysucou -> Krásno nad Kysucou),ok,S00303,0.0
+ZSR_SK,5613740,Kuzmice,SK_528471,confirmed ok in manual review (Kuzmice -> Kuzmice (okres Trebišov)),ok,S00308,0.0
+ZSR_SK,,Kúty Gr.,SK_504513,confirmed ok in manual review (Kúty Gr. -> Kúty),unmatched,S00316,
+ZSR_SK,8100063,Landeck-Zams,AT_70614,confirmed ok in manual review (Landeck-Zams -> Landeck),ok,S00322,0.0
+ZSR_SK,8101173,Lanzendorf-Rannersdorf,AT_30734,confirmed ok in manual review (Lanzendorf-Rannersdorf -> Lanzendorf),ok,S00323,0.0
+ZSR_SK,5615916,Leopoldov zast.,SK_507253,confirmed ok in manual review (Leopoldov zast. -> Leopoldov),ok,S00327,0.0
+ZSR_SK,8100013,Linz Hbf,AT_40101,confirmed ok in manual review (Linz Hbf -> Linz),ok,S00332,0.0
+ZSR_SK,5434042,Lipník n.Bečvou,CZ_514705,confirmed ok in manual review (Lipník n.Bečvou -> Lipník nad Bečvou),ok,S00334,0.0
+ZSR_SK,5613091,Lisková zast.,SK_510785,confirmed ok in manual review (Lisková zast. -> Lisková),ok,S00342,0.0
+ZSR_SK,5613583,Lovinobaňa zast.,SK_511552,confirmed ok in manual review (Lovinobaňa zast. -> Lovinobaňa),ok,S00349,0.0
+ZSR_SK,5617985,Lysá p.Makytou,SK_513342,confirmed ok in manual review (Lysá p.Makytou -> Lysá pod Makytou),ok,S00355,0.0
+ZSR_SK,5616206,Lúčnica n.Žitavou,SK_500470,confirmed ok in manual review (Lúčnica n.Žitavou -> Lúčnica nad Žitavou),ok,S00357,0.0
+ZSR_SK,5613500,Margecany zast.,SK_543322,confirmed ok in manual review (Margecany zast. -> Margecany),ok,S00366,0.0
+ZSR_SK,5613400,Matejovce n.Hornádom,SK_543349,confirmed ok in manual review (Matejovce n.Hornádom -> Matejovce nad Hornádom),ok,S00370,0.0
+ZSR_SK,5615542,Maňa zast.,SK_503363,confirmed ok in manual review (Maňa zast. -> Maňa),ok,S00373,0.0
+ZSR_SK,5617625,Medzibrodie n.Oravou,SK_509833,confirmed ok in manual review (Medzibrodie n.Oravou -> Medzibrodie nad Oravou),ok,S00375,0.0
+ZSR_SK,5616260,Medzilaborce mesto,SK_520471,confirmed ok in manual review (Medzilaborce mesto -> Medzilaborce),ok,S00377,0.0
+ZSR_SK,5613836,Melčice,SK_545686,confirmed ok in manual review (Melčice -> Melčice-Lieskové),ok,S00378,0.0
+ZSR_SK,5500015,Mezökövesd,HU_19433,confirmed ok in manual review (Mezökövesd -> Mezőkövesd),ok,S00379,0.0
+ZSR_SK,5616176,Michal n.Žitavou,SK_503371,confirmed ok in manual review (Michal n.Žitavou -> Michal nad Žitavou),ok,S00380,0.0
+ZSR_SK,5615153,Michalová zast.,SK_508772,confirmed ok in manual review (Michalová zast. -> Michalová),ok,S00384,0.0
+ZSR_SK,5500018,Miskolc Tiszai pu,HU_30456,confirmed ok in manual review (Miskolc Tiszai pu -> Miskolc),ok,S00387,0.0
+ZSR_SK,5614590,Mlynky zast.,SK_543357,confirmed ok in manual review (Mlynky zast. -> Mlynky),ok,S00389,0.0
+ZSR_SK,5614880,Mníšek n.Hnilcom,SK_543365,confirmed ok in manual review (Mníšek n.Hnilcom -> Mníšek nad Hnilcom),ok,S00392,0.0
+ZSR_SK,5616100,Modra n.Cirochou,SK_520497,confirmed ok in manual review (Modra n.Cirochou -> Modra nad Cirochou),ok,S00393,0.0
+ZSR_SK,5615170,Moldava n.Bodvou,SK_521698,confirmed ok in manual review (Moldava n.Bodvou -> Moldava nad Bodvou),ok,S00397,0.0
+ZSR_SK,5615230,Moldava n.Bodvou mesto,SK_521698,confirmed ok in manual review (Moldava n.Bodvou mesto -> Moldava nad Bodvou),ok,S00398,0.0
+ZSR_SK,5434104,Mosty u Jablunkova (Mosty kolo Jabl.),CZ_598453,confirmed ok in manual review (Mosty u Jablunkova (Mosty kolo Jabl.) -> Mosty u Jablunkova),ok,S00401,0.0
+ZSR_SK,5434114,Mosty u Jablunkova z. (Mosty kolo J.pr.),CZ_598453,confirmed ok in manual review (Mosty u Jablunkova z. (Mosty kolo J.pr.) -> Mosty u Jablunkova),ok,S00402,0.0
+ZSR_SK,2200033,Mukatschewo,UA2104015,manual review 2026-11-09 of station_tags_review.csv: Mukatschewo -> Мукачівська hromada (1st candidate; was hard-coded UA_ZAK_2),ok,S00403,0.0
+ZSR_SK,5500913,Nagymaros-Visegrad,HU_31732,confirmed ok in manual review (Nagymaros-Visegrad -> Nagymaros),ok,S00411,0.0
+ZSR_SK,8100388,Neudorf b.Parndorf,AT_10717,confirmed ok in manual review (Neudorf b.Parndorf -> Parndorf),ok,S00414,0.0
+ZSR_SK,8100495,Neufeld/Leitha,AT_10309,confirmed ok in manual review (Neufeld/Leitha -> Neufeld an der Leitha),ok,S00415,0.0
+ZSR_SK,8000271,Neumünster,DE_01004000,"confirmed ok in manual review (Neumünster -> Neumünster, Stadt)",dropped_out_of_scope,S00416,0.0
+ZSR_SK,8101277,Neunkirchen NÖ,AT_31818,confirmed ok in manual review (Neunkirchen NÖ -> Neunkirchen),ok,S00417,0.0
+ZSR_SK,5617875,Nezbudská Lúčka-Strečno,SK_558168,confirmed ok in manual review (Nezbudská Lúčka-Strečno -> Nezbudská Lúčka),ok,S00418,0.0
+ZSR_SK,5615316,Nitra zast.,SK_500011,confirmed ok in manual review (Nitra zast. -> Nitra),ok,S00420,0.0
+ZSR_SK,5617685,Nižná,SK_509876,confirmed ok in manual review (Nižná -> Nižná (okres Tvrdošín)),ok,S00421,0.0
+ZSR_SK,5500949,Novajidrany,HU_27191,confirmed ok in manual review (Novajidrany -> Novajidrány),ok,S00429,0.0
+ZSR_SK,5616236,Nová Ves n.Žitavou,SK_500631,confirmed ok in manual review (Nová Ves n.Žitavou -> Nová Ves nad Žitavou),ok,S00435,0.0
+ZSR_SK,5613816,Nové Mesto n.Váhom,SK_506338,confirmed ok in manual review (Nové Mesto n.Váhom -> Nové Mesto nad Váhom),ok,S00439,0.0
+ZSR_SK,5614120,Nový Smokovec,SK_560103,confirmed ok in manual review (Nový Smokovec -> Vysoké Tatry),ok,S00441,0.0
+ZSR_SK,5614840,Nálepkovo-Peklisko,SK_543373,confirmed ok in manual review (Nálepkovo-Peklisko -> Nálepkovo),ok,S00443,0.0
+ZSR_SK,5433624,Návsí (Nawsie),CZ_554014,confirmed ok in manual review (Návsí (Nawsie) -> Návsí),ok,S00444,0.0
+ZSR_SK,5434362,Olomouc hl.n.,CZ_500496,confirmed ok in manual review (Olomouc hl.n. -> Olomouc),ok,S00451,0.0
+ZSR_SK,5104744,Opoczno Poludnie,PL_1005101170704,confirmed ok in manual review (Opoczno Poludnie -> Opoczno),ok,S00454,0.0
+ZSR_SK,5618945,Oravský Podzámok zast.,SK_509957,confirmed ok in manual review (Oravský Podzámok zast. -> Oravský Podzámok),ok,S00456,0.0
+ZSR_SK,5434364,Ostrava hl.n.,CZ_554821,confirmed ok in manual review (Ostrava hl.n. -> Ostrava),ok,S00461,0.0
+ZSR_SK,5434384,Ostrava-Mar.Hory,CZ_554821,confirmed ok in manual review (Ostrava-Mar.Hory -> Ostrava),ok,S00462,0.0
+ZSR_SK,5434393,Ostrava-Stodolní,CZ_554821,confirmed ok in manual review (Ostrava-Stodolní -> Ostrava),ok,S00463,0.0
+ZSR_SK,5434434,Ostrava-Svinov,CZ_554821,confirmed ok in manual review (Ostrava-Svinov -> Ostrava),ok,S00464,0.0
+ZSR_SK,5453613,Pardubice hl.n.,CZ_555134,confirmed ok in manual review (Pardubice hl.n. -> Pardubice),ok,S00470,0.0
+ZSR_SK,8100515,Parndorf Ort,AT_10717,confirmed ok in manual review (Parndorf Ort -> Parndorf),ok,S00472,0.0
+ZSR_SK,5615566,Partizánske zast.,SK_505315,confirmed ok in manual review (Partizánske zast. -> Partizánske),ok,S00474,0.0
+ZSR_SK,8100027,Payerbach-Reichenau,AT_31821,confirmed ok in manual review (Payerbach-Reichenau -> Payerbach),ok,S00477,0.0
+ZSR_SK,5614150,Pekná Vyhliadka,SK_560103,confirmed ok in manual review (Pekná Vyhliadka -> Vysoké Tatry),ok,S00478,0.0
+ZSR_SK,5437105,Petrov u Strážnice,CZ_586587,confirmed ok in manual review (Petrov u Strážnice -> Strážnice),ok,S00479,0.0
+ZSR_SK,5613636,Pezinok-Grinava,SK_508179,confirmed ok in manual review (Pezinok-Grinava -> Pezinok),ok,S00481,0.0
+ZSR_SK,5614140,Pod lesom,SK_560103,confirmed ok in manual review (Pod lesom -> Vysoké Tatry),ok,S00489,0.0
+ZSR_SK,5614300,Podhorany pri Kežmarku,SK_523780,confirmed ok in manual review (Podhorany pri Kežmarku -> Podhorany (okres Kežmarok)),ok,S00492,0.0
+ZSR_SK,5614626,Podunajské Biskupice,SK_529311,confirmed ok in manual review (Podunajské Biskupice -> Bratislava - mestská časť Podunajské Biskupice),ok,S00498,0.0
+ZSR_SK,5614523,Pohorelská Maša,SK_508870,confirmed ok in manual review (Pohorelská Maša -> Pohorelá),ok,S00500,0.0
+ZSR_SK,5613250,Poprad-Tatry,SK_523381,confirmed ok in manual review (Poprad-Tatry -> Poprad),ok,S00507,0.0
+ZSR_SK,5614030,Popradské Pleso,SK_560103,confirmed ok in manual review (Popradské Pleso -> Vysoké Tatry),ok,S00508,0.0
+ZSR_SK,5617515,Porúbka,SK_557960,confirmed ok in manual review (Porúbka -> Porúbka (okres Žilina)),ok,S00510,0.0
+ZSR_SK,5457076,Praha hl.n.,CZ_554782,confirmed ok in manual review (Praha hl.n. -> Praha),ok,S00514,0.0
+ZSR_SK,5457256,Praha-Holešovice,CZ_554782,confirmed ok in manual review (Praha-Holešovice -> Praha),ok,S00515,0.0
+ZSR_SK,5457176,Praha-Libeň,CZ_554782,confirmed ok in manual review (Praha-Libeň -> Praha),ok,S00516,0.0
+ZSR_SK,5458377,Praha-Michle autovlak,CZ_554782,confirmed ok in manual review (Praha-Michle autovlak -> Praha),ok,S00517,0.0
+ZSR_SK,5457279,Praha-Zahradní Město,CZ_554782,confirmed ok in manual review (Praha-Zahradní Město -> Praha),ok,S00518,0.0
+ZSR_SK,5614940,Prakovce zast.,SK_543497,confirmed ok in manual review (Prakovce zast. -> Prakovce),ok,S00520,0.0
+ZSR_SK,5615446,Preseľany n.Nitrou z.,SK_505404,confirmed ok in manual review (Preseľany n.Nitrou z. -> Preseľany),ok,S00523,0.0
+ZSR_SK,5615760,Prešov mesto,SK_524140,confirmed ok in manual review (Prešov mesto -> Prešov),ok,S00525,0.0
+ZSR_SK,5613033,Príbovce-Rakovo,SK_512524,confirmed ok in manual review (Príbovce-Rakovo -> Príbovce),ok,S00530,0.0
+ZSR_SK,5617565,Púchov zast.,SK_513610,confirmed ok in manual review (Púchov zast. -> Púchov),ok,S00540,0.0
+ZSR_SK,5617655,Púchov závody,SK_513610,confirmed ok in manual review (Púchov závody -> Púchov),ok,S00541,0.0
+ZSR_SK,5616190,Radvaň n.Laborcom,SK_520691,confirmed ok in manual review (Radvaň n.Laborcom -> Radvaň nad Laborcom),ok,S00546,0.0
+ZSR_SK,5615093,Rimavské Janovce obec,SK_515469,confirmed ok in manual review (Rimavské Janovce obec -> Rimavské Janovce),ok,S00561,0.0
+ZSR_SK,5435895,Rohatec kolonie,CZ_586528,confirmed ok in manual review (Rohatec kolonie -> Rohatec),ok,S00565,0.0
+ZSR_SK,5435885,Rohatec zast.,CZ_586528,confirmed ok in manual review (Rohatec zast. -> Rohatec),ok,S00566,0.0
+ZSR_SK,5614053,Rudno n.Hronom,SK_517232,confirmed ok in manual review (Rudno n.Hronom -> Rudno nad Hronom),ok,S00572,0.0
+ZSR_SK,5615136,Ruskovce,SK_505447,confirmed ok in manual review (Ruskovce -> Ruskovce (okres Bánovce nad Bebravou)),ok,S00574,0.0
+ZSR_SK,5614586,Rusovce,SK_529494,confirmed ok in manual review (Rusovce -> Bratislava - mestská časť Rusovce),ok,S00575,0.0
+ZSR_SK,5613061,Ružomberok-Rybárpole,SK_510998,confirmed ok in manual review (Ružomberok-Rybárpole -> Ružomberok),ok,S00577,0.0
+ZSR_SK,5613540,Ružín,SK_521663,confirmed ok in manual review (Ružín -> Malá Lodina),ok,S00578,0.0
+ZSR_SK,,Rybnik(PL),PL_1001241497301,confirmed ok in manual review (Rybnik(PL) -> Rybnik),unmatched,S00580,
+ZSR_SK,8100002,Salzburg Hbf,AT_50101,confirmed ok in manual review (Salzburg Hbf -> Salzburg),ok,S00583,0.0
+ZSR_SK,8101545,Schönfeld-Lassee,AT_30830,confirmed ok in manual review (Schönfeld-Lassee -> Lassee),ok,S00586,0.0
+ZSR_SK,5614110,Sibír,SK_560103,confirmed ok in manual review (Sibír -> Vysoké Tatry),ok,S00593,0.0
+ZSR_SK,5618385,Skalité p.Poľanou,SK_509451,confirmed ok in manual review (Skalité p.Poľanou -> Skalité),ok,S00597,0.0
+ZSR_SK,5618395,Skalité zast.,SK_509451,confirmed ok in manual review (Skalité zast. -> Skalité),ok,S00598,0.0
+ZSR_SK,5618325,Skalité-Kudlov,SK_509451,confirmed ok in manual review (Skalité-Kudlov -> Skalité),ok,S00599,0.0
+ZSR_SK,5618335,Skalité-Serafínov,SK_509451,confirmed ok in manual review (Skalité-Serafínov -> Skalité),ok,S00600,0.0
+ZSR_SK,5617355,Sklené pri Handlovej,SK_512605,confirmed ok in manual review (Sklené pri Handlovej -> Sklené),ok,S00601,0.0
+ZSR_SK,5613443,Sliač kúpele,SK_518808,confirmed ok in manual review (Sliač kúpele -> Sliač),ok,S00605,0.0
+ZSR_SK,5614213,Slovenská Ľupča-Príboj,SK_509001,confirmed ok in manual review (Slovenská Ľupča-Príboj -> Slovenská Ľupča),ok,S00607,0.0
+ZSR_SK,5616330,Snina mesto,SK_520802,confirmed ok in manual review (Snina mesto -> Snina),ok,S00613,0.0
+ZSR_SK,5616320,Snina predm.,SK_520802,confirmed ok in manual review (Snina predm. -> Snina),ok,S00614,0.0
+ZSR_SK,5100133,Sosnowiec Glowny,PL_1001241507501,confirmed ok in manual review (Sosnowiec Glowny -> Sosnowiec),ok,S00618,0.0
+ZSR_SK,5614280,Spišská Belá zast.,SK_523828,confirmed ok in manual review (Spišská Belá zast. -> Spišská Belá),ok,S00621,0.0
+ZSR_SK,8100008,St.Pölten Hbf,AT_30201,confirmed ok in manual review (St.Pölten Hbf -> St. Pölten),ok,S00628,0.0
+ZSR_SK,5436145,Staré Město u Uh.Hrad.,CZ_550752,confirmed ok in manual review (Staré Město u Uh.Hrad. -> Staré Město),ok,S00636,0.0
+ZSR_SK,5614050,Starý Smokovec,SK_560103,confirmed ok in manual review (Starý Smokovec -> Vysoké Tatry),ok,S00637,0.0
+ZSR_SK,5618185,Staškov zast.,SK_509485,confirmed ok in manual review (Staškov zast. -> Staškov),ok,S00639,0.0
+ZSR_SK,5613810,Streda n.Bodrogom,SK_543802,confirmed ok in manual review (Streda n.Bodrogom -> Streda nad Bodrogom),ok,S00642,0.0
+ZSR_SK,5617995,Strelenka,CZ_544914,confirmed ok in manual review (Strelenka -> Střelná),ok,S00644,0.0
+ZSR_SK,5437085,Sudoměřice n.Moravou,CZ_586609,confirmed ok in manual review (Sudoměřice n.Moravou -> Sudoměřice),ok,S00651,0.0
+ZSR_SK,5618175,Svrčinovec zast.,SK_509493,confirmed ok in manual review (Svrčinovec zast. -> Svrčinovec),ok,S00658,0.0
+ZSR_SK,5501273,Szikszo-Vasarter,HU_21351,confirmed ok in manual review (Szikszo-Vasarter -> Szikszó),ok,S00661,0.0
+ZSR_SK,5614190,Tatranská Lesná,SK_523887,confirmed ok in manual review (Tatranská Lesná -> Stará Lesná),ok,S00663,0.0
+ZSR_SK,5614170,Tatranská Lomnica,SK_524000,confirmed ok in manual review (Tatranská Lomnica -> Veľká Lomnica),ok,S00664,0.0
+ZSR_SK,5614400,Tatranská Lomnica z.,SK_524000,confirmed ok in manual review (Tatranská Lomnica z. -> Veľká Lomnica),ok,S00665,0.0
+ZSR_SK,5614080,Tatranská Polianka,SK_560103,confirmed ok in manual review (Tatranská Polianka -> Vysoké Tatry),ok,S00666,0.0
+ZSR_SK,5614100,Tatranské Zruby,SK_560103,confirmed ok in manual review (Tatranské Zruby -> Vysoké Tatry),ok,S00667,0.0
+ZSR_SK,5614090,Tatranský Lieskovec,SK_523933,confirmed ok in manual review (Tatranský Lieskovec -> Štrba),ok,S00668,0.0
+ZSR_SK,5614811,Telgárt penzión,SK_509051,confirmed ok in manual review (Telgárt penzión -> Telgárt),ok,S00672,0.0
+ZSR_SK,5615203,Tisovec mesto,SK_515680,confirmed ok in manual review (Tisovec mesto -> Tisovec),ok,S00676,0.0
+ZSR_SK,5615304,Tisovec závody,SK_515680,confirmed ok in manual review (Tisovec závody -> Tisovec),ok,S00677,0.0
+ZSR_SK,5615193,Tisovec-Bánovo,SK_515680,confirmed ok in manual review (Tisovec-Bánovo -> Tisovec),ok,S00678,0.0
+ZSR_SK,5613603,Tomášovce,SK_511919,confirmed ok in manual review (Tomášovce -> Tomášovce (okres Lučenec)),ok,S00680,0.0
+ZSR_SK,,Trenčianska Teplá obec,SK_506559,confirmed ok in manual review (Trenčianska Teplá obec -> Trenčianska Teplá),unmatched,S00689,
+ZSR_SK,,Trenčianska Teplá zast.,SK_506559,confirmed ok in manual review (Trenčianska Teplá zast. -> Trenčianska Teplá),unmatched,S00690,
+ZSR_SK,5613826,Trenčianske Bohuslav.,SK_506583,confirmed ok in manual review (Trenčianske Bohuslav. -> Trenčianske Bohuslavice),ok,S00692,0.0
+ZSR_SK,,Trenčianske Teplice sídl.,SK_506613,confirmed ok in manual review (Trenčianske Teplice sídl. -> Trenčianske Teplice),unmatched,S00695,
+ZSR_SK,,Trenčianske Teplice zast.,SK_506613,confirmed ok in manual review (Trenčianske Teplice zast. -> Trenčianske Teplice),unmatched,S00696,
+ZSR_SK,5613876,Trenčín predm.,SK_505820,confirmed ok in manual review (Trenčín predm. -> Trenčín),ok,S00698,0.0
+ZSR_SK,5613896,Trenčín-Opatová,SK_505820,confirmed ok in manual review (Trenčín-Opatová -> Trenčín),ok,S00699,0.0
+ZSR_SK,5613846,Trenčín-Zlatovce,SK_505820,confirmed ok in manual review (Trenčín-Zlatovce -> Trenčín),ok,S00700,0.0
+ZSR_SK,5613686,Trnava predm.,SK_506745,confirmed ok in manual review (Trnava predm. -> Trnava),ok,S00703,0.0
+ZSR_SK,5613386,Trnovec n.Váhom,SK_504092,confirmed ok in manual review (Trnovec n.Váhom -> Trnovec nad Váhom),ok,S00705,0.0
+ZSR_SK,5618375,Turzovka zast.,SK_509507,confirmed ok in manual review (Turzovka zast. -> Turzovka),ok,S00710,0.0
+ZSR_SK,5615140,Turňa n.Bodvou,SK_559784,confirmed ok in manual review (Turňa n.Bodvou -> Turňa nad Bodvou),ok,S00713,0.0
+ZSR_SK,5434924,Třinec (Trzyniec),CZ_598810,confirmed ok in manual review (Třinec (Trzyniec) -> Třinec),ok,S00717,0.0
+ZSR_SK,5434944,Třinec centrum (Trzyniec centrum),CZ_598810,confirmed ok in manual review (Třinec centrum (Trzyniec centrum) -> Třinec),ok,S00718,0.0
+ZSR_SK,5434934,Třinec-Konská (Trzyniec-Konska),CZ_598810,confirmed ok in manual review (Třinec-Konská (Trzyniec-Konska) -> Třinec),ok,S00719,0.0
+ZSR_SK,,Ujgorod,UA_ZAK_3,confirmed ok in manual review (Ujgorod -> Uzhhorod),unmatched,S00721,
+ZSR_SK,5501413,Vac,HU_24934,confirmed ok in manual review (Vac -> Vác),ok,S00723,0.0
+ZSR_SK,5437145,Velká n.Veličkou,CZ_586714,confirmed ok in manual review (Velká n.Veličkou -> Velká nad Veličkou),ok,S00733,0.0
+ZSR_SK,5433124,Vendryně (Wedrynia),CZ_554928,confirmed ok in manual review (Vendryně (Wedrynia) -> Vendryně),ok,S00734,0.0
+ZSR_SK,5437205,Veselí n.Mor.-Zarazice,CZ_586722,confirmed ok in manual review (Veselí n.Mor.-Zarazice -> Veselí nad Moravou),ok,S00735,0.0
+ZSR_SK,5436795,Veselí n.Moravou,CZ_586722,confirmed ok in manual review (Veselí n.Moravou -> Veselí nad Moravou),ok,S00736,0.0
+ZSR_SK,5614221,Veľká Lomnica-Golf,SK_524000,confirmed ok in manual review (Veľká Lomnica-Golf -> Veľká Lomnica),ok,S00740,0.0
+ZSR_SK,5614456,Višňové,SK_506672,confirmed ok in manual review (Višňové -> Višňové (okres Nové Mesto nad Váhom)),ok,S00756,0.0
+ZSR_SK,5615940,Vranov n.Topľou,SK_544051,confirmed ok in manual review (Vranov n.Topľou -> Vranov nad Topľou),ok,S00762,0.0
+ZSR_SK,5615960,Vranovské Dlhé,SK_544051,confirmed ok in manual review (Vranovské Dlhé -> Vranov nad Topľou),ok,S00763,0.0
+ZSR_SK,5616446,Vrbovce zast.,SK_504971,confirmed ok in manual review (Vrbovce zast. -> Vrbovce),ok,S00765,0.0
+ZSR_SK,5618295,Vysoká n.Kysucou,SK_509515,confirmed ok in manual review (Vysoká n.Kysucou -> Vysoká nad Kysucou),ok,S00771,0.0
+ZSR_SK,5616426,Vyškovce n.Ipľom,SK_502944,confirmed ok in manual review (Vyškovce n.Ipľom -> Vyškovce nad Ipľom),ok,S00772,0.0
+ZSR_SK,5614040,Vyšné Hágy,SK_560103,confirmed ok in manual review (Vyšné Hágy -> Vysoké Tatry),ok,S00774,0.0
+ZSR_SK,5100065,Warszawa Centralna,PL_1007141286501,confirmed ok in manual review (Warszawa Centralna -> Warszawa),ok,S00780,0.0
+ZSR_SK,5100066,Warszawa Wschodnia,PL_1007141286501,confirmed ok in manual review (Warszawa Wschodnia -> Warszawa),ok,S00781,0.0
+ZSR_SK,5100067,Warszawa Zachodnia,PL_1007141286501,confirmed ok in manual review (Warszawa Zachodnia -> Warszawa),ok,S00782,0.0
+ZSR_SK,8102888,Wien Aspern Nord,AT_90001,confirmed ok in manual review (Wien Aspern Nord -> Wien),ok_near,S00783,0.115
+ZSR_SK,8101556,Wien Grillgasse,AT_90001,confirmed ok in manual review (Wien Grillgasse -> Wien),ok,S00784,0.0
+ZSR_SK,8103000,Wien Hbf,AT_90001,confirmed ok in manual review (Wien Hbf -> Wien),ok,S00785,0.0
+ZSR_SK,8100514,Wien Meidling,AT_90001,confirmed ok in manual review (Wien Meidling -> Wien),ok,S00786,0.0
+ZSR_SK,8101553,Wien Simmering,AT_90001,confirmed ok in manual review (Wien Simmering -> Wien),ok,S00787,0.0
+ZSR_SK,8104229,Wien Stadlau,AT_90001,confirmed ok in manual review (Wien Stadlau -> Wien),ok,S00788,0.0
+ZSR_SK,8100516,Wiener Neustadt Hbf,AT_30401,confirmed ok in manual review (Wiener Neustadt Hbf -> Wiener Neustadt),ok,S00789,0.0
+ZSR_SK,5104660,Wloszczowa Polnoc,PL_1005261531306,confirmed ok in manual review (Wloszczowa Polnoc -> Włoszczowa),ok,S00791,0.0
+ZSR_SK,,Wodzislaw Sl.,PL_1001241491504,confirmed ok in manual review (Wodzislaw Sl. -> Wodzisław Śląski),unmatched,S00792,
+ZSR_SK,8100099,Wörgl Hbf,AT_70531,confirmed ok in manual review (Wörgl Hbf -> Wörgl),ok,S00794,0.0
+ZSR_SK,5617575,Zariečie,SK_513814,confirmed ok in manual review (Zariečie -> Záriečie),ok,S00796,0.0
+ZSR_SK,5615346,Zbehy obec,SK_500950,confirmed ok in manual review (Zbehy obec -> Zbehy),ok,S00799,0.0
+ZSR_SK,5613263,Zvolen mesto,SK_518158,confirmed ok in manual review (Zvolen mesto -> Zvolen),ok,S00811,0.0
+ZSR_SK,5613233,Zvolen nákl.st.,SK_518158,confirmed ok in manual review (Zvolen nákl.st. -> Zvolen),ok,S00812,0.0
+ZSR_SK,5613223,Zvolen osob.st.,SK_518158,confirmed ok in manual review (Zvolen osob.st. -> Zvolen),ok,S00813,0.0
+ZSR_SK,5435502,Zábřeh na Moravě,CZ_541354,confirmed ok in manual review (Zábřeh na Moravě -> Zábřeh),ok,S00816,0.0
+ZSR_SK,5614453,Závadka n.Hronom obec,SK_509124,confirmed ok in manual review (Závadka n.Hronom obec -> Závadka nad Hronom),ok,S00817,0.0
+ZSR_SK,,Zürich HB,CH_CH0261,confirmed ok in manual review (Zürich HB -> Zürich),unmatched,S00819,
+ZSR_SK,8100061,Ötztal,AT_70214,confirmed ok in manual review (Ötztal -> Oetz),ok,S00820,0.0
+ZSR_SK,5453179,Ústí n.L.hl.n.,CZ_554804,confirmed ok in manual review (Ústí n.L.hl.n. -> Ústí nad Labem),ok,S00822,0.0
+ZSR_SK,5453863,Ústí n.Orlicí,CZ_579891,confirmed ok in manual review (Ústí n.Orlicí -> Ústí nad Orlicí),ok,S00823,0.0
+ZSR_SK,5453873,Ústí n.Orlicí město,CZ_579891,confirmed ok in manual review (Ústí n.Orlicí město -> Ústí nad Orlicí),ok,S00824,0.0
+ZSR_SK,5615606,Úľany n.Žitavou,SK_556050,confirmed ok in manual review (Úľany n.Žitavou -> Úľany nad Žitavou),ok,S00825,0.0
+ZSR_SK,5618125,Čadca mesto,SK_509132,confirmed ok in manual review (Čadca mesto -> Čadca),ok,S00828,0.0
+ZSR_SK,5618135,Čadca zast.,SK_509132,confirmed ok in manual review (Čadca zast. -> Čadca),ok,S00829,0.0
+ZSR_SK,5433234,Český Těšín (Czeski Cieszyn),CZ_598933,confirmed ok in manual review (Český Těšín (Czeski Cieszyn) -> Český Těšín),ok,S00841,0.0
+ZSR_SK,5613860,Čierna n.Tisou,SK_528293,confirmed ok in manual review (Čierna n.Tisou -> Čierna nad Tisou),ok,S00844,0.0
+ZSR_SK,5613890,Čierna n.Tisou z.,SK_528293,confirmed ok in manual review (Čierna n.Tisou z. -> Čierna nad Tisou),ok,S00845,0.0
+ZSR_SK,5615900,Čierne n.Topľou,SK_544132,confirmed ok in manual review (Čierne n.Topľou -> Čierne nad Topľou),ok,S00846,0.0
+ZSR_SK,5618145,Čierne pri Čadci,SK_509159,confirmed ok in manual review (Čierne pri Čadci -> Čierne),ok,S00847,0.0
+ZSR_SK,5618315,Čierne pri Čadci z.,SK_509159,confirmed ok in manual review (Čierne pri Čadci z. -> Čierne),ok,S00848,0.0
+ZSR_SK,5618415,Čierne-Polesie,SK_509159,confirmed ok in manual review (Čierne-Polesie -> Čierne),ok,S00849,0.0
+ZSR_SK,5613863,Číž kúpele,SK_514624,confirmed ok in manual review (Číž kúpele -> Číž),ok,S00850,0.0
+ZSR_SK,5613220,Štrba zast.,SK_523933,confirmed ok in manual review (Štrba zast. -> Štrba),ok,S00867,0.0
+ZSR_SK,5615226,Šurany zast.,SK_503592,confirmed ok in manual review (Šurany zast. -> Šurany),ok,S00871,0.0
+ZSR_SK,5617485,Šútovo-Ratkovo,SK_512567,confirmed ok in manual review (Šútovo-Ratkovo -> Ratkovo),ok,S00876,0.0
+ZSR_SK,5613610,Ťahanovce,SK_598127,confirmed ok in manual review (Ťahanovce -> Košice - mestská časť Ťahanovce),ok,S00877,0.0
+ZSR_SK,5615536,Žabokreky n.Nitrou,SK_505803,confirmed ok in manual review (Žabokreky n.Nitrou -> Žabokreky nad Nitrou),ok,S00878,0.0
+ZSR_SK,5614123,Žiar n.Hronom,SK_516589,confirmed ok in manual review (Žiar n.Hronom -> Žiar nad Hronom),ok,S00882,0.0
+ZSR_SK,5614133,Žiar n.Hronom zast.,SK_516589,confirmed ok in manual review (Žiar n.Hronom zast. -> Žiar nad Hronom),ok,S00883,0.0
+ZSR_SK,5617930,Žilina-Solinky,SK_517402,confirmed ok in manual review (Žilina-Solinky -> Žilina),ok,S00885,0.0
+ZSR_SK,5617925,Žilina-zariečie,SK_517402,confirmed ok in manual review (Žilina-zariečie -> Žilina),ok,S00886,0.0
+ZSR_SK,5615956,Andač,SK_500950,,ok,S00001,0.0
+ZSR_SK,5618255,Brodno,SK_517402,,ok,S00060,0.0
+ZSR_SK,5614393,Bujakovo zast.,SK_508497,,ok,S00067,0.0
+ZSR_SK,5617535,Bytčica,SK_517402,,ok,S00074,0.0
+ZSR_SK,,Chalupki,PL_1001241491104,,unmatched,S00086,
+ZSR_SK,2200010,Chop,UA_ZAK_1,,ua_review,S00089,0.0
+ZSR_SK,5614070,Danielov Dom,SK_560103,,ok,S00100,0.0
+ZSR_SK,5613053,Diviaky,SK_512729,,ok,S00107,0.0
+ZSR_SK,5615296,Dolné Krškany,SK_500011,,ok,S00117,0.0
+ZSR_SK,5616196,Dyčka,SK_500933,,ok,S00136,0.0
+ZSR_SK,5614383,Gašparovo,SK_508462,,ok,S00149,0.0
+ZSR_SK,5614326,Holíč n.Moravou,SK_504378,,ok,S00192,0.0
+ZSR_SK,5614856,Horná Zlatná,SK_501425,,ok,S00194,0.0
+ZSR_SK,5615156,Horné Ozorovce,SK_542652,,ok,S00198,0.0
+ZSR_SK,5615260,Hutníky,SK_559865,,ok,S00223,0.0
+ZSR_SK,5614153,Jalná,SK_517313,,ok,S00233,0.0
+ZSR_SK,5437175,Javorník n.Veličkou zast.,CZ_586714,,ok,S00237,0.0
+ZSR_SK,8101051,Kledering b.Wien,AT_30740,,ok,S00263,0.0
+ZSR_SK,5614266,Klčovany,SK_506818,,ok,S00266,0.0
+ZSR_SK,5617855,Krásna Hôrka,SK_510114,,ok,S00301,0.0
+ZSR_SK,5615273,Likier,SK_514829,,ok,S00331,0.0
+ZSR_SK,5614303,Lopej,SK_508853,,ok,S00345,0.0
+ZSR_SK,5437155,Louka u Ostrohu,CZ_586331,,ok,S00346,0.0
+ZSR_SK,5433984,Louky n.Olší,CZ_598917,,ok,S00347,0.0
+ZSR_SK,5614200,Matejovce pri Poprade,SK_523381,,ok,S00371,0.0
+ZSR_SK,5615326,Mlynárce,SK_500011,,ok,S00390,0.0
+ZSR_SK,5617445,Mokraď,SK_509540,,ok,S00396,0.0
+ZSR_SK,5616270,Monastyr,SK_520411,,ok,S00399,0.0
+ZSR_SK,2200033,Mukatschewo,UA2104015,manual review 2026-11-09 of station_tags_review.csv: Mukatschewo -> Мукачівська hromada (1st candidate; was hard-coded UA_ZAK_2),ok,S00403,0.0
+ZSR_SK,5615466,Mýtna Nová Ves,SK_505048,,ok,S00410,0.0
+ZSR_SK,5618285,Nižný Kelčov,SK_509515,,ok,S00426,0.0
+ZSR_SK,5617735,Nosice,SK_513610,,ok,S00428,0.0
+ZSR_SK,5614503,Nová Maša,SK_509094,,ok,S00432,0.0
+ZSR_SK,5614060,Nová Polianka,SK_560103,,ok,S00433,0.0
+ZSR_SK,5614866,Nová Stráž,SK_501026,,ok,S00434,0.0
+ZSR_SK,5614656,Nové Košariská,SK_545333,,ok,S00438,0.0
+ZSR_SK,5613131,Okoličné,SK_510262,,ok,S00448,0.0
+ZSR_SK,5615256,Ondrochov,SK_503321,,ok,S00452,0.0
+ZSR_SK,5613653,Opatová pri Lučenci,SK_511218,,ok,S00453,0.0
+ZSR_SK,5616390,Orkucany,SK_525146,,ok,S00458,0.0
+ZSR_SK,5614416,Paprad,SK_506524,,ok,S00469,0.0
+ZSR_SK,5617525,Poluvsie,SK_517933,,ok,S00506,0.0
+ZSR_SK,5613963,Priekopa,SK_512036,,ok,S00528,0.0
+ZSR_SK,5614023,Psiare,SK_516830,,ok,S00532,0.0
+ZSR_SK,5613503,Pstruša,SK_518921,,ok,S00533,0.0
+ZSR_SK,5613403,Radvaň,SK_508438,,ok,S00545,0.0
+ZSR_SK,5614600,Rakovec,SK_543357,,ok,S00550,0.0
+ZSR_SK,5617335,Remäta,SK_513997,,ok,S00554,0.0
+ZSR_SK,5615213,Rimavská Píla,SK_515680,,ok,S00557,0.0
+ZSR_SK,8101467,Sarasdorf,AT_30726,,ok,S00584,0.0
+ZSR_SK,8101477,Siebenbrunn-Leopoldsdorf,AT_30842,,ok,S00594,0.0
+ZSR_SK,5614366,Skalica na Slovensku,SK_504815,,ok,S00595,0.0
+ZSR_SK,5614903,Slaná Lehota,SK_511765,,ok,S00603,0.0
+ZSR_SK,5614270,Strážky zast.,SK_523828,,ok,S00645,0.0
+ZSR_SK,5614210,Studený Potok,SK_524000,,ok,S00648,0.0
+ZSR_SK,5614610,Sykavka,SK_526584,,ok,S00660,0.0
+ZSR_SK,5614850,Tretí Hámor,SK_543373,,ok,S00701,0.0
+ZSR_SK,,Ujgorod,UA_ZAK_3,,unmatched,S00721,
+ZSR_SK,5437185,Vlárský průsmyk,CZ_585114,,ok,S00758,0.0
+ZSR_SK,5618895,Vrútky nákl.st.,SK_512036,,ok,S00768,0.0
+ZSR_SK,8101771,Wilfleinsdorf,AT_30704,,ok,S00790,0.0
+ZSR_SK,5615173,Zbojská,SK_508888,,ok,S00800,0.0
+ZSR_SK,5614843,Zelené,SK_511765,,ok,S00804,0.0
+ZSR_SK,5104398,Zwardon(PL),PL_1001241441711,,ok,S00815,0.0
+ZSR_SK,5616620,Úpor,SK_544001,,ok,S00821,0.0
+ZSR_SK,5614543,Červená Skala,SK_509043,,ok,S00838,0.0
+ZSR_SK,5613426,Ľudovítov,SK_503452,,ok,S00855,0.0
+ZSR_SK,5613393,Šalková,SK_508438,,ok,S00858,0.0
+ZSR_SK,5615780,Šarišské Lúky,SK_518590,,ok,S00859,0.0
+ZSR_SK,5614010,Štrbské Pleso,SK_523933,,ok,S00868,0.0
+ZSR_SK,5615233,Hačava,SK_521396,,ok,S00174,0.0
+ZSR_SK,5615243,Hačava skálie,SK_521396,,ok,S00175,0.0
+ZSR_SK,5617755,Konská pri Rajci,SK_517682,,ok,S00278,0.0
+ZSR_SK,5433254,Ropice zast. (Ropica przystanek),CZ_556971,,ok,S00567,0.0
+ZSR_SK,5613370,Teplička n.Hornádom,SK_543667,,ok,S00673,0.0
+ZSR_SK,5614143,Šášovské Podhradie,SK_516589,,ok,S00874,0.0
+ZSR_SK,5614073,Dolné Hámre,SK_516759,manual review 2026-11-09 of station_tags_review.csv: Dolné Hámre -> Hodruša-Hámre (1st candidate),ok,,
+ZSR_SK,5614253,Dubová,SK_508829,manual review 2026-11-09 of station_tags_review.csv: Dubová -> Nemecká (2nd candidate),ok,,
+ZSR_SK,5613051,Hrboltová,SK_510998,manual review 2026-11-09 of station_tags_review.csv: Hrboltová -> Ružomberok (2nd candidate),ok,,
+ZSR_SK,5616216,Martinová,SK_500470,manual review 2026-11-09 of station_tags_review.csv: Martinová -> Lúčnica nad Žitavou,ok,,
+ZSR_SK,5615546,Veľké Bielice,SK_505315,manual review 2026-11-09 of station_tags_review.csv: Veľké Bielice -> Partizánske (2nd candidate),ok,,
+ZSR_SK,5613955,Kaňová,SK_506613,confirmed ok in manual review 2026-11-10 (Kaňová -> Trenčianske Teplice),ok,,
+UKRZ_UA,5613206,Bratislava hlavná stanica,SK_528595,confirmed ok in manual review 2026-11-10 (Bratislava hlavná stanica -> Bratislava - mestská časť Staré Mesto),ok,,
+UKRZ_UA,5613596,Bratislava-Vinohrady,SK_529346,confirmed ok in manual review 2026-11-10 (Bratislava-Vinohrady -> Bratislava - mestská časť Nové Mesto),ok,,
+BAHN_AT,sk:56:1:0:1,Bratislava hlavná stanica,SK_528595,confirmed ok in manual review 2026-11-10 (Bratislava hlavná stanica -> Bratislava - mestská časť Staré Mesto),ok,,
+DRAHY_CZ,czptt:stop:SK:14386:unspecified,Brestovec z,SK_504254,confirmed ok in manual review 2026-11-10 (Brestovec z -> Brestovec (okres Myjava)),ok,,
+PL_REG,131137,Studený Potok,SK_524000,confirmed ok in manual review 2026-11-10 (Studený Potok -> Veľká Lomnica),ok,,
