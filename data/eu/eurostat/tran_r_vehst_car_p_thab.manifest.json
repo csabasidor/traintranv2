@@ -1,0 +1,14 @@
+{
+  "dataset": "tran_r_vehst",
+  "label": "Stock of vehicles by category and NUTS 2 region",
+  "vehicle": "CAR",
+  "unit": "P_THAB",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_r_vehst?format=JSON&lang=EN&vehicle=CAR&unit=P_THAB&sinceTimePeriod=2018&geo=AT11&geo=AT12&geo=AT13&geo=AT21&geo=AT22&geo=AT31&geo=AT32&geo=AT33&geo=AT34&geo=CZ01&geo=CZ02&geo=CZ03&geo=CZ04&geo=CZ05&geo=CZ06&geo=CZ07&geo=CZ08&geo=HU11&geo=HU12&geo=HU21&geo=HU22&geo=HU23&geo=HU31&geo=HU32&geo=HU33&geo=PL21&geo=PL22&geo=PL41&geo=PL42&geo=PL43&geo=PL51&geo=PL52&geo=PL61&geo=PL62&geo=PL63&geo=PL71&geo=PL72&geo=PL81&geo=PL82&geo=PL84&geo=PL91&geo=PL92&geo=SK01&geo=SK02&geo=SK03&geo=SK04",
+  "retrieved_utc": "2026-11-16T10:28:49+00:00",
+  "updated": "2026-11-05T23:00:00+0100",
+  "bytes_json": 7322,
+  "sha256_json": "f981e960f5fb2da8338d8f8ae3cbe384f00dd642a5c40f5533515ec4ae64ecd0",
+  "sha256_csv": "1e01547ce24e693740cc7e8de0fb2648f2bf5ba998bf6182b94cb485616fdb9e",
+  "regions_requested": 46,
+  "license": "Eurostat: free re-use with acknowledgement of the source"
+}
