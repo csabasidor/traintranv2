@@ -1,0 +1,22 @@
+network,quantity,stated,computed,ci_low,ci_high,within_ci,where,form_basis,form_reset_p,form_rejected
+domestic_direct,decay slope (min/km),0.82,0.8225293359356116,0.7668705292008674,0.8781881426703558,True,"§3.1.1, Fig. 5a",time ~ rail km (linear),0.032572725300322354,False
+domestic_direct,decay intercept (min),10.1,10.984675365511695,5.4514139751174175,16.51793675590597,True,"§3.1.1, Fig. 5a",time ~ rail km (linear),0.032572725300322354,False
+domestic_direct,decay R2,0.98,0.9595341568588375,,,,"§3.1.1, Fig. 5a",time ~ rail km (linear),0.032572725300322354,False
+domestic_direct,"r(log f, log distance)",-0.21,-0.4894418495671231,-0.6226950859546061,-0.3285992880428238,False,"§3.1.1, Fig. 5c",log f ~ log rail km,0.8397344495151093,False
+domestic_direct,"r(log f, log population)",0.09,0.2468851111613265,0.057959059878674196,0.41873900357561816,True,"§3.1.1, Fig. 5c",log f ~ log population,0.3950784061473621,False
+domestic_one_transfer,log-log time slope,0.7,0.6384976327483951,0.6069983254268718,0.6699969400699184,False,"§3.1.2, Fig. 7a",log time ~ log rail km,9.814229044822603e-28,True
+domestic_one_transfer,log-log time R2,0.9,0.8635468537331713,,,,"§3.1.2, Fig. 7a",log time ~ log rail km,9.814229044822603e-28,True
+domestic_one_transfer,"r(log f, log distance)",-0.11,-0.4384769809066906,-0.5095554399851729,-0.3614547754798039,False,"§3.1.2, Fig. 7c",log f ~ log rail km,0.36170913177261177,False
+domestic_one_transfer,"r(log f, log population)",0.19,0.42602412852377336,0.3480679425274383,0.4981289323364708,False,"§3.1.2, Fig. 7c",log f ~ log population,0.18907810793271776,False
+foreign_direct,decay slope (min/km),0.79,0.6107635151870219,0.5264546558735707,0.6950723745004731,False,"§3.2.1, Fig. 12a",time ~ rail km (linear),1.624891183955778e-08,True
+foreign_direct,decay intercept (min),37.0,32.40364406751696,17.75809340519046,47.04919472984345,True,"§3.2.1, Fig. 12a",time ~ rail km (linear),1.624891183955778e-08,True
+foreign_direct,decay R2,0.95,0.8467022456858222,,,,"§3.2.1, Fig. 12a",time ~ rail km (linear),1.624891183955778e-08,True
+foreign_direct,trip-weighted efficiency (min/km),1.06,0.6902364803915038,,,,"§3.2.1, Fig. 12b",,,
+foreign_direct,"r(log f, log distance)",-0.48,-0.6480131261103911,-0.7655761645987051,-0.48857056431133,False,"§3.2.1, Fig. 12c",log f ~ log rail km,0.07649117544585074,False
+foreign_direct,"r(log f, log population)",0.2,-0.06927568491413283,-0.297770809580467,0.16672691302262066,False,"§3.2.1, Fig. 12c",log f ~ log population,0.02013151043564181,False
+foreign_one_transfer,decay slope (min/km),0.74,0.7498621590596677,0.7225953564803721,0.7771289616389633,True,"§3.2.2, Fig. 14a",time ~ rail km (linear),7.386431287474383e-10,True
+foreign_one_transfer,decay intercept (min),187.0,100.30415121361244,92.2421151645829,108.36618726264199,False,"§3.2.2, Fig. 14a (read as transfer overhead)",time ~ rail km (linear),7.386431287474383e-10,True
+foreign_one_transfer,decay R2,0.8,0.7276760244642778,,,,"§3.2.2, Fig. 14a",time ~ rail km (linear),7.386431287474383e-10,True
+foreign_one_transfer,trip-weighted efficiency (min/km),1.38,1.5890422232934136,,,,"§3.2.2, Fig. 14b",,,
+foreign_one_transfer,"r(log f, log distance)",-0.08,-0.3405240864451011,-0.3831370218847935,-0.29646476735008376,False,"§3.2.2, Fig. 14c",log f ~ log rail km,8.786108248930848e-11,True
+foreign_one_transfer,"r(log f, log population)",-0.32,0.16637324746707172,0.11833133779159652,0.2136380825570962,False,"§3.2.2, Fig. 14c",log f ~ log population,0.4382218541955353,False

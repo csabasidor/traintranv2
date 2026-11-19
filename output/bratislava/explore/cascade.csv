@@ -1,0 +1,6 @@
+step,base,new,legacy,new_share_of_residents,legacy_share,source,sampling,interval_type,rate_is_upper_bound,generated_at
+resident population (all Slovak LAUs except Bratislava),total,4928505.0,,1.0,,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T12:12:59
+with a rail connection (direct or one transfer),total,2635288.0,,0.5347033228129017,,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T12:12:59
+able to make a same-day return,total,2273276.0,,0.46125062265331984,,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T12:12:59
+"rail travellers among them (M2, beyond 50 km)",15+,867602.0801373506,,0.17603757734593972,,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T12:12:59
+"rail travellers among them, flat rate (legacy definition: total population x r_national)",total,1143091.0925617842,,0.23193465210277442,,"Flash Eurobarometer 551 (GESIS ZA8901 v1.0.0, doi:10.4232/1.14506); traintranv2 02-04 outputs",non-probability quota,nominal,True,2026-11-17T12:12:59

@@ -1,0 +1,22 @@
+measure,unit,kosice,bratislava,note
+"Slovak base (LAUs, all except the hub city)",LAUs,2889.0,2889.0,
+Slovak base population,people,5187121.0,4928505.0,
+"direct train, share of base population",share,0.2725,0.2963,LAUs 107 / 105
+"newly reached by one transfer, share",share,0.288,0.2384,LAUs 356 / 354
+"direct or one transfer, share",share,0.5605,0.5347,
+"same-day visit possible, direct only",share,0.2546,0.2763,
+"same-day visit possible, direct or one transfer",share,0.4111,0.4613,
+"rail travellers (M2, beyond 50 km, same-day), Slovakia",people 15+,837000.6680734938,867602.0801373506,cascade step 4
+newly reached LAUs depending on exactly one transfer station,share,0.651685393258427,0.3050847457627119,
+"transfer penalty (domestic, pooled, route km)",min,63.07630347760468,34.50132781012009,"95% CI [57.8, 68.3] / [28.3, 40.7]"
+"domestic direct efficiency (trip-weighted, route km)",min/km,1.015,1.005,speed 59.1 / 59.7 km/h
+"CZ: direct train, share of national population",share,0.19414,0.24356,
+"CZ: direct or one transfer, share",share,0.55593,0.61542,
+"HU: direct train, share of national population",share,0.19666,0.18189,
+"HU: direct or one transfer, share",share,0.40518,0.38754,
+"AT: direct train, share of national population",share,0.0,0.3124,
+"AT: direct or one transfer, share",share,0.34293,0.60624,
+"PL: direct train, share of national population",share,0.0,0.0728,
+"PL: direct or one transfer, share",share,0.11232,0.41647,
+"UA: direct train, share of national population",share,0.00585,0.0,
+"UA: direct or one transfer, share",share,0.00585,0.0995,

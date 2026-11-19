@@ -1,0 +1,21 @@
+country,variant,direction,n_lau,population,n_lau_newly_reached,window_days,added_lau,added_population
+CZ,ZSR_SK alone,inbound,47,2963081.0,28,364,0,0.0
+CZ,ZSR_SK alone,outbound,50,2998017.0,29,364,0,0.0
+CZ,ZSR_SK + national feed,inbound,777,6717788.0,758,364,730,3754707.0
+CZ,ZSR_SK + national feed,outbound,792,6743833.0,771,364,742,3745816.0
+HU,ZSR_SK alone,inbound,15,1916044.0,9,301,0,0.0
+HU,ZSR_SK alone,outbound,16,1976079.0,9,301,0,0.0
+HU,ZSR_SK + national feed,inbound,123,3677129.0,117,301,108,1761085.0
+HU,ZSR_SK + national feed,outbound,166,3855480.0,159,301,150,1879401.0
+UA,ZSR_SK alone,inbound,3,240896.0,3,364,0,0.0
+UA,ZSR_SK alone,outbound,3,240896.0,3,364,0,0.0
+UA,ZSR_SK + national feed,inbound,7,4096254.0,7,364,4,3855358.0
+UA,ZSR_SK + national feed,outbound,7,4096254.0,7,364,4,3855358.0
+PL,ZSR_SK alone,inbound,11,2728711.0,1,32,0,0.0
+PL,ZSR_SK alone,outbound,14,2912088.0,1,32,0,0.0
+PL,ZSR_SK + national feed,inbound,270,15548038.0,260,32,259,12819327.0
+PL,ZSR_SK + national feed,outbound,257,15114064.0,244,32,243,12201976.0
+AT,ZSR_SK alone,inbound,36,2879025.0,0,276,0,0.0
+AT,ZSR_SK alone,outbound,44,2908142.0,4,276,0,0.0
+AT,ZSR_SK + national feed,inbound,423,5587052.0,387,276,387,2708027.0
+AT,ZSR_SK + national feed,outbound,432,5633536.0,392,276,388,2725394.0
